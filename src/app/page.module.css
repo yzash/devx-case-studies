@@ -1,0 +1,355 @@
+/* ── HERO ── */
+.hero {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 120px 0 80px;
+  position: relative;
+  overflow: hidden;
+  background: #0d0d14;
+}
+
+.heroBg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background:
+    radial-gradient(ellipse 65% 55% at 70% 30%, rgba(138, 101, 48, 0.15) 0%, transparent 65%),
+    radial-gradient(ellipse 45% 40% at 10% 80%, rgba(90, 60, 120, 0.12) 0%, transparent 60%),
+    radial-gradient(ellipse 40% 35% at 40% 60%, rgba(42, 107, 124, 0.1) 0%, transparent 55%);
+}
+
+.heroBg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.015) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.heroInner {
+  position: relative;
+  z-index: 1;
+}
+
+.eyebrow {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: rgba(245, 240, 232, 0.5);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.eyebrow::before {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 1.5px;
+  background: rgba(245, 240, 232, 0.4);
+}
+
+.headline {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2.8rem, 6vw, 5rem);
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: -1.5px;
+  color: #f5f0e8;
+  margin-bottom: 22px;
+  max-width: 780px;
+}
+
+.headline em {
+  font-style: italic;
+  color: #c9a96e;
+}
+
+.sub {
+  font-size: 1.05rem;
+  color: rgba(245, 240, 232, 0.55);
+  max-width: 500px;
+  line-height: 1.75;
+  margin-bottom: 48px;
+}
+
+.heroStats {
+  display: flex;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+
+.heroStat {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.heroStatNum {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #c9a96e;
+  line-height: 1;
+}
+
+.heroStatLabel {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: rgba(245, 240, 232, 0.4);
+}
+
+/* ── FILTER BAR ── */
+.filterBar {
+  position: sticky;
+  top: 61px;
+  z-index: 50;
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 16px 0;
+}
+
+.tabs {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tab {
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 7px 16px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: transparent;
+  color: #555566;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.tab:hover {
+  border-color: rgba(0, 0, 0, 0.25);
+  color: #0d0d14;
+}
+
+.tabActive {
+  background: #0d0d14;
+  border-color: #0d0d14;
+  color: #fff;
+}
+
+/* ── GRID SECTION ── */
+.gridSection {
+  padding: 64px 0 96px;
+  background: #f4f4f6;
+}
+
+.pillarGroup {
+  margin-bottom: 72px;
+}
+
+.pillarGroup:last-child {
+  margin-bottom: 0;
+}
+
+.pillarHeader {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 28px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.pillarIcon {
+  font-size: 1.6rem;
+  width: 52px;
+  height: 52px;
+  border-radius: 16px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.pillarHeaderText {
+  flex: 1;
+}
+
+.pillarTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #0d0d14;
+  margin-bottom: 4px;
+}
+
+.pillarDesc {
+  font-size: 0.83rem;
+  color: #555566;
+}
+
+.pillarCount {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.1);
+  line-height: 1;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+/* ── CASE STUDY CARD ── */
+.card {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}
+
+.card:not(.cardUnpublished):hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.1);
+}
+
+.cardUnpublished {
+  opacity: 0.55;
+  cursor: default;
+}
+
+.cardAccent {
+  height: 4px;
+  width: 100%;
+}
+
+.cardBody {
+  padding: 24px;
+  flex: 1;
+}
+
+.cardMeta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.cardPillar {
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #555566;
+}
+
+.cardProduct {
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--card-accent, #8a6530);
+  background: rgba(138, 101, 48, 0.07);
+  border: 1px solid rgba(138, 101, 48, 0.2);
+  padding: 2px 8px;
+  border-radius: 20px;
+}
+
+.comingSoon {
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #999;
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 2px 8px;
+  border-radius: 20px;
+}
+
+.cardClient {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--card-accent, #8a6530);
+  margin-bottom: 8px;
+}
+
+.cardTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.35;
+  color: #0d0d14;
+  margin-bottom: 10px;
+}
+
+.cardTitle em {
+  font-style: italic;
+}
+
+.cardSub {
+  font-size: 0.78rem;
+  color: #555566;
+  line-height: 1.6;
+}
+
+.cardFooter {
+  padding: 14px 24px;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.cardRead {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--card-accent, #8a6530);
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 100px 0 60px;
+  }
+  .heroStats {
+    gap: 28px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .tabs {
+    gap: 6px;
+  }
+  .tab {
+    font-size: 0.72rem;
+    padding: 6px 12px;
+  }
+}

@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;0,800;1,700&display=swap');
+
+/* ─────────────────────────────────────────
+   DESIGN TOKENS
+   Per-page accent is injected via CSS vars
+   on the body from the data layer.
+───────────────────────────────────────── */
+:root {
+  --bg: #ffffff;
+  --surface: #f4f4f6;
+  --card: #ffffff;
+  --border: rgba(0, 0, 0, 0.1);
+  --muted: #555566;
+  --text: #0d0d14;
+  --dark: #0d0d14;
+
+  /* Accent defaults (overridden per case study via inline style on <body>) */
+  --accent: #8a6530;
+  --accent-soft: rgba(138, 101, 48, 0.08);
+  --accent-light: #c9a96e;
+  --pill-bg: rgba(138, 101, 48, 0.07);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ─── SHARED LAYOUT ─── */
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 56px;
+}
+
+section {
+  padding: 96px 0;
+}
+
+.section-label {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 14px;
+}
+
+.section-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 18px;
+  color: var(--text);
+}
+
+.section-intro {
+  color: var(--muted);
+  font-size: 0.97rem;
+  max-width: 540px;
+  margin-bottom: 60px;
+  line-height: 1.75;
+}
+
+/* ─── I5.0 BADGE ─── */
+.i5-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid rgba(138, 101, 48, 0.25);
+  background: var(--accent-soft);
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: 0.68rem;
+  color: var(--accent);
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-bottom: 22px;
+}
+
+.i5-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  animation: pulse 2s infinite;
+  flex-shrink: 0;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.25; }
+}
+
+/* ─── TAGS ─── */
+.tag {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding: 5px 14px;
+  border-radius: 20px;
+  background: var(--pill-bg);
+  color: var(--accent);
+  border: 1px solid rgba(138, 101, 48, 0.2);
+}
+
+/* ─── BUTTONS ─── */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--accent-light);
+  color: var(--dark);
+  font-weight: 800;
+  font-size: 0.88rem;
+  letter-spacing: 0.3px;
+  padding: 15px 34px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+}
+
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #f5f0e8;
+  font-weight: 600;
+  font-size: 0.88rem;
+  padding: 15px 34px;
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  cursor: pointer;
+  text-decoration: none;
+  margin-left: 14px;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.btn-ghost:hover {
+  border-color: var(--accent-light);
+  transform: translateY(-2px);
+}
+
+/* ─── BAR FILL ANIMATION ─── */
+@keyframes grow {
+  from { width: 0%; }
+}
+
+@keyframes floatY {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(7px); }
+}
+
+/* ─── RESPONSIVE ─── */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 24px;
+  }
+  section {
+    padding: 64px 0;
+  }
+}

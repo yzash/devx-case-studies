@@ -1,0 +1,123 @@
+.section {
+  background: #f4f4f6;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 72px;
+  align-items: start;
+}
+
+.copy p {
+  color: #555566;
+  font-size: 0.95rem;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.tensionBox {
+  margin-top: 28px;
+  padding: 22px 24px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  border-left: 3px solid var(--accent);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}
+
+.tensionBox p {
+  font-size: 0.88rem;
+  color: #444455;
+  font-style: italic;
+  line-height: 1.65;
+  margin: 0 !important;
+}
+
+.metricsCard {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+  padding: 36px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 2px 24px rgba(0, 0, 0, 0.06);
+}
+
+.metricsCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent), transparent);
+}
+
+.mcHeader {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #555566;
+  margin-bottom: 24px;
+}
+
+.metricRow {
+  margin-bottom: 26px;
+}
+
+.metricRow:last-child {
+  margin-bottom: 0;
+}
+
+.metricTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 8px;
+}
+
+.metricName {
+  font-size: 0.78rem;
+  color: #555566;
+}
+
+.metricVal {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #0d0d14;
+}
+
+.barTrack {
+  height: 6px;
+  background: rgba(0, 0, 0, 0.06);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.barFill {
+  height: 100%;
+  border-radius: 3px;
+  animation: grow 1.6s ease forwards;
+  transform-origin: left;
+}
+
+.gold {
+  background: linear-gradient(90deg, var(--accent), rgba(138, 101, 48, 0.3));
+}
+
+.soft {
+  background: linear-gradient(90deg, rgba(138, 101, 48, 0.6), rgba(138, 101, 48, 0.2));
+}
+
+@keyframes grow {
+  from { width: 0%; }
+}
+
+@media (max-width: 768px) {
+  .layout {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}

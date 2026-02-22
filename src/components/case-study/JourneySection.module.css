@@ -1,0 +1,109 @@
+.section {
+  background: #f4f4f6;
+}
+
+.timeline {
+  margin-top: 56px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  position: relative;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 28px;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: linear-gradient(to bottom, var(--accent), transparent);
+  opacity: 0.3;
+}
+
+.phase {
+  display: flex;
+  gap: 40px;
+  padding: 32px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  position: relative;
+}
+
+.phase:last-child {
+  border-bottom: none;
+}
+
+.phaseNumber {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--accent);
+  opacity: 0.25;
+  width: 56px;
+  flex-shrink: 0;
+  line-height: 1;
+  padding-top: 4px;
+}
+
+.phaseContent {
+  flex: 1;
+}
+
+.phaseHeader {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.phaseContent h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #0d0d14;
+}
+
+.timeframe {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border: 1px solid rgba(138, 101, 48, 0.2);
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+
+.phaseContent p {
+  font-size: 0.9rem;
+  color: #555566;
+  line-height: 1.75;
+  margin-bottom: 16px;
+}
+
+.humanBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border: 1px solid rgba(138, 101, 48, 0.15);
+  padding: 6px 14px;
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .timeline::before {
+    display: none;
+  }
+  .phase {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .phaseNumber {
+    width: auto;
+  }
+}

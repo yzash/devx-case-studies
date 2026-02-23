@@ -1,6 +1,6 @@
 /* ── HERO ── */
 .hero {
-  min-height: 70vh;
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -35,26 +35,6 @@
   z-index: 1;
 }
 
-.eyebrow {
-  font-size: 0.68rem;
-  font-weight: 700;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  color: rgba(245, 240, 232, 0.5);
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.eyebrow::before {
-  content: '';
-  display: inline-block;
-  width: 24px;
-  height: 1.5px;
-  background: rgba(245, 240, 232, 0.4);
-}
-
 .headline {
   font-family: 'Playfair Display', serif;
   font-size: clamp(2.8rem, 6vw, 5rem);
@@ -76,35 +56,7 @@
   color: rgba(245, 240, 232, 0.55);
   max-width: 500px;
   line-height: 1.75;
-  margin-bottom: 48px;
-}
-
-.heroStats {
-  display: flex;
-  gap: 48px;
-  flex-wrap: wrap;
-}
-
-.heroStat {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.heroStatNum {
-  font-family: 'Playfair Display', serif;
-  font-size: 2rem;
-  font-weight: 800;
-  color: #c9a96e;
-  line-height: 1;
-}
-
-.heroStatLabel {
-  font-size: 0.68rem;
-  font-weight: 600;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  color: rgba(245, 240, 232, 0.4);
+  margin-bottom: 0;
 }
 
 /* ── FILTER BAR ── */
@@ -154,14 +106,6 @@
   background: #f4f4f6;
 }
 
-.pillarGroup {
-  margin-bottom: 72px;
-}
-
-.pillarGroup:last-child {
-  margin-bottom: 0;
-}
-
 .pillarHeader {
   display: flex;
   align-items: center;
@@ -194,20 +138,6 @@
   font-size: 1.4rem;
   font-weight: 700;
   color: #0d0d14;
-  margin-bottom: 4px;
-}
-
-.pillarDesc {
-  font-size: 0.83rem;
-  color: #555566;
-}
-
-.pillarCount {
-  font-family: 'Playfair Display', serif;
-  font-size: 2.2rem;
-  font-weight: 800;
-  color: rgba(0, 0, 0, 0.1);
-  line-height: 1;
 }
 
 .grid {
@@ -235,14 +165,28 @@
   box-shadow: 0 12px 36px rgba(0, 0, 0, 0.1);
 }
 
+.card:not(.cardUnpublished):hover .cardVisual svg {
+  transform: scale(1.03);
+}
+
 .cardUnpublished {
   opacity: 0.55;
   cursor: default;
 }
 
-.cardAccent {
-  height: 4px;
+/* ── CARD VISUAL ── */
+.cardVisual {
+  height: 148px;
+  overflow: hidden;
+  background: #0d0d14;
+  flex-shrink: 0;
+}
+
+.cardVisual svg {
+  display: block;
   width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease;
 }
 
 .cardBody {
@@ -338,9 +282,6 @@
 @media (max-width: 768px) {
   .hero {
     padding: 100px 0 60px;
-  }
-  .heroStats {
-    gap: 28px;
   }
   .grid {
     grid-template-columns: 1fr;

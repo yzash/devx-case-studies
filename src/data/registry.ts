@@ -1,5 +1,18 @@
 import { CaseStudy, CaseStudyMeta } from '@/types/case-study'
 import coachSouthAfrica from './case-studies/coach-south-africa'
+import levisons from './case-studies/levisons'
+import superdry from './case-studies/superdry'
+import twt from './case-studies/twt'
+import dotAndKeyApp from './case-studies/dot-and-key-app'
+import aizaWebsite from './case-studies/aiza-website'
+import aizaMiddleware from './case-studies/aiza-middleware'
+import beardoWebsite from './case-studies/beardo-website'
+import beardoCartx from './case-studies/beardo-cartx'
+import freed from './case-studies/freed'
+import fbc from './case-studies/fbc'
+import theIndusValley from './case-studies/the-indus-valley'
+import zenDiamonds from './case-studies/zen-diamonds'
+import cetaphilMigration from './case-studies/cetaphil-migration'
 
 // ─── ACCENT PALETTE ───────────────────────────────────────────────────────────
 // Customer Experience brands get warmer tones; Enterprise = blue; AI = purple; Marketing = green
@@ -41,6 +54,19 @@ function stub(
 // Import full CaseStudy objects here as they are filled in.
 export const PUBLISHED_CASE_STUDIES: CaseStudy[] = [
   coachSouthAfrica,
+  levisons,
+  superdry,
+  twt,
+  dotAndKeyApp,
+  aizaWebsite,
+  aizaMiddleware,
+  beardoWebsite,
+  beardoCartx,
+  freed,
+  fbc,
+  theIndusValley,
+  zenDiamonds,
+  cetaphilMigration,
 ]
 
 // ─── FULL REGISTRY (all 55 from the sheet) ───────────────────────────────────
@@ -60,26 +86,32 @@ export const ALL_CASE_STUDIES: CaseStudyMeta[] = [
     ),
     isPublished: true,
   },
-  stub(
-    'levisons',
-    'Levisons',
-    'Customer Experience',
-    'Platform Migration',
-    'From Shopify Constraints to Fynd Flexibility: The Levison\'s Migration Story',
-    'Moving platforms without losing momentum — a migration story built around the team that had to live with it.',
-    '#2a6b7c',
-    'Anshu Singh',
-  ),
-  stub(
-    'superdry',
-    'Superdry',
-    'Customer Experience',
-    'Storefront Transformation',
-    'Superdry India Storefront Transformation: Faster, Smoother, Smarter',
-    'Speed was the brief. Experience was the outcome. How Superdry India went from laggy to leading.',
-    '#c03a2b',
-    'Anshu Singh',
-  ),
+  {
+    ...stub(
+      'levisons',
+      'Levisons',
+      'Customer Experience',
+      'Platform Migration',
+      'From Shopify Constraints to Fynd Flexibility: The Levison\'s Migration Story',
+      'Moving platforms without losing momentum — a migration story built around the team that had to live with it.',
+      '#2a6b7c',
+      'Anshu Singh',
+    ),
+    isPublished: true,
+  },
+  {
+    ...stub(
+      'superdry',
+      'Superdry',
+      'Customer Experience',
+      'Storefront Transformation',
+      'Superdry India Storefront Transformation: Faster, Smoother, Smarter',
+      'Speed was the brief. Experience was the outcome. How Superdry India went from laggy to leading.',
+      '#c03a2b',
+      'Anshu Singh',
+    ),
+    isPublished: true,
+  },
   stub(
     'hugo-boss',
     'Hugo Boss',
@@ -119,97 +151,124 @@ export const ALL_CASE_STUDIES: CaseStudyMeta[] = [
     'A beauty brand that wanted their online store to feel as personal as their product recommendations.',
     '#d4547a',
   ),
-  stub(
-    'twt',
-    'The Whole Truth',
-    'Customer Experience',
-    'Headless Commerce',
-    "Transforming The Whole Truth's D2C Platform with Headless Commerce",
-    'Headless architecture for a brand whose whole truth is radical transparency — and radical performance.',
-    '#3a7d44',
-    'Khushi',
-  ),
-  stub(
-    'dot-and-key-app',
-    'Dot & Key',
-    'Customer Experience',
-    'Mobile App',
-    "Transforming Dot & Key's Mobile Experience with a Custom High-Performance App",
-    'From slow and generic to fast and personal — a mobile experience worth opening every day.',
-    '#d4547a',
-    'Khushi',
-  ),
-  stub(
-    'aiza-website',
-    'Aiza',
-    'Customer Experience',
-    'UX Transformation',
-    'Transforming Aiza: Enhancing UX and Driving a Superior E-Commerce Experience',
-    'UX that works harder so shoppers don\'t have to think harder.',
-    '#8b5e3c',
-    'Raj',
-  ),
-  stub(
-    'beardo-website',
-    'Beardo',
-    'Customer Experience',
-    'Digital Storefront Revamp',
-    'Revamping the Digital Storefront to Elevate Customer Experience and Market Position',
-    'A grooming brand that needed its digital shelf to match the confidence of its products.',
-    '#2d3436',
-    'Raj',
-  ),
-  stub(
-    'beardo-cartx',
-    'Beardo',
-    'Customer Experience',
-    'Checkout Optimisation',
-    'Enhancing Customer Journeys with a Streamlined cartx Checkout Experience',
-    'The checkout was the last thing standing between a full cart and a completed order.',
-    '#2d3436',
-    'Raj',
-    'cartx',
-  ),
-  stub(
-    'freed',
-    'Freed',
-    'Customer Experience',
-    'New Market Launch',
-    'Launching a Bespoke Shopify Store from Scratch for a New Market Entrant',
-    'A new brand in a new market — built right from the first line of code.',
-    '#7f6b8a',
-    'Raj',
-  ),
-  stub(
-    'fbc',
-    'FBC',
-    'Customer Experience',
-    'Website Maintenance & UX',
-    'Sustained Growth Through Proactive Website Maintenance and Strategic UX Enhancements',
-    'Growth isn\'t always a big launch. Sometimes it\'s relentless, methodical improvement.',
-    '#2a6b7c',
-    'Raj',
-  ),
-  stub(
-    'the-indus-valley',
-    'The Indus Valley',
-    'Customer Experience',
-    'Performance Optimisation',
-    'Accelerating Success: Optimizing Website Performance for Faster Load Times and Improved Customer Engagement',
-    'When milliseconds are the margin between a scroll and a sale.',
-    '#b5451b',
-    'Raj',
-  ),
-  stub(
-    'zen-diamonds',
-    'Zen Diamonds',
-    'Customer Experience',
-    'Performance & UX',
-    'Holistic Digital Enhancement: Boosting Performance and Transforming UX for a Faster, More Intuitive Web Experience',
-    'Luxury deserves a web experience that performs as beautifully as its products.',
-    '#3d5a80',
-    'Raj',
-  ),
+  {
+    ...stub(
+      'twt',
+      'The Whole Truth',
+      'Customer Experience',
+      'Headless Commerce',
+      "Transforming The Whole Truth's D2C Platform with Headless Commerce",
+      'Headless architecture for a brand whose whole truth is radical transparency — and radical performance.',
+      '#3a7d44',
+      'Khushi',
+    ),
+    isPublished: true,
+  },
+  {
+    ...stub(
+      'dot-and-key-app',
+      'Dot & Key',
+      'Customer Experience',
+      'Mobile App',
+      "Transforming Dot & Key's Mobile Experience with a Custom High-Performance App",
+      'From slow and generic to fast and personal — a mobile experience worth opening every day.',
+      '#d4547a',
+      'Khushi',
+    ),
+    isPublished: true,
+  },
+  {
+    ...stub(
+      'aiza-website',
+      'Aiza',
+      'Customer Experience',
+      'UX Transformation',
+      'Transforming Aiza: Enhancing UX and Driving a Superior E-Commerce Experience',
+      'UX that works harder so shoppers don\'t have to think harder.',
+      '#8b5e3c',
+      'Raj',
+    ),
+    isPublished: true,
+  },
+  {
+    ...stub(
+      'beardo-website',
+      'Beardo',
+      'Customer Experience',
+      'Digital Storefront Revamp',
+      'Revamping the Digital Storefront to Elevate Customer Experience and Market Position',
+      'A grooming brand that needed its digital shelf to match the confidence of its products.',
+      '#2d3436',
+      'Raj',
+    ),
+    isPublished: true,
+  },
+  {
+    ...stub(
+      'beardo-cartx',
+      'Beardo',
+      'Customer Experience',
+      'Checkout Optimisation',
+      'Enhancing Customer Journeys with a Streamlined cartx Checkout Experience',
+      'The checkout was the last thing standing between a full cart and a completed order.',
+      '#2d3436',
+      'Raj',
+      'cartx',
+    ),
+    isPublished: true,
+  },
+  {
+    ...stub(
+      'freed',
+      'Freed',
+      'Customer Experience',
+      'New Market Launch',
+      'Launching a Bespoke Shopify Store from Scratch for a New Market Entrant',
+      'A new brand in a new market — built right from the first line of code.',
+      '#7f6b8a',
+      'Raj',
+    ),
+    isPublished: true,
+  },
+  {
+    ...stub(
+      'fbc',
+      'FBC',
+      'Customer Experience',
+      'Website Maintenance & UX',
+      'Sustained Growth Through Proactive Website Maintenance and Strategic UX Enhancements',
+      'Growth isn\'t always a big launch. Sometimes it\'s relentless, methodical improvement.',
+      '#2a6b7c',
+      'Raj',
+    ),
+    isPublished: true,
+  },
+  {
+    ...stub(
+      'the-indus-valley',
+      'The Indus Valley',
+      'Customer Experience',
+      'Performance Optimisation',
+      'Accelerating Success: Optimizing Website Performance for Faster Load Times and Improved Customer Engagement',
+      'When milliseconds are the margin between a scroll and a sale.',
+      '#b5451b',
+      'Raj',
+    ),
+    isPublished: true,
+  },
+  {
+    ...stub(
+      'zen-diamonds',
+      'Zen Diamonds',
+      'Customer Experience',
+      'Performance & UX',
+      'Holistic Digital Enhancement: Boosting Performance and Transforming UX for a Faster, More Intuitive Web Experience',
+      'Luxury deserves a web experience that performs as beautifully as its products.',
+      '#3d5a80',
+      'Raj',
+    ),
+    isPublished: true,
+  },
   stub(
     'cetaphil-cartx',
     'Cetaphil',
@@ -458,26 +517,32 @@ export const ALL_CASE_STUDIES: CaseStudyMeta[] = [
   ),
 
   // ── ENTERPRISE ARCHITECTURE ──────────────────────────────────────────────
-  stub(
-    'aiza-middleware',
-    'Aiza',
-    'Enterprise Architecture',
-    'Middleware / Data Pipeline',
-    'Optimizing Shopify-to-WMS: Data Pipeline with API-Driven Transformation for Accurate Order & Shipping Flow',
-    'The gap between order placed and order shipped — eliminated by smart data transformation.',
-    '#1a4d6e',
-    'Raj',
-  ),
-  stub(
-    'cetaphil-migration',
-    'Cetaphil',
-    'Enterprise Architecture',
-    'Platform Migration',
-    'Enabling Migration to Shopify for a Scalable E-Commerce Future',
-    'A healthcare brand that needed a commerce platform as reliable as its skincare science.',
-    '#0077b6',
-    'Raj',
-  ),
+  {
+    ...stub(
+      'aiza-middleware',
+      'Aiza',
+      'Enterprise Architecture',
+      'Middleware / Data Pipeline',
+      'Optimizing Shopify-to-WMS: Data Pipeline with API-Driven Transformation for Accurate Order & Shipping Flow',
+      'The gap between order placed and order shipped — eliminated by smart data transformation.',
+      '#1a4d6e',
+      'Raj',
+    ),
+    isPublished: true,
+  },
+  {
+    ...stub(
+      'cetaphil-migration',
+      'Cetaphil',
+      'Enterprise Architecture',
+      'Platform Migration',
+      'Enabling Migration to Shopify for a Scalable E-Commerce Future',
+      'A healthcare brand that needed a commerce platform as reliable as its skincare science.',
+      '#0077b6',
+      'Raj',
+    ),
+    isPublished: true,
+  },
   stub(
     'cetaphil-middleware',
     'Cetaphil',

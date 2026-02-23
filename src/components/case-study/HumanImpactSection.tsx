@@ -9,10 +9,6 @@ export default function HumanImpactSection({ data }: HumanImpactSectionProps) {
   return (
     <section style={{ background: '#fff' }}>
       <div className="container">
-        <div className="i5-badge">
-          <div className="i5-dot" />
-          Industry 5.0 · Human Wellbeing &amp; Societal Value
-        </div>
         <div className="section-label">Human Impact</div>
         <h2 className="section-title">
           What changed for the people<br />on both sides of the screen.

@@ -11,10 +11,6 @@ export default function BrandSection({ data }: BrandSectionProps) {
       <div className="container">
         <div className={styles.layout}>
           <div className={styles.copy}>
-            <div className="i5-badge">
-              <div className="i5-dot" />
-              Industry 5.0 · Human-Centricity
-            </div>
             <div className="section-label">About the Brand</div>
             <h2 className="section-title">A house built on craft.<br />A debut built on care.</h2>
             {data.brandIntro.map((para, i) => (

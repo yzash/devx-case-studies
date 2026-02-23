@@ -9,10 +9,6 @@ export default function ChallengeSection({ data }: ChallengeSectionProps) {
   return (
     <section className={styles.section}>
       <div className="container">
-        <div className="i5-badge">
-          <div className="i5-dot" />
-          Industry 5.0 · Resilience &amp; Sustainability
-        </div>
         <div className={styles.layout}>
           <div className={styles.copy}>
             <div className="section-label">The Challenge</div>

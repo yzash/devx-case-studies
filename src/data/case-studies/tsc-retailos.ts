@@ -55,7 +55,7 @@ const tscRetailos: CaseStudy = {
       age: 28,
       role: 'Store Associate · The Sleep Company Experience Center',
       quote:
-        "Store associates managing EMI payments, coupon validation, and warehouse stock queries for home delivery were forced to navigate separate systems and make manual phone calls mid-sale. The operational complexity pulled attention away from the customer at the exact moment it mattered most.",
+        "Store associates managing EMI payments, coupon validation, and warehouse stock queries for home delivery were forced to navigate separate systems and make manual phone calls mid-sale. The operational complexity redirected associate attention from the customer to the systems — mid-transaction, during the most critical part of the sale.",
       painTag: '⚙️ Store associates juggling multiple disconnected systems during complex sales',
     },
     {

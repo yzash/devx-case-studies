@@ -25,6 +25,7 @@ const foxtaleAnalytics: CaseStudy = {
 
   brandIntro: [
     "Foxtale is a Series C-funded Indian skincare brand scaling rapidly across D2C channels. Their marketing and product teams were making decisions based on incomplete data — unable to track detailed customer journeys, identify specific funnel drop-off points, or measure campaign effectiveness with the granularity that a fast-scaling brand requires.",
+    // TODO: Verify metrics — 35% conversion rate improvement
     "We deployed Mixpanel with comprehensive custom event tracking across all critical touchpoints — add-to-cart, checkout initiation, purchase completion, and engagement actions — building real-time funnel analytics and role-specific dashboards that reduced decision-making time from days to minutes and delivered a 35% improvement in conversion rates.",
   ],
   brandTags: ['Skincare', 'Mixpanel', 'Real-Time Analytics', 'Funnel Optimization', 'Attribution', 'D2C India', 'Marketing Automation'],

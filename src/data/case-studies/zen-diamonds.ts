@@ -45,7 +45,7 @@ const zenDiamonds: CaseStudy = {
       age: 38,
       role: 'Luxury jewellery shopper · Mumbai',
       quote:
-        "Luxury shoppers evaluating a significant diamond purchase needed the digital experience to inspire the same confidence as the product. Slow-loading imagery and a clunky mobile interface created friction at precisely the moment the browsing experience needed to feel effortless and assured.",
+        "Luxury shoppers evaluating a significant diamond purchase needed the digital experience to inspire the same confidence as the product. Slow-loading imagery and a clunky mobile interface introduced friction when the experience needed to feel effortless — and that friction registered as doubt about the brand itself.",
       painTag: '⏳ Slow load times undermine purchase confidence',
     },
     {
@@ -63,7 +63,7 @@ const zenDiamonds: CaseStudy = {
       age: 45,
       role: 'Brand Director · Zen Diamonds',
       quote:
-        "Luxury brand directors held the in-store experience to an exceptional standard — and expected the digital channel to match it. The gap between a carefully curated physical environment and a slow, inconsistent storefront was difficult to reconcile for a brand operating at that level.",
+        "Luxury brand directors held the in-store experience to an exceptional standard — and expected the digital channel to match it. A carefully curated physical environment next to a slow, inconsistent storefront was not a position a brand operating at that level could hold for long.",
       painTag: '🏆 Digital experience below in-store luxury standard',
     },
   ],

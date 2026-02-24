@@ -25,6 +25,7 @@ const avimeeHerbalCx: CaseStudy = {
 
   brandIntro: [
     "Avimee Herbal is a premium Ayurvedic haircare brand combining ancient herbal wisdom with modern science to address scalp and hair concerns. Their product range focuses on natural, plant-based solutions for hair regrowth, scalp health, and holistic hair wellness — emphasizing personalized care through diagnostic approaches that identify root causes rather than treating surface symptoms.",
+    // TODO: Verify metrics — 67% AOV increase, 7% conversion rate lift
     "We built the Scalp Test platform at the heart of Avimee Herbal's customer experience: a fully dynamic diagnostic engine with an admin-controlled question builder, a sophisticated scoring algorithm that identifies multiple root causes from a medical framework, and seamless Shiprocket checkout integration — driving a 67% increase in AOV and a 7% lift in conversion rate.",
   ],
   brandTags: ['Ayurvedic Haircare', 'Scalp Diagnostics', 'Next.js', 'Dynamic Admin', 'Shiprocket', 'Personalization', 'India'],

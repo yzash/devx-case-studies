@@ -26,6 +26,7 @@ const foxtaleCartx: CaseStudy = {
 
   brandIntro: [
     "Foxtale is a Series C-funded Indian skincare brand running sophisticated multi-channel campaigns across Instagram, Facebook, and Google with unique offers for each audience. Their cart couldn't translate campaign intent into personalized shopping experiences — users clicking BOGO ads arrived at generic cart pages, and the marketing team needed developer support for every offer change.",
+    // TODO: Verify metrics — 50% cart abandonment reduction, 3x campaign velocity, 35% AOV increase
     "We built a UTM-driven personalized cart system with campaign-source awareness, multi-tier promotion logic, and a self-service metaobjects-based offer management system. The result: 50% reduction in cart abandonment, 3x faster campaign velocity for the marketing team, and a 35% increase in AOV from campaign traffic.",
   ],
   brandTags: ['Skincare', 'cartx', 'UTM Personalization', 'Multi-Tier Promotions', 'Shopify Metaobjects', 'Marketing Automation', 'India'],
@@ -38,7 +39,7 @@ const foxtaleCartx: CaseStudy = {
   ],
 
   peopleIntro:
-    "Three people were living with the gap between campaign promise and cart reality — a customer who saw a BOGO offer in an ad but found a generic cart, a marketer blocked by developer dependency, and a growth lead watching campaign-driven AOV plateau.",
+    "The disconnect between ad promise and cart reality was costing Foxtale on three fronts — a customer who clicked a BOGO offer only to find a generic cart, a marketer blocked by developer dependency, and a growth lead watching campaign-driven AOV plateau.",
   personas: [
     {
       avatar: '✨',

@@ -46,7 +46,7 @@ const coachSouthAfrica: CaseStudy = {
       age: 34,
       role: 'First-time Coach shopper · Johannesburg',
       quote:
-        "I've bought Coach abroad but never trusted a local site enough. If it looks off, I just don't buy. Luxury has to feel luxury on screen too.",
+        "South African luxury shoppers who had previously purchased Coach abroad were unwilling to trust a local site that fell short of the brand standard — if the digital experience looked off, the purchase simply did not happen.",
       painTag: '⚡ Trust & first impression',
     },
     {
@@ -55,7 +55,7 @@ const coachSouthAfrica: CaseStudy = {
       age: 41,
       role: 'Ops & Fulfilment Lead · Cape Town warehouse',
       quote:
-        "When stock data doesn't match what's online, it's me on the phone with an angry customer. I need the system to just work — automatically.",
+        "Fulfilment leads bore the consequences of stock data mismatches between the warehouse and the storefront — fielding escalations from customers who had ordered items that were not actually available.",
       painTag: '📉 ERP sync anxiety',
     },
     {
@@ -64,7 +64,7 @@ const coachSouthAfrica: CaseStudy = {
       age: 29,
       role: 'Digital Merchandiser · Coach SA team',
       quote:
-        "I own the catalogue experience. If I can't update pages fast or if assets load slowly, it reflects on me — and on the brand. Speed matters.",
+        "Digital merchandisers responsible for the catalogue experience were hampered by slow asset loading and limited control over page updates — performance issues that reflected directly on the brand's perceived quality.",
       painTag: '🔥 Performance & control',
     },
   ],

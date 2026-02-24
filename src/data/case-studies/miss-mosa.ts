@@ -45,7 +45,7 @@ const missMosa: CaseStudy = {
       age: 28,
       role: 'Customer · planning a resort holiday wardrobe',
       quote:
-        "I was looking for swimwear and a cover-up that worked together. The product range was beautiful but I had to scroll through everything to find what matched. A filter for 'swimwear' or 'resort wear' or 'color' would have saved me twenty minutes. I ended up buying just one piece instead of a look.",
+        'Resort wear shoppers trying to build a coordinated look had to scroll through the entire catalog without the ability to filter by category, style, or color — a friction that cost browsing time and typically resulted in single-piece purchases instead of the complete looks the range was designed to inspire.',
       painTag: '🔍 Product discovery friction from missing brand-specific filters across a large catalog',
     },
     {
@@ -54,7 +54,7 @@ const missMosa: CaseStudy = {
       age: 34,
       role: 'Founder · Miss Mosa',
       quote:
-        "My brand is premium. Every piece is designed with intention — the fabrics, the silhouettes, the colors. But my previous website looked like it was built by someone who didn't understand that. I wanted a site where the product photography could breathe, the animations felt intentional, and the experience felt like the brand.",
+        'Premium fashion founders building design-conscious brands found their previous websites failing to reflect the intentionality behind the collections — product photography had no room to breathe, animations were absent or generic, and the experience communicated none of the premium positioning the brand had earned.',
       painTag: '🎨 Previous website not reflecting the premium, design-conscious brand identity',
     },
     {
@@ -63,7 +63,7 @@ const missMosa: CaseStudy = {
       age: 30,
       role: 'Digital Manager · Miss Mosa',
       quote:
-        "We were losing potential customers to slow load times on mobile. Fashion shoppers are impatient — they're browsing on the go. If the homepage or the collection page takes more than two seconds, they've already moved to Instagram. We needed speed without sacrificing the visual richness that made the brand worth visiting.",
+        'Digital managers at fashion brands were losing mobile visitors to slow load times — shoppers browsing on the go had little patience for pages that took more than two seconds to appear, and the visual richness that defined the brand made hitting speed targets significantly harder to achieve.',
       painTag: '⏱️ Slow mobile load times causing bounce before the product range was visible',
     },
   ],

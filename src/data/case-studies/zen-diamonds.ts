@@ -45,7 +45,7 @@ const zenDiamonds: CaseStudy = {
       age: 38,
       role: 'Luxury jewellery shopper · Mumbai',
       quote:
-        "I'm considering spending a significant amount on a diamond ring. When the product images take seconds to load and the page feels clunky on mobile, it doesn't inspire the confidence that kind of purchase requires.",
+        "Luxury shoppers evaluating a significant diamond purchase needed the digital experience to inspire the same confidence as the product. Slow-loading imagery and a clunky mobile interface created friction at precisely the moment the browsing experience needed to feel effortless and assured.",
       painTag: '⏳ Slow load times undermine purchase confidence',
     },
     {
@@ -54,7 +54,7 @@ const zenDiamonds: CaseStudy = {
       age: 32,
       role: 'Digital Experience Manager · Zen Diamonds',
       quote:
-        "Jewellery is a visual category. We need high-resolution imagery — there's no way around it. But right now our beautiful photography is the biggest reason our pages are slow. We need both quality and speed.",
+        "Jewellery is a visual category where high-resolution imagery is non-negotiable. Digital experience teams found that the same photography driving engagement was the primary cause of slow page loads — and no straightforward compromise existed between image quality and delivery speed.",
       painTag: '📷 High-res imagery creating performance tradeoffs',
     },
     {
@@ -63,7 +63,7 @@ const zenDiamonds: CaseStudy = {
       age: 45,
       role: 'Brand Director · Zen Diamonds',
       quote:
-        "Our in-store experience is exceptional. Our digital experience should be held to exactly the same standard. Right now it isn't — and that gap is larger than it should be for a brand at our level.",
+        "Luxury brand directors held the in-store experience to an exceptional standard — and expected the digital channel to match it. The gap between a carefully curated physical environment and a slow, inconsistent storefront was difficult to reconcile for a brand operating at that level.",
       painTag: '🏆 Digital experience below in-store luxury standard',
     },
   ],

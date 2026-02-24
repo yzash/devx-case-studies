@@ -45,7 +45,7 @@ const declutter: CaseStudy = {
       age: 41,
       role: 'Psychiatrist · Declutter Health',
       quote:
-        "After every session I spend 20-30 minutes writing notes before I can see my next patient. I'm trying to recall exact emotional moments, specific phrases, subtle changes in speech — all from memory. Important details get lost and I'm exhausted before the next session starts.",
+        "Psychiatrists spent 20-30 minutes after every session writing notes from memory before they could see the next patient. Exact emotional moments, specific phrases, and subtle speech changes were consistently lost in reconstruction — and documentation fatigue accumulated across the day.",
       painTag: '📋 20-30 minutes of manual notes after every session',
     },
     {
@@ -54,7 +54,7 @@ const declutter: CaseStudy = {
       age: 28,
       role: 'Therapy patient · Mumbai',
       quote:
-        "I want my psychiatrist to fully focus on me during our session, not be worried about taking notes. And I'd love to see actual data about my progress — not just 'you seem better this week' but real insight into how I'm doing.",
+        "Therapy patients received subjective impressions of progress rather than quantitative data showing how their emotional patterns had actually changed. The note-taking demands on psychiatrists also diverted attention away from the patient during the session itself.",
       painTag: '📊 No quantitative tracking of emotional progress',
     },
     {
@@ -63,7 +63,7 @@ const declutter: CaseStudy = {
       age: 35,
       role: 'Co-Founder · Declutter Health',
       quote:
-        "Scaling a therapy platform requires psychiatrists who can see more patients without compromising care quality. But if documentation takes 30 minutes per session, that's a ceiling on throughput that we can't grow past without burning out our practitioners.",
+        "Therapy platform founders faced a hard throughput ceiling: 30 minutes of post-session documentation per appointment meant that growing patient volume came directly at the cost of practitioner wellbeing. Scaling the platform without solving documentation was not viable.",
       painTag: '📈 Documentation overhead limiting patient throughput',
     },
   ],

@@ -45,7 +45,7 @@ const loopie: CaseStudy = {
       age: 31,
       role: 'New parent researching strollers · Bengaluru',
       quote:
-        "I need to understand exactly what I'm buying before I spend this much on a stroller. But the product pages feel busy and I can't quickly find the specifications I care about. I end up leaving to research elsewhere.",
+        'Parents researching high-consideration purchases like strollers found product pages too cluttered to quickly locate the specifications that mattered most, often leaving the site to research elsewhere before returning to buy — or not returning at all.',
       painTag: '📄 Cluttered PDPs killing research confidence',
     },
     {
@@ -54,7 +54,7 @@ const loopie: CaseStudy = {
       age: 28,
       role: 'Digital Merchandiser · Loopie HQ',
       quote:
-        "Our featured products and promotions aren't getting seen. The homepage doesn't surface what we want to push, and the cart experience means customers often abandon right at the point of decision.",
+        'Digital merchandisers had limited ability to surface featured products and promotions effectively — the homepage lacked structured placement, and cart abandonment spiked at exactly the moment customers were closest to purchasing.',
       painTag: '🔍 Poor product visibility limiting promotional effectiveness',
     },
     {
@@ -63,7 +63,7 @@ const loopie: CaseStudy = {
       age: 35,
       role: 'Growth Lead · Loopie',
       quote:
-        "Cart abandonment is high and our Add-to-Cart rate is lower than it should be. We know the products are right — the issue is the experience. We need targeted improvements, not a rebuild.",
+        'Growth leads were seeing Add-to-Cart rates and cart abandonment figures that underperformed relative to the strength of the product range — pointing to experience-layer friction rather than product or pricing issues, and demanding targeted fixes rather than a full rebuild.',
       painTag: '📉 ATC rate and cart abandonment underperforming',
     },
   ],

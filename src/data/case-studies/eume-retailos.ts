@@ -46,7 +46,7 @@ const eumeRetailos: CaseStudy = {
       age: 31,
       role: 'EUME customer · returned a product in-store',
       quote:
-        "I returned a bag I bought online at the EUME store — but for weeks my refund was delayed because the store couldn't confirm the stock had been received. I shouldn't have to chase a return across channels.",
+        "Customers who returned online purchases in-store faced weeks of refund delays because the store had no way to confirm receipt of stock across channels. Cross-channel returns created frustration and eroded trust in the brand.",
       painTag: '🔄 Omnichannel returns creating customer frustration and stock misalignment',
     },
     {
@@ -55,7 +55,7 @@ const eumeRetailos: CaseStudy = {
       age: 29,
       role: 'Store Manager · EUME Retail',
       quote:
-        "Every day I manually reconcile stock between what came in from the warehouse and what's shown in the system. It takes hours, and errors still creep in. I need to know exactly what's in my store at any given moment.",
+        "Store managers spent hours each day manually reconciling warehouse receipts against system records, with errors persisting despite the effort. Accurate real-time stock visibility was effectively impossible without an automated solution.",
       painTag: '📋 Manual stock reconciliation consuming hours per store per day',
     },
     {
@@ -64,7 +64,7 @@ const eumeRetailos: CaseStudy = {
       age: 42,
       role: 'Head of Operations · EUME',
       quote:
-        "We expanded to multiple stores but our visibility didn't scale with us. I couldn't see inventory across locations in real time. Returns were manual. Transfers were delayed. The operational debt was growing faster than the brand.",
+        "Operations heads expanding into multiple retail locations had no real-time view of inventory across stores. Returns were processed manually, transfers were delayed, and operational debt accumulated faster than the retail footprint grew.",
       painTag: '🔍 No real-time inventory visibility across a growing multi-store network',
     },
   ],

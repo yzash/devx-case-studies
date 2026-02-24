@@ -45,7 +45,7 @@ const superdry: CaseStudy = {
       age: 24,
       role: 'Mobile-first shopper · Mumbai',
       quote:
-        "I browse Superdry on my phone between meetings. If it stutters or takes ages to load, I close it. My time is short — the experience needs to be instant.",
+        'Mobile-first shoppers browsing between commitments had no tolerance for slow or stuttering page loads — any delay meant the session was abandoned, with no expectation of returning to complete the browse.',
       painTag: '⚡ Mobile speed & smoothness',
     },
     {
@@ -54,7 +54,7 @@ const superdry: CaseStudy = {
       age: 29,
       role: 'Regular Superdry customer · Bangalore',
       quote:
-        "I love the brand but some pages feel inconsistent — like different parts of the site were built at different times. I want it to feel like one polished thing.",
+        'Regular customers who were loyal to the brand noticed that different sections of the storefront felt like they had been built in isolation — inconsistent layouts and interaction patterns across pages undermined the sense of a single, cohesive brand experience.',
       painTag: '🎨 UX inconsistency',
     },
     {
@@ -63,7 +63,7 @@ const superdry: CaseStudy = {
       age: 34,
       role: 'Digital Manager · Superdry India team',
       quote:
-        "We're pushing performance improvements but I need the site to stay stable throughout. I can't have enhancements introduce regressions on live.",
+        'Digital managers overseeing live storefront improvements faced the persistent risk that performance enhancements would introduce regressions — every change carried the potential to break something on a customer-facing site with no safe window to take it offline.',
       painTag: '🛡️ Stability during change',
     },
   ],

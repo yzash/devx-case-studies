@@ -45,7 +45,7 @@ const cetaphilMigration: CaseStudy = {
       age: 30,
       role: 'Cetaphil loyalist · Noida',
       quote:
-        "I've been ordering my dermatologist-recommended products through the same store for years. I'd hate to lose my order history or have the site go down while I'm waiting for a reorder. Continuity matters to me.",
+        "Loyal customers who had ordered dermatologist-recommended products for years stood to lose their entire order history if the migration went wrong — and any period of downtime during a reorder cycle directly impacted their healthcare routine.",
       painTag: '📋 Customer continuity and data preservation at risk',
     },
     {
@@ -54,7 +54,7 @@ const cetaphilMigration: CaseStudy = {
       age: 28,
       role: 'Ecommerce Operations Manager · Skin Health & You',
       quote:
-        "We got the shutdown notice with limited runway. There's product data, customer accounts, historical orders, and custom fields to migrate — and it all has to be correct in Shopify before the lights go off on Kartify. Every day matters.",
+        "Operations managers received a platform shutdown notice with limited runway to move product data, customer accounts, historical orders, and custom fields — all of it needing to land correctly in Shopify before Kartify went dark.",
       painTag: '🕐 Fixed shutdown deadline with massive data migration scope',
     },
     {
@@ -63,7 +63,7 @@ const cetaphilMigration: CaseStudy = {
       age: 40,
       role: 'Business Head · Skin Health & You',
       quote:
-        "This is a healthcare brand. Our customers rely on this store for products their dermatologists have prescribed. Any disruption in access — even for a few hours — is a customer experience failure and a business risk.",
+        "Healthcare brand leaders understood that customers relied on the store for dermatologist-prescribed products — making even a few hours of access disruption both a patient experience failure and a meaningful business risk.",
       painTag: '💊 Healthcare brand cannot afford commerce disruption',
     },
   ],

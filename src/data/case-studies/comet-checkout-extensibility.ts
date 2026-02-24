@@ -45,7 +45,7 @@ const cometCheckoutExtensibility: CaseStudy = {
       age: 23,
       role: 'Comet customer · completing an order',
       quote:
-        "I was at the payment page when I saw an Instagram post mentioning a discount code for the sale. I went back to the cart to enter it, got confused about whether to apply it before or after seeing the order total, and then just proceeded without it. I felt like I might have left money on the table.",
+        "Customers reaching the payment page with no visibility of applicable promotions frequently proceeded without applying discounts they were entitled to — leaving the checkout with a sense that savings had been missed.",
       painTag: '💸 Customers reaching payment without visibility of applicable promotions — missed savings',
     },
     {
@@ -54,7 +54,7 @@ const cometCheckoutExtensibility: CaseStudy = {
       age: 27,
       role: 'Operations Analyst · Comet',
       quote:
-        "About 30% of our customer contact records have invalid mobile numbers — people enter incorrect digits or format numbers differently. When we need to call about a delivery issue, we often can't reach the customer. The data quality problem starts at checkout.",
+        "Operations analysts found that roughly 30% of customer contact records contained invalid mobile numbers — making it impossible to reach customers when delivery issues arose, with the root cause traced directly to unvalidated checkout inputs.",
       painTag: '📋 Invalid mobile number data from checkout creating operational communication failures',
     },
     {
@@ -63,7 +63,7 @@ const cometCheckoutExtensibility: CaseStudy = {
       age: 32,
       role: 'Head of Digital · Comet',
       quote:
-        "Our cart-to-checkout ratio was strong. But checkout-to-purchase was lower than it should have been for our traffic quality. Customers were hesitating at the payment step — either because they weren't sure about the price or because the checkout flow wasn't smooth enough to keep them moving.",
+        "Digital heads observed a strong cart-to-checkout ratio that did not carry through to purchase — customers were stalling at the payment step, either uncertain about the final price or encountering enough friction to abandon a purchase they had already committed to.",
       painTag: '📉 Checkout-to-purchase conversion below cart quality — hesitation at payment stage',
     },
   ],

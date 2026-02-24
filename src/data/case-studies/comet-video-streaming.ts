@@ -45,7 +45,7 @@ const cometVideoStreaming: CaseStudy = {
       age: 21,
       role: 'Comet customer · mobile shopper on 4G',
       quote:
-        "Comet's sneaker videos are what sell the product for me. But on my 4G connection they buffered constantly. I'd wait a few seconds, see spinning wheels, and eventually just skip the video and rely on photos. I was making decisions without the best content.",
+        "Mobile shoppers on 4G connections found that product videos — the content most likely to drive purchase intent — buffered consistently enough to be abandoned, leaving purchase decisions made from photos alone rather than the full visual experience.",
       painTag: '🎬 Product videos buffering on 4G — customers making purchase decisions without key content',
     },
     {
@@ -54,7 +54,7 @@ const cometVideoStreaming: CaseStudy = {
       age: 27,
       role: 'Content Manager · Comet',
       quote:
-        "We invest significantly in product videos — lifestyle shoots, 360-degree sneaker views, and campaign content. If those videos are buffering or not loading, we're wasting the creative investment. The video should be the first thing that loads, not the last.",
+        "Content managers who had invested heavily in lifestyle shoots, 360-degree sneaker views, and campaign films saw that creative budget go unrealised when streaming failures prevented the videos from loading reliably for the audience they were made for.",
       painTag: '💸 Creative investment in product videos not delivering due to streaming performance issues',
     },
     {
@@ -63,7 +63,7 @@ const cometVideoStreaming: CaseStudy = {
       age: 30,
       role: 'Technical Lead · Comet Digital',
       quote:
-        "Video is our heaviest asset type and the one that varies most in network condition across our customer base. Some customers are on fiber at home; others are on 4G in transit. We needed streaming that adapted to each user rather than serving a one-size-fits-all file that penalized 4G users.",
+        "Technical leads managing storefront performance found that a single-quality video file served to all users regardless of connection type systematically penalised the significant portion of the customer base browsing on 4G rather than fiber.",
       painTag: '📶 Single-quality video files penalizing lower-bandwidth users — no adaptive delivery',
     },
   ],

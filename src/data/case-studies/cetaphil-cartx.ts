@@ -46,7 +46,7 @@ const cetaphilCartx: CaseStudy = {
       age: 30,
       role: 'Regular Cetaphil customer · Delhi',
       quote:
-        "My dermatologist recommended these products specifically. I don't want to discover a discount code exists only after I've paid. Knowing exactly what I'm paying — and what I'm saving — before I check out is part of trusting the store.",
+        'Dermatologist-referred skincare customers purchasing based on clinical guidance had high trust expectations at every step of the checkout process. Discovering applicable discounts only after completing payment undermined that trust — pricing transparency before checkout was not a preference but a condition of confidence.',
       painTag: '💰 Needs pricing transparency before committing to checkout',
     },
     {
@@ -55,7 +55,7 @@ const cetaphilCartx: CaseStudy = {
       age: 29,
       role: 'Digital Campaign Manager · Skin Health & You',
       quote:
-        "Running promotions on a new platform with only coupon codes as a mechanism is limiting. We need Gift-With-Purchase campaigns, milestone offers, and the ability to surface these benefits to customers before they leave the cart.",
+        'Digital campaign managers at Skin Health & You found that a coupon-code-only promotional architecture severely limited what campaigns could be run at launch. Gift-With-Purchase programs, milestone offers, and in-cart benefit surfacing were all unavailable — restricting campaign variety from the moment the platform went live.',
       painTag: '🎁 Coupon-only promotions limit campaign flexibility',
     },
     {
@@ -64,7 +64,7 @@ const cetaphilCartx: CaseStudy = {
       age: 40,
       role: 'Business Head · Skin Health & You',
       quote:
-        "We just launched on a new platform. We can't afford to discover conversion issues after launch and then run another optimization cycle. The cart experience has to be right from go-live.",
+        'Business heads overseeing a new Shopify platform launch could not absorb the cost of discovering cart conversion issues post-go-live and then running a secondary optimization cycle. The cart experience was required to perform correctly from the first day of live operations.',
       painTag: '🚀 Conversion readiness required from launch day one',
     },
   ],

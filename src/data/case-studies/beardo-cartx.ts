@@ -46,7 +46,7 @@ const beardoCartx: CaseStudy = {
       age: 28,
       role: 'Beardo regular · Pune',
       quote:
-        "I always want to know if there's a discount before I pay — but with Beardo I only found out at checkout. By then I'd sometimes already given up. If I could see the savings in the cart, I'd convert much faster.",
+        'Beardo shoppers had no visibility into available discounts or promotions until reaching checkout — a point at which some had already abandoned the session. The absence of offer information earlier in the cart journey delayed or prevented conversion.',
       painTag: '❓ No offer visibility before checkout',
     },
     {
@@ -55,7 +55,7 @@ const beardoCartx: CaseStudy = {
       age: 31,
       role: 'CRM & Campaign Manager · Beardo HQ',
       quote:
-        "Running Gift-With-Purchase campaigns manually is exhausting. We have to set up coupon codes, monitor eligibility, and manually adjust orders that fall through the cracks. There's no automation and it costs us hours every campaign.",
+        'CRM and campaign managers running Gift-With-Purchase promotions at Beardo managed every element manually — coupon code setup, eligibility monitoring, and individual order corrections. Each campaign consumed significant operational hours with no automation to reduce the overhead.',
       painTag: '⚙️ Manual GWP workflows eating campaign time',
     },
     {
@@ -64,7 +64,7 @@ const beardoCartx: CaseStudy = {
       age: 35,
       role: 'Growth Lead · Beardo',
       quote:
-        "Our AOV has room to grow but the cart experience isn't working for us. Customers aren't seeing upsell opportunities and our promotional offer engagement is low. We're leaving basket value on the table.",
+        'Growth leads at Beardo identified untapped average order value potential that the existing cart experience was failing to unlock. Upsell opportunities went unnoticed and promotional offer engagement remained low, leaving basket value unrealized at the most critical point of the purchase journey.',
       painTag: '📉 AOV and promo engagement below potential',
     },
   ],

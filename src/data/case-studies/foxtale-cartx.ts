@@ -46,7 +46,7 @@ const foxtaleCartx: CaseStudy = {
       age: 27,
       role: 'Foxtale customer · clicked an Instagram BOGO ad',
       quote:
-        "The ad said 'Buy One Get One on serums.' I clicked through expecting to see the offer in my cart. Instead I got the standard product page with no mention of the promotion. I spent five minutes trying to find where to apply the deal before giving up.",
+        "Shoppers who clicked campaign ads with specific offers — like buy-one-get-one promotions — arrived at generic product pages with no sign of the advertised deal. The effort required to locate and apply the promotion led many to abandon the purchase entirely.",
       painTag: '🎯 Campaign-aware ads leading to generic carts — offer promise not fulfilled at checkout',
     },
     {
@@ -55,7 +55,7 @@ const foxtaleCartx: CaseStudy = {
       age: 30,
       role: 'Performance Marketer · Foxtale',
       quote:
-        "Every time I wanted to create a new promotional offer — cart-wise freebie, collection-specific discount, code-based BOGO — I had to raise a development request and wait for the sprint. By the time it was ready, the campaign window had sometimes passed. I needed to control my own promotions.",
+        "Performance marketers had to raise a development request for every new promotional structure — freebies, collection discounts, code-based offers — and wait through a full sprint before anything went live. Campaign windows frequently closed before the corresponding offer was ready.",
       painTag: '⏳ Marketing team blocked by developer dependency for every promotional change',
     },
     {
@@ -64,7 +64,7 @@ const foxtaleCartx: CaseStudy = {
       age: 34,
       role: 'Head of Growth · Foxtale',
       quote:
-        "We were running sophisticated paid campaigns — segmented by skin concern, by channel, by audience persona. But the cart treated every user the same. The conversion data told us that campaign traffic had lower AOV than organic traffic. That gap wasn't acceptable.",
+        "Growth leads running segmented paid campaigns by channel and audience persona saw campaign traffic consistently converting at a lower average order value than organic visitors. The cart's inability to reflect campaign context was leaving measurable revenue on the table.",
       painTag: '📉 Campaign traffic converting at lower AOV than organic — cart personalization gap',
     },
   ],

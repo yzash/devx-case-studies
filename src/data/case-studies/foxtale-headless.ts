@@ -45,7 +45,7 @@ const foxtaleHeadless: CaseStudy = {
       age: 26,
       role: 'Foxtale customer · skincare enthusiast',
       quote:
-        "I was in a flash sale trying to update my cart quantity before a product sold out. The cart took 1.5 seconds to respond to every tap. By the time I finished, the product I wanted was gone. That lag cost me the product — and almost cost Foxtale the sale.",
+        "Shoppers during flash sales faced 1.5-second cart response times on every interaction, making it impossible to update quantities before popular products sold out. The lag directly caused lost purchases and pushed customers away at the highest-intent moment in the buying journey.",
       painTag: '⏱️ 1.5-second cart interaction lag causing frustration and abandonment during flash sales',
     },
     {
@@ -54,7 +54,7 @@ const foxtaleHeadless: CaseStudy = {
       age: 33,
       role: 'CTO · Foxtale',
       quote:
-        "We were paying $6,000 a month in CloudFront costs that were growing with traffic. The infrastructure expense was becoming a meaningful line item, and we hadn't found a way to architect around it. We needed headless not just for speed but for cost efficiency.",
+        "CTOs at fast-growing D2C brands watched CloudFront infrastructure costs climb to $6,000 per month as traffic scaled, with no clear path to architectural relief within the existing Shopify setup. Cost efficiency and performance improvement had to be solved together, not separately.",
       painTag: '💸 $6,000/month CloudFront costs growing unsustainably with brand traffic',
     },
     {
@@ -63,7 +63,7 @@ const foxtaleHeadless: CaseStudy = {
       age: 30,
       role: 'Engineering Lead · Foxtale',
       quote:
-        "During sale periods, we were constantly anxious about server stability. Shopify's native frontend couldn't scale the way we needed it to. We'd over-provision and still worry. With 8-10 lakh sessions during peak sales, we needed an architecture that was genuinely elastic.",
+        "Engineering leads at high-traffic D2C brands had no reliable way to prepare Shopify's native frontend for peak sale events. Over-provisioning was the only available safeguard, yet even that left the team without confidence that 8-10 lakh concurrent sessions could be handled without incident.",
       painTag: '📈 Sale-period traffic spikes requiring architecture that Shopify native could not provide',
     },
   ],

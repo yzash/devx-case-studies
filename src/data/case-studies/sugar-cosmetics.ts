@@ -45,7 +45,7 @@ const sugarCosmetics: CaseStudy = {
       age: 27,
       role: 'SUGAR Cosmetics customer · beauty enthusiast',
       quote:
-        "I browse SUGAR on my phone during lunch. I wanted to compare two lipsticks but had to tap into each product separately to see the shade range. The information I needed before clicking should have been visible on the collection page. It slowed me down — and sometimes I just gave up.",
+        'Beauty shoppers browsing on mobile during limited time windows needed to compare products quickly — but key information like shade ranges was only accessible after tapping into individual PDPs, adding enough friction to the browse-to-decision flow that shoppers would abandon the comparison rather than complete it.',
       painTag: '🔍 Essential product details requiring PDP tap — slowing browse-to-buy decision making',
     },
     {
@@ -54,7 +54,7 @@ const sugarCosmetics: CaseStudy = {
       age: 29,
       role: 'Digital Commerce Manager · SUGAR Cosmetics',
       quote:
-        "We have hundreds of products across categories. Customers were discovering our hero SKUs but not exploring beyond them. The browsing experience wasn't surfacing what was available — and the CTA placement was inconsistent between pages, creating confusion.",
+        'Digital commerce managers overseeing large catalogs found customers clustering around hero SKUs without exploring the full product range — the browsing experience was not structured to surface catalog depth, and inconsistent CTA placement across page types created enough friction to stall discovery.',
       painTag: '📦 Catalog depth not surfacing through inconsistent browsing experience',
     },
     {
@@ -63,7 +63,7 @@ const sugarCosmetics: CaseStudy = {
       age: 35,
       role: 'VP Digital · SUGAR Cosmetics',
       quote:
-        "SUGAR is a confident, bold brand. The product quality is exceptional. But the digital experience had inconsistencies — product information hierarchy varied, interaction patterns differed by page, and mobile browsing was rougher than it should have been. We needed the digital presence to match the brand strength.",
+        'VP-level digital leaders at bold, high-growth beauty brands found that rapid catalog expansion had introduced inconsistencies across the storefront — varying product information hierarchy, differing interaction patterns by page type, and a mobile browsing experience that did not reflect the confidence of the brand it represented.',
       painTag: '⚡ Digital experience inconsistencies undermining a strong, confident brand identity',
     },
   ],

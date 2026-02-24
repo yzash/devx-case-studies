@@ -45,7 +45,7 @@ const avimeeHerbalMarketing: CaseStudy = {
       age: 31,
       role: 'Customer · completed Scalp Test but did not purchase',
       quote:
-        "I took the Scalp Test and found out I had a stress-induced root cause. But I didn't buy immediately — I wanted to think about it. Three days later I got a WhatsApp message with educational content about stress-related hair loss and a reminder about the recommended regimen. That's what brought me back.",
+        'Customers who completed the Scalp Test and identified their root cause frequently did not convert immediately, choosing to consider the recommendation before purchasing. Without timely, diagnosis-specific follow-up — such as educational content on stress-related hair loss — re-engagement relied on chance rather than a deliberate trigger.',
       painTag: '🔄 High-intent users completing diagnosis but not converting immediately',
     },
     {
@@ -54,7 +54,7 @@ const avimeeHerbalMarketing: CaseStudy = {
       age: 29,
       role: 'Performance Marketer · Avimee Herbal',
       quote:
-        "We had no visibility into where users dropped off in the Scalp Test funnel. Did they stop at question 5? Did they complete but not buy? Did they buy once and never return? Without that data, I was running campaigns on assumptions rather than evidence.",
+        'Performance marketers at Avimee Herbal had no visibility into where users dropped off within the Scalp Test funnel — whether at a specific question, after viewing recommendations, or following a first purchase. Campaigns were optimized on assumptions because behavioral data simply did not exist.',
       painTag: '📉 No funnel visibility — campaigns optimized on assumptions, not behavioral data',
     },
     {
@@ -63,7 +63,7 @@ const avimeeHerbalMarketing: CaseStudy = {
       age: 38,
       role: 'Head of Growth · Avimee Herbal',
       quote:
-        "Re-engaging users who started but didn't complete the Scalp Test required manual list exports, manual segmentation, and manual campaign setup. We could only do it occasionally. We needed automation that ran continuously — triggered by behavior, not by our team's bandwidth.",
+        'Growth teams at Avimee Herbal relied on manual list exports, manual segmentation, and manual campaign setup to re-engage users who had started but not completed the Scalp Test. The process could only run occasionally, making consistent re-engagement impossible at scale.',
       painTag: '⏳ Re-engagement campaigns requiring manual effort — limiting frequency and personalization',
     },
   ],

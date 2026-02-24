@@ -45,7 +45,7 @@ const hireforCareInfra: CaseStudy = {
       age: 36,
       role: 'Mother of a special-needs child · Pune',
       quote:
-        "My son's therapy records, his diagnosis, his treatment progress — this information is more sensitive than anything else I can think of. I need absolute certainty that the platform protecting it takes security as seriously as I do.",
+        'Parents of special-needs children entrust healthcare platforms with some of the most sensitive data imaginable — therapy records, diagnoses, and treatment histories. That level of exposure demands infrastructure that treats data protection as a non-negotiable foundation, not an afterthought.',
       painTag: '🔒 Patient data for vulnerable children requires maximum protection',
     },
     {
@@ -54,7 +54,7 @@ const hireforCareInfra: CaseStudy = {
       age: 38,
       role: 'Speech therapist · HireForCare',
       quote:
-        "Session videos and patient notes are clinical records. If I'm uploading a therapy session to this platform, I need to know it's encrypted, access-controlled, and compliant with healthcare data standards. My professional obligation requires it.",
+        'Therapists uploading session videos and patient notes to a platform are handling clinical records — materials that carry professional obligations around encryption, access control, and healthcare data compliance. Storing those files anywhere short of that standard is not an acceptable option.',
       painTag: '📹 Clinical session recordings require healthcare-grade data protection',
     },
     {
@@ -63,7 +63,7 @@ const hireforCareInfra: CaseStudy = {
       age: 33,
       role: 'CTO · HireForCare',
       quote:
-        "We're handling the most sensitive data imaginable for the most vulnerable users. Security can't be a phase two deliverable — it has to be in every architectural decision from the beginning. And the architecture has to scale as the platform grows.",
+        'CTOs building healthcare platforms for vulnerable populations cannot treat security as a phase-two concern. Every architectural decision from the outset needs to embed protection as a first principle — while also being designed to scale as the platform grows.',
       painTag: '🏗️ HIPAA compliance and scalability required simultaneously from day one',
     },
   ],

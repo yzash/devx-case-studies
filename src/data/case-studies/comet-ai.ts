@@ -45,7 +45,7 @@ const cometAi: CaseStudy = {
       age: 22,
       role: 'Gen-Z sneaker enthusiast · Bengaluru',
       quote:
-        "I see Comet drop a new colourway on Instagram at midnight and I immediately want to know if my size is available and whether it runs true to size. By the time someone responds the next day, I've already bought from somewhere else.",
+        "Gen-Z sneaker enthusiasts encountering a new drop on Instagram at midnight had no way to get immediate sizing answers — and by the time a response arrived the following day, the purchase had already gone to a competitor.",
       painTag: '🌙 Off-hours sizing queries converting to competitor sales',
     },
     {
@@ -54,7 +54,7 @@ const cometAi: CaseStudy = {
       age: 27,
       role: 'Customer Support Lead · Comet',
       quote:
-        "During a drop, we get hundreds of messages simultaneously. Order tracking, size questions, style comparisons — it's the same 20 questions over and over. We spend all our time on things a trained system could handle, and we still can't keep up.",
+        "Support leads during product drops faced hundreds of simultaneous messages covering the same recurring questions — order tracking, sizing, and style comparisons — consuming the entire team's capacity while still leaving queries unresolved.",
       painTag: '📨 Repetitive ticket volume blocking strategic support work',
     },
     {
@@ -63,7 +63,7 @@ const cometAi: CaseStudy = {
       age: 30,
       role: 'Head of Growth · Comet',
       quote:
-        "Support costs are scaling linearly with traffic. At the same time, cart abandonment is highest during drops when customers have questions they can't get answered quickly enough. We're paying more for support and still losing the sales.",
+        "Growth leads watched support costs scale linearly with traffic while cart abandonment peaked during the highest-demand drops — spending more on support while still losing sales to unanswered pre-purchase questions.",
       painTag: '💸 Support costs scaling without conversion improvement',
     },
   ],

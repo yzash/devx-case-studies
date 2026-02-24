@@ -45,7 +45,7 @@ const fortytwolabs: CaseStudy = {
       age: 44,
       role: 'IT Security Lead · ICICI Bank',
       quote:
-        "We depend on FortyTwo Labs for quantum-safe cryptography on our live transaction infrastructure. Any interruption in their service is a direct risk to our operations. Their infrastructure stability is our infrastructure stability.",
+        "Banking clients running live transaction infrastructure on quantum-safe cryptography services had zero tolerance for provider downtime. Any instability in FortyTwo Labs' infrastructure translated directly into risk for the bank's own operations.",
       painTag: '🔐 Banking client uptime directly dependent on FortyTwo infrastructure',
     },
     {
@@ -54,7 +54,7 @@ const fortytwolabs: CaseStudy = {
       age: 29,
       role: 'Senior DevOps Engineer · FortyTwo Labs',
       quote:
-        "Managing three different cloud environments with different tools, different monitoring, and different security policies is a daily operational nightmare. Inconsistencies creep in constantly and finding the source of any issue takes twice as long as it should.",
+        "DevOps engineers managing three separate cloud environments dealt with inconsistent tooling, fragmented monitoring, and misaligned security policies every day. Diagnosing any issue took twice as long because context had to be reconstructed across environments.",
       painTag: '🌐 Multi-cloud complexity creating inconsistency and operational drag',
     },
     {
@@ -63,7 +63,7 @@ const fortytwolabs: CaseStudy = {
       age: 48,
       role: 'CTO · FortyTwo Labs',
       quote:
-        "Our engineering team is world-class at quantum cryptography. But they're spending too much time on infrastructure management that should be invisible. We need a platform that enables the security work, not one that competes with it for engineering attention.",
+        "CTOs at cryptography firms found that fragmented infrastructure management consumed engineering attention that should have been directed at core security innovation. The overhead of maintaining multi-cloud environments competed directly with the work that differentiated the company.",
       painTag: '🔬 Infrastructure complexity consuming cryptography engineering capacity',
     },
   ],

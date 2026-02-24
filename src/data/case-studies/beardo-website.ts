@@ -45,7 +45,7 @@ const beardoWebsite: CaseStudy = {
       age: 26,
       role: 'Beardo loyalist · Delhi',
       quote:
-        "I always shop from my phone and Beardo's products are great — but navigating the site on mobile feels clunky. Finding what I want takes too many taps and Add-to-Cart is never where I expect it.",
+        'Mobile shoppers browsing Beardo encountered a navigation experience that required more taps than expected to reach a product, with Add-to-Cart placement that was inconsistent across pages. The friction was enough to interrupt what should have been a straightforward mobile purchase.',
       painTag: '📱 Poor mobile browsing and interaction flow',
     },
     {
@@ -54,7 +54,7 @@ const beardoWebsite: CaseStudy = {
       age: 32,
       role: 'Digital Merchandiser · Beardo HQ',
       quote:
-        "We've doubled our catalog in two years and the navigation structure hasn't kept up. New launches take too long to surface properly and the product discovery flow is confusing even to me.",
+        'Digital merchandisers at Beardo were working with a navigation structure that had not evolved alongside a catalog that had doubled in two years. New product launches were slow to surface, and the discovery flow had grown confusing enough to create friction for the merchandising team itself.',
       painTag: '🔍 Product discovery breaking under catalog growth',
     },
     {
@@ -63,7 +63,7 @@ const beardoWebsite: CaseStudy = {
       age: 38,
       role: 'Head of Digital · Beardo',
       quote:
-        "The brand stands for bold, confident grooming. Our storefront should project that — but right now it looks outdated and converts below where it should. We need the site to earn its keep.",
+        'Heads of digital at Beardo saw a storefront that had fallen behind the brand\'s bold, confident positioning — visually outdated and converting below the level expected of a market-leading grooming brand. The site was not performing as a commercial asset commensurate with the brand\'s standing.',
       painTag: '📉 Aesthetics and conversions below brand standard',
     },
   ],

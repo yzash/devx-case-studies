@@ -45,7 +45,7 @@ const bharatgo: CaseStudy = {
       age: 38,
       role: 'Small business owner · Lucknow',
       quote:
-        "I make handmade products and I want to sell them online. But writing descriptions, editing photos, creating posts — I don't know how to do any of that. Every time I try to set up my store I get stuck. I just want it to work.",
+        'Small business sellers on BharatGo — including artisans and local entrepreneurs selling handmade goods — lacked the skills to write product descriptions, edit photographs, or create social posts. Store setup stalled repeatedly at the content stage, blocking sellers who had the products but not the digital capability.',
       painTag: '📝 Cannot write descriptions or edit product images',
     },
     {
@@ -54,7 +54,7 @@ const bharatgo: CaseStudy = {
       age: 27,
       role: 'Customer Support Manager · BharatGo HQ',
       quote:
-        "We handle thousands of seller queries every week. Most are the same questions — how to write a description, why the image looks bad, what to post on social media. The volume is unsustainable and it's all manual.",
+        'Customer support managers at BharatGo handled thousands of seller queries each week, the majority of which were repetitive — how to write a product description, why an image appeared low quality, what to post on social media. The volume was unsustainable and required manual effort on every interaction.',
       painTag: '📨 Support team buried under repetitive seller queries',
     },
     {
@@ -63,7 +63,7 @@ const bharatgo: CaseStudy = {
       age: 32,
       role: 'CTO · BharatGo',
       quote:
-        "We have 10,000 sellers now. If we get to 50,000, we cannot multiply our support team by five. The cost structure breaks before the user count does. We need automation that actually replaces human effort, not supplements it.",
+        'Platform engineering leaders at BharatGo recognized that scaling from 10,000 to 50,000 sellers would require a proportional increase in support headcount under the existing model — a cost structure that would break before the seller count became viable. Automation needed to replace human effort, not merely assist it.',
       painTag: '📈 Platform cannot scale without proportional cost increase',
     },
   ],

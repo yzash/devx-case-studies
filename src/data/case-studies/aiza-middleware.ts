@@ -45,7 +45,7 @@ const aizaMiddleware: CaseStudy = {
       age: 30,
       role: 'Logistics Operations Manager · AÏZA HQ',
       quote:
-        "Every morning starts with manually checking which orders need reformatting before we can send them to the warehouse. One missed field means a delayed shipment. It's time-consuming and completely avoidable.",
+        'Logistics operations managers at AÏZA began each day manually identifying which orders needed reformatting before warehouse submission. A single missed field risked a delayed shipment — a time-consuming process that repeated with every order cycle.',
       painTag: '⏱️ Manual order preparation every day',
     },
     {
@@ -54,7 +54,7 @@ const aizaMiddleware: CaseStudy = {
       age: 35,
       role: 'Warehouse Operations Lead · Aramex WMS',
       quote:
-        "We receive orders with incomplete data more often than we should. When packaging information is missing or format is wrong, everything slows down. We need complete, correct data on arrival.",
+        'Warehouse operations staff received orders with incomplete or incorrectly formatted data at a frequency that disrupted throughput. Missing packaging information and structural format mismatches caused processing delays from the moment orders arrived.',
       painTag: '❌ Incomplete and misformatted order data',
     },
     {
@@ -63,7 +63,7 @@ const aizaMiddleware: CaseStudy = {
       age: 38,
       role: 'Head of Operations · AÏZA',
       quote:
-        "International orders have specific logistics requirements — packaging compliance, shipping labels, customs information. We can't afford errors at this scale. But we also can't keep doing this manually.",
+        'Operations leaders managing international fulfilment faced strict packaging compliance, customs information, and shipping label requirements across every order. The scale made errors costly — yet the process remained entirely dependent on manual execution.',
       painTag: '🌍 International compliance and fulfilment risk',
     },
   ],

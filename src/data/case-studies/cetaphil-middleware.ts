@@ -45,7 +45,7 @@ const cetaphilMiddleware: CaseStudy = {
       age: 32,
       role: 'ERP Systems Lead · Skin Health & You',
       quote:
-        "Our ERP is configured for the old marketplace format. Every Shopify order that comes in has a different structure — and we can't change the ERP on this timeline. Every day we're bridging this gap manually.",
+        "ERP systems configured for legacy marketplace formats were structurally incompatible with Shopify order schemas, forcing teams to bridge the gap manually every day while the ERP remained locked on an unchangeable timeline.",
       painTag: '⚙️ ERP architecture incompatible with Shopify schema',
     },
     {
@@ -54,7 +54,7 @@ const cetaphilMiddleware: CaseStudy = {
       age: 28,
       role: 'Ecommerce Operations Manager · Skin Health & You',
       quote:
-        "I spend hours every day reformatting order data before it can go to the ERP. Price breakdowns, coupon splits, cashback fields — none of it comes out of Shopify in the format we need. This has to be automated.",
+        "Operations managers spent hours each day manually reformatting order data — price breakdowns, coupon splits, and cashback fields — because none of it emerged from Shopify in the structure the ERP required.",
       painTag: '⏱️ Hours daily on manual order data transformation',
     },
     {
@@ -63,7 +63,7 @@ const cetaphilMiddleware: CaseStudy = {
       age: 40,
       role: 'Business Head · Skin Health & You',
       quote:
-        "We've just completed a platform migration. The last thing we can afford now is a fulfilment breakdown because order data isn't reaching the ERP accurately. Business continuity is the requirement.",
+        "Business heads overseeing a fresh platform migration faced the risk of fulfilment breakdown if order data failed to reach the ERP accurately — making operational continuity a non-negotiable requirement from day one.",
       painTag: '🔒 Post-migration operational continuity is non-negotiable',
     },
   ],

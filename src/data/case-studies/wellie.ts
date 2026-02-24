@@ -45,7 +45,7 @@ const wellie: CaseStudy = {
       age: 31,
       role: 'Dog parent · researching functional treats for her Labrador',
       quote:
-        "I give my dog the same level of attention I give my own diet. When I looked at Wellie's product page, I wanted to see certifications, ingredient sourcing, and what the science behind the formulation actually was. I couldn't find it easily. That hesitation was real — he can't tell me if something disagrees with him.",
+        "Dog parents approaching pet nutrition with the same scrutiny they applied to their own diet needed to see certifications, ingredient sourcing, and formulation science before committing to a product. That evidence existed but was not surfaced clearly on the product page — and the resulting hesitation was enough to prevent the purchase.",
       painTag: '🔍 Dog parents requiring certifications and safety evidence before purchasing for their pets',
     },
     {
@@ -54,7 +54,7 @@ const wellie: CaseStudy = {
       age: 30,
       role: 'Founder · Wellie',
       quote:
-        "We've put enormous effort into our formulations — FDA, GMP, FEDIAF, ISO, HACCP certified. Our ingredients are clean and science-backed. But the product page wasn't communicating that. A dog parent who cared as much as Shreya would look at our PDP and not see the evidence they needed. That was costing us the customers we were built for.",
+        "Wellie's formulations carried FDA, GMP, FEDIAF, ISO, and HACCP certifications, and the ingredients were clean and science-backed. But the product page was not communicating that standard. Conscious dog parents — the exact audience the brand was built for — arrived at the PDP and could not find the evidence they needed to buy.",
       painTag: '📋 Science-backed certifications not prominently visible on PDPs — primary audience not converting',
     },
     {
@@ -63,7 +63,7 @@ const wellie: CaseStudy = {
       age: 36,
       role: 'Growth & Product Lead · Wellie',
       quote:
-        "Our conversion data showed a specific pattern: high intent traffic from dog parent communities, followed by short PDP sessions and no conversion. The behavioral signal was clear — customers were arriving with intent but leaving without the confidence to buy. The page wasn't answering the questions they had.",
+        "Conversion data revealed a consistent pattern: high-intent traffic from dog parent communities was arriving at the PDP, spending limited time, and leaving without purchasing. The behavioral signal pointed to a page that was not answering the questions that intent-driven visitors needed resolved before they could buy.",
       painTag: '📉 High-intent traffic converting at below-expected rates — PDP not resolving purchase hesitation',
     },
   ],

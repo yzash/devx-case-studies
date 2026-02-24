@@ -45,7 +45,7 @@ const fbc: CaseStudy = {
       age: 34,
       role: 'Regular FBC customer · Sydney',
       quote:
-        "I love discovering new brands through French Beauty Co — but sometimes the product pages are slow and the information hierarchy doesn't help me understand which moisturiser is right for me. A bit more clarity would go a long way.",
+        "Shoppers encountered slow product pages and an unclear information hierarchy that made it difficult to identify which products suited their needs. The decision path to purchase lacked the structure needed to support confident buying choices.",
       painTag: '🔍 Slow PDPs and unclear product communication',
     },
     {
@@ -54,7 +54,7 @@ const fbc: CaseStudy = {
       age: 28,
       role: 'Content & Campaign Manager · FBC HQ',
       quote:
-        "Every campaign update feels risky. We don't have a proper staging workflow, so publishing changes directly to the live site means any mistake goes straight to customers. It keeps me up the night before a launch.",
+        "Campaign managers had no staging workflow, meaning every update was published directly to the live storefront. Mistakes went straight to customers, and launch nights carried the full operational risk of an untested deployment.",
       painTag: '⚠️ Unsafe deployment workflows before launches',
     },
     {
@@ -63,7 +63,7 @@ const fbc: CaseStudy = {
       age: 40,
       role: 'Head of Digital · French Beauty Co',
       quote:
-        "Third-party integrations keep breaking silently. Performance slows down and we don't know until a customer complains. I need a proactive partner who sees these things before we do.",
+        "Digital heads faced recurring silent failures from third-party integrations that degraded performance without any internal warning. Issues only surfaced when customers reported them, leaving the team perpetually reactive rather than proactive.",
       painTag: '🔇 Silent failures in integrations and performance',
     },
   ],

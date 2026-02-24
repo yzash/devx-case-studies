@@ -45,7 +45,7 @@ const tscVoiceAgent: CaseStudy = {
       age: 34,
       role: 'COD customer awaiting mattress delivery · Jaipur',
       quote:
-        "I ordered a mattress and two days later I still hadn't heard anything about delivery confirmation. I was starting to wonder if the order had gone through at all. A same-day call would have made me feel like a customer, not an afterthought.",
+        "COD customers placing high-value mattress orders waited 24 to 72 hours with no confirmation of whether the order had been processed. The absence of timely outreach created doubt, and in some cases, cancellations that a same-day confirmation call would have prevented.",
       painTag: '⏳ 24-72 hour confirmation wait after COD order placement',
     },
     {
@@ -54,7 +54,7 @@ const tscVoiceAgent: CaseStudy = {
       age: 31,
       role: 'Call Center Operations Manager · The Sleep Company',
       quote:
-        "We handle hundreds of confirmation calls daily. During peak seasons it's impossible to confirm orders same-day. We're paying for a team of callers and we still can't hit the confirmation speed the business needs.",
+        "Call center teams handling hundreds of daily confirmation calls could not keep pace with order volume during peak periods. Despite the cost of a dedicated calling team, same-day confirmation targets remained out of reach — particularly on high-volume sale days.",
       painTag: '📞 Human call team cannot scale to meet same-day confirmation targets',
     },
     {
@@ -63,7 +63,7 @@ const tscVoiceAgent: CaseStudy = {
       age: 42,
       role: 'VP Operations · The Sleep Company',
       quote:
-        "Our COD RTO rate is eating into margins. Furniture returns mean significant reverse logistics costs — every failed delivery hurts. The confirmation call exists to prevent it, but at $198 a day and only 11% same-day confirmation, it's not working well enough.",
+        "A COD RTO rate of nearly 5% was generating significant reverse logistics costs on every failed furniture delivery. The manual calling operation was costing $198 per day and still only achieving same-day confirmation on 11% of orders — a cost and performance combination that was not sustainable.",
       painTag: '💸 RTO rate and confirmation speed costing margin at scale',
     },
   ],

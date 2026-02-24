@@ -45,7 +45,7 @@ const tscTechApp: CaseStudy = {
       age: 35,
       role: 'Customer · warranty service requested for SmartGRID mattress',
       quote:
-        "I raised a warranty service request and then heard nothing for three days. I had no idea if a technician was coming, when, or what they'd found on their first visit. For a product I paid this much for, the after-sales communication has to match the pre-sales experience.",
+        "Customers who raised warranty service requests heard nothing for days after submission. With no visibility into whether a technician had been assigned, when they would arrive, or what had been found on a prior visit, the after-sales experience fell far short of the premium purchase it followed.",
       painTag: '📞 Customers waiting days with no service status visibility or communication',
     },
     {
@@ -54,7 +54,7 @@ const tscTechApp: CaseStudy = {
       age: 29,
       role: 'Field Technician · The Sleep Company Service Team',
       quote:
-        "Every morning I got a list of jobs on WhatsApp with addresses. I planned my own route, which was always inefficient. I sometimes drove past a job location to reach another one further away. Half my day was travel when it could have been service.",
+        "Field technicians received daily job lists via WhatsApp and were left to plan their own routes. Without optimization, routes were chronically inefficient — technicians regularly drove past one job site to reach another further away, with a significant portion of each working day lost to avoidable transit.",
       painTag: '🗺️ Technicians planning unoptimized routes manually — wasted travel time and fuel',
     },
     {
@@ -63,7 +63,7 @@ const tscTechApp: CaseStudy = {
       age: 32,
       role: 'Customer Experience Ops Manager · The Sleep Company',
       quote:
-        "Managing fifty technicians across India through WhatsApp and spreadsheets was chaos. Assigning jobs took hours. Tracking completions required calling technicians individually. I couldn't scale. I couldn't report. I couldn't see what was happening.",
+        "Operations managers overseeing fifty technicians across India through WhatsApp and spreadsheets had no scalable way to assign jobs, track completions, or report on field activity. Each allocation took hours, each status update required a direct call, and there was no real-time visibility into what was happening in the field.",
       painTag: '🗂️ Ops manager allocating jobs and tracking field teams with no visibility',
     },
   ],

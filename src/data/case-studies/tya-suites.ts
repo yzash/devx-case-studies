@@ -45,7 +45,7 @@ const tyaSuites: CaseStudy = {
       age: 44,
       role: 'CTO · Enterprise Customer of TYA Suite',
       quote:
-        "Every time TYA Suite deploys an update or provisions changes to my account, there's a risk of downtime or misconfiguration. For an enterprise application we rely on daily, that risk is unacceptable. Deployments should be invisible.",
+        "Enterprise customers relying on TYA Suite daily were exposed to the risk of downtime or misconfiguration with each deployment or account change. For applications embedded in daily operations, that unpredictability was a material concern — not an acceptable cost of software updates.",
       painTag: '⚠️ Enterprise customers experiencing deployment risk and inconsistency',
     },
     {
@@ -54,7 +54,7 @@ const tyaSuites: CaseStudy = {
       age: 28,
       role: 'DevOps Engineer · TYA Suite',
       quote:
-        "Managing infrastructure across dozens of separate customer AWS accounts manually is unsustainable. Every account has subtle differences because they were configured at different times. Finding and fixing drift takes hours I should be spending on improvements.",
+        "DevOps engineers managing infrastructure across dozens of separate customer AWS accounts manually faced a growing drift problem. Accounts configured at different times had accumulated subtle differences, and diagnosing and resolving that drift consumed hours that should have been spent on improvements.",
       painTag: '🌐 Configuration drift across dozens of manual customer AWS accounts',
     },
     {
@@ -63,7 +63,7 @@ const tyaSuites: CaseStudy = {
       age: 35,
       role: 'Head of Engineering · TYA Suite',
       quote:
-        "My team spends more time on infrastructure coordination than feature development. A new customer account takes days to provision. A deployment requires synchronized effort across people and systems. We need automation that changes this ratio.",
+        "Engineering teams at multi-tenant SaaS companies were spending more time on infrastructure coordination than on feature development. Provisioning a new customer account took days of synchronized effort across people and systems — time that was not available for the product work that drove customer value.",
       painTag: '⏱️ Engineering team building infrastructure instead of product features',
     },
   ],

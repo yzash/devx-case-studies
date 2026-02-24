@@ -45,7 +45,7 @@ const replyall: CaseStudy = {
       age: 23,
       role: 'New brand discoverer · Mumbai',
       quote:
-        "When I find a new brand through social media, the site is the whole first impression. If it doesn't feel polished on mobile — if it stutters, looks template-y, or loads slowly — I assume the product quality is the same.",
+        'New brand discoverers arriving from social media formed their entire first impression from the mobile site experience — a store that stuttered, loaded slowly, or looked like a generic template immediately undermined confidence in the product quality before a single item was viewed.',
       painTag: '✨ First impression entirely determined by mobile experience',
     },
     {
@@ -54,7 +54,7 @@ const replyall: CaseStudy = {
       age: 27,
       role: 'Brand Designer · ReplyAll',
       quote:
-        "We've spent months developing a visual identity that's specific and intentional. The site has to implement it exactly — every margin, every animation, every interaction. 'Close enough' isn't acceptable when the brand is this new.",
+        'Brand designers who had spent months developing a precise visual identity found that standard Shopify theme implementations could not faithfully execute the specificity of their work — margins, animations, and interaction details that defined the brand were compromised whenever "close enough" was treated as acceptable.',
       painTag: '🖥️ Pixel-perfect implementation or the brand suffers',
     },
     {
@@ -63,7 +63,7 @@ const replyall: CaseStudy = {
       age: 31,
       role: 'Co-Founder · ReplyAll',
       quote:
-        "We're launching with no brand equity yet — the site has to earn trust from scratch. It needs to look like we've been doing this for years, work perfectly on mobile, and be built to grow without a full rebuild every six months.",
+        'Founders launching a new D2C brand without existing equity faced the challenge of earning consumer trust entirely through the quality of the digital experience — the storefront had to convey maturity and polish from day one, perform flawlessly on mobile, and be built on an architecture that would scale without requiring a rebuild every few months.',
       painTag: '🏗️ Zero equity, no room for a substandard launch',
     },
   ],

@@ -45,7 +45,7 @@ const hugoBoss: CaseStudy = {
       age: 34,
       role: 'Premium fashion shopper · Dubai',
       quote:
-        "I expect the same seamless experience online that Hugo Boss delivers in-store. If a product shows as available and then isn't, or checkout creates friction, I'll go elsewhere. Premium means no compromises.",
+        'Premium fashion shoppers hold online experiences to the same standard as the in-store visit — inaccurate inventory, unavailable products, or any checkout friction breaks the expectation and sends them to a competitor. At that price point, there is no tolerance for compromise.',
       painTag: '💳 Real-time inventory accuracy and checkout reliability',
     },
     {
@@ -54,7 +54,7 @@ const hugoBoss: CaseStudy = {
       age: 38,
       role: 'Regional Operations Manager · Hugo Boss UAE',
       quote:
-        "We're syncing catalog data from a global PIM, warehouse data from Tradeling, and financial data from SAP — all of which need to talk to each other in real time. Manual reconciliation is not a viable option at this scale.",
+        'Regional operations teams managing catalog data from a global PIM, warehouse data from Tradeling, and financial data from SAP found that keeping those systems aligned manually was not viable at enterprise scale. Real-time synchronization was a baseline requirement, not a nice-to-have.',
       painTag: '🔄 Multi-system synchronization at enterprise scale',
     },
     {
@@ -63,7 +63,7 @@ const hugoBoss: CaseStudy = {
       age: 41,
       role: 'Head of Digital Commerce · Hugo Boss MENA',
       quote:
-        "Hugo Boss UAE needs to meet regional compliance requirements and support cross-border logistics — while running at the performance level the brand demands globally. Architecture is a brand decision here, not just a technical one.",
+        'Digital commerce leads at premium brands operating in the UAE face the dual requirement of satisfying regional compliance obligations and cross-border logistics workflows, while simultaneously maintaining the global performance standard the brand is known for. In that context, every architectural decision carries brand consequences.',
       painTag: '🌍 Regional compliance meets global brand standards',
     },
   ],

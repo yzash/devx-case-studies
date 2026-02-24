@@ -45,7 +45,7 @@ const foxtaleAnalytics: CaseStudy = {
       age: 26,
       role: 'Product Manager · Foxtale',
       quote:
-        "I knew our checkout had a drop-off problem — the data showed it clearly. But I couldn't tell if users were leaving on the shipping page, the payment page, or after seeing the order total. Without that granularity, every fix was a guess.",
+        "Product managers could see that checkout had a drop-off problem in aggregate but had no way to identify which specific step — shipping, payment, or order review — was causing abandonment. Without step-level data, every attempted fix was based on a guess rather than evidence.",
       painTag: '🔍 Checkout drop-off visible but location and cause impossible to pinpoint',
     },
     {
@@ -54,7 +54,7 @@ const foxtaleAnalytics: CaseStudy = {
       age: 30,
       role: 'Performance Marketer · Foxtale',
       quote:
-        "I was allocating marketing budget across Instagram, Google, and Facebook based on last-click attribution. I suspected that assisted touches from Instagram were driving Google conversions, but I had no data to prove it — or to act on it.",
+        "Performance marketers allocated budget across channels using last-click attribution, which systematically undercredited upper-funnel channels like Instagram. Assisted conversion patterns were suspected but impossible to prove without multi-touch data, leaving budget decisions structurally flawed.",
       painTag: '📉 Last-click attribution masking true channel contribution and misallocating budget',
     },
     {
@@ -63,7 +63,7 @@ const foxtaleAnalytics: CaseStudy = {
       age: 35,
       role: 'VP Growth · Foxtale',
       quote:
-        "Getting a performance report took two to three days of data consolidation from different tools. By the time I had clarity on what happened in a campaign, the optimization window had often closed. I needed real-time answers, not next-week answers.",
+        "Growth leads waited two to three days for performance reports to be consolidated from multiple tools. By the time campaign clarity arrived, the optimization window had closed — decisions that should have been made same-day were being made after the fact.",
       painTag: '⏳ Performance reports taking 2-3 days — optimization decisions made too late',
     },
   ],

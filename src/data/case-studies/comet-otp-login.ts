@@ -45,7 +45,7 @@ const cometOtpLogin: CaseStudy = {
       age: 21,
       role: 'Comet customer · frequent sneaker buyer',
       quote:
-        "I tried to log in before a drop and couldn't remember which email I used to sign up. I tried two, got locked out, and missed the launch. I'd rather just get an OTP on my phone. I know my number by heart.",
+        "Frequent sneaker buyers attempting to log in before a drop were blocked by email-based authentication — unable to recall which address was used to register, they got locked out and missed time-sensitive launches entirely.",
       painTag: '🔑 Email-based login causing access failures — customers missing drops and promotions',
     },
     {
@@ -54,7 +54,7 @@ const cometOtpLogin: CaseStudy = {
       age: 26,
       role: 'Customer Support · Comet',
       quote:
-        "I get multiple tickets every week from customers who have created two Comet accounts with different emails but the same phone number. They ask why their order history is split. Sorting this out manually takes time and creates a poor customer experience.",
+        "Support agents handled multiple tickets each week from customers whose order history was fragmented across two accounts — the same phone number linked to different emails, requiring time-consuming manual resolution that still left customers with a poor experience.",
       painTag: '📋 Duplicate account records from multiple email sign-ups with same phone number',
     },
     {
@@ -63,7 +63,7 @@ const cometOtpLogin: CaseStudy = {
       age: 30,
       role: 'Digital Product Manager · Comet',
       quote:
-        "Our customer base is Gen Z and young millennials. They don't use email as their primary identity. They use their phone number. Our login was a blocker — especially on mobile, where typing and remembering email passwords is genuinely frustrating.",
+        "Digital product managers at mobile-first brands found that email-based login was fundamentally mismatched to a Gen Z and young millennial audience — one that identified primarily by phone number and found password recall on mobile a genuine barrier to purchase.",
       painTag: '📱 Email-first authentication mismatched to mobile-first Gen Z audience expectations',
     },
   ],

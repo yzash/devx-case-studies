@@ -45,7 +45,7 @@ const kameroAi: CaseStudy = {
       age: 27,
       role: 'Wedding guest · Hyderabad',
       quote:
-        "After my cousin's wedding, I waited two weeks for photos to arrive and then had to scroll through 2,000 images to find the 50 that had me in them. I want to see my photos while I'm still there — still wearing that outfit, still at the venue.",
+        'Wedding guests routinely waited two weeks for event photos to be delivered, then faced thousands of images to scroll through just to find the handful that included them. By the time photos arrived, the moment had long passed.',
       painTag: '⏳ Weeks waiting for photos that should arrive instantly',
     },
     {
@@ -54,7 +54,7 @@ const kameroAi: CaseStudy = {
       age: 34,
       role: 'Event photographer · Mumbai',
       quote:
-        "After a large wedding I have 8,000 photos to sort, cull, and organize before delivery. Manually identifying who's in each photo to create personalized albums is simply impossible at that scale. It's always been a bottleneck.",
+        'Event photographers finishing a large wedding face thousands of images to sort, cull, and organize before any delivery is possible. Manually identifying which photos contain which guest — the prerequisite for personalized albums — is operationally impossible at that volume and has always been the delivery bottleneck.',
       painTag: '📁 Manual sorting of thousands of images is impossible at scale',
     },
     {
@@ -63,7 +63,7 @@ const kameroAi: CaseStudy = {
       age: 38,
       role: 'Founder · Kamero',
       quote:
-        "The 'wow' moment we're building toward is a guest receiving their photos while they're still at the event. That experience — photo taken, phone notification in under 3 seconds — is what premium event photography becomes when AI is the infrastructure.",
+        'Event photography platform founders recognized that sub-3-second delivery — a guest receiving photos while still at the venue — was the defining experience that separated commodity coverage from a premium product. That outcome was only achievable if AI was built into the infrastructure from the ground up.',
       painTag: '⚡ Sub-3-second delivery is the product differentiator to build',
     },
   ],

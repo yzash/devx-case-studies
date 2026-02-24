@@ -45,7 +45,7 @@ const hireforCareAi: CaseStudy = {
       age: 38,
       role: 'Mother of an autistic child · Bengaluru',
       quote:
-        "My son needs consistency more than almost anything. Every time a caregiver doesn't work out, we lose months of progress and I have to start the traumatic process of adjustment all over again. I need the first match to be the right one.",
+        'Families of autistic children depend on caregiver consistency above nearly everything else. Each failed placement erases months of therapeutic progress and forces children through a disorienting adjustment process all over again — making the quality of the first match critical.',
       painTag: '💔 Poor matches disrupting therapy continuity for vulnerable children',
     },
     {
@@ -54,7 +54,7 @@ const hireforCareAi: CaseStudy = {
       age: 29,
       role: 'Caregiver Coordinator · HireForCare HQ',
       quote:
-        "Manually matching families means reading through dozens of profiles, checking qualifications, calling references, running background checks — it takes weeks per placement and I'm still not confident the match will work long-term.",
+        'Caregiver coordinators working through manual matching processes spent weeks per placement — reading profiles, verifying qualifications, calling references, and running background checks — with no reliable way to predict whether the final match would hold long-term.',
       painTag: '⏳ 2-3 weeks manual screening process for every placement',
     },
     {
@@ -63,7 +63,7 @@ const hireforCareAi: CaseStudy = {
       age: 40,
       role: 'CEO · HireForCare',
       quote:
-        "Our platform lives and dies on match quality. If matches fail, families lose trust and caregivers churn. We need matching to be not just faster but genuinely better — based on the factors that actually predict long-term success.",
+        'Platforms built on caregiver matching rise or fall on the quality of those matches. Failed placements erode family trust and drive caregiver churn — making speed an insufficient goal if the underlying match factors are not rooted in what actually predicts long-term success.',
       painTag: '📉 Match failure rate impacting platform trust and caregiver retention',
     },
   ],

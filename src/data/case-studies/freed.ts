@@ -45,7 +45,7 @@ const freed: CaseStudy = {
       age: 24,
       role: 'New brand discoverer · Hyderabad',
       quote:
-        "When I find a new brand I've never heard of, the website is basically the whole first impression. If it loads slowly, looks generic, or feels clunky on my phone — I assume the product is the same. I leave.",
+        'New brand discoverers make snap judgements on mobile — a slow load, a generic layout, or any navigational clumsiness signals that the product behind it is equally unpolished. An unfamiliar brand rarely gets a second chance.',
       painTag: '📱 First impressions made entirely on mobile',
     },
     {
@@ -54,7 +54,7 @@ const freed: CaseStudy = {
       age: 29,
       role: 'Brand Marketing Manager · Freed',
       quote:
-        "We've spent months building a brand identity that feels fresh and modern. The site has to carry that identity from the homepage down to the product page — without looking like every other Shopify store.",
+        'Brand marketing managers who had invested months crafting a distinct identity faced the risk of watching it collapse into generic Shopify defaults. The storefront needed to carry that identity consistently from the homepage through to the product page.',
       painTag: '🎭 Brand identity at risk from generic theme defaults',
     },
     {
@@ -63,7 +63,7 @@ const freed: CaseStudy = {
       age: 33,
       role: 'Co-Founder · Freed',
       quote:
-        "We're a new brand — we don't get the benefit of the doubt on first impressions. The store has to be fast, it has to look great, and it has to be able to grow with us. We can't afford to rebuild in six months.",
+        'New brand founders understand that first impressions carry no goodwill buffer — the store needs to be fast, polished, and architecturally sound from day one. A rebuild six months into launch is a cost that no early-stage brand can absorb.',
       painTag: '🏗️ Launch quality vs. long-term scalability tension',
     },
   ],

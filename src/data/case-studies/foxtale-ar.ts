@@ -45,7 +45,7 @@ const foxtaleAr: CaseStudy = {
       age: 24,
       role: 'Foxtale customer · overwhelmed by skincare choices',
       quote:
-        "Foxtale has so many serums and I genuinely don't know which one is right for my skin. I have combination skin with hyperpigmentation, so sometimes I pick the wrong one. When I saw the skin analysis feature on the app, I tried it immediately. It told me exactly what my skin needed.",
+        "Skincare shoppers with specific concerns like combination skin or hyperpigmentation struggled to identify the right product from a wide range of options and frequently purchased the wrong serum. The absence of personalized guidance made confident product selection difficult.",
       painTag: '🧴 Customers overwhelmed by product options unable to identify their right skincare routine',
     },
     {
@@ -54,7 +54,7 @@ const foxtaleAr: CaseStudy = {
       age: 28,
       role: 'Product Manager · Foxtale Mobile',
       quote:
-        "Our first quiz had only 12-15% completion. Users were dropping off midway. We knew it worked — users who completed it converted at a much higher rate — but the experience wasn't compelling enough to get them to finish. We needed to understand exactly where they were leaving and why.",
+        "Product managers saw a quiz with 12-15% completion and knew that users who finished it converted at a meaningfully higher rate — but the drop-off was happening mid-flow and the specific point of abandonment was unknown. High potential was being stranded behind a broken experience.",
       painTag: '📉 12-15% quiz completion rate — most users abandoning before personalized recommendations',
     },
     {
@@ -63,7 +63,7 @@ const foxtaleAr: CaseStudy = {
       age: 33,
       role: 'Head of Growth · Foxtale',
       quote:
-        "The AR skin analysis was a bet — a significant development investment to prove that personalization drove measurably better commercial outcomes. I needed the feature to show AOV and conversion uplift that justified the build. If it didn't move the metrics, it was a fun feature, not a business feature.",
+        "Growth leads faced the challenge of justifying a significant AR development investment with measurable commercial outcomes. Without clear uplift in conversion rate and average order value, the feature risked being classified as an engagement novelty rather than a revenue driver.",
       painTag: '🎯 AR feature needing measurable commercial ROI to justify the development investment',
     },
   ],

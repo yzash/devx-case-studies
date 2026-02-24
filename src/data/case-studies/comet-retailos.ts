@@ -46,7 +46,7 @@ const cometRetailos: CaseStudy = {
       age: 22,
       role: 'Comet customer · Gen Z sneaker enthusiast',
       quote:
-        "I bought a pair online and wanted to exchange for a different size at the store. I assumed it would be complicated — but the store associate handled it in minutes and the system knew my order immediately. That's the experience I expect from a brand like Comet.",
+        "Customers attempting to exchange online purchases in-store typically expected a complicated process — with disconnected systems, store associates often had no visibility of online order history, making cross-channel service slow and frustrating.",
       painTag: '🔄 Online-to-offline exchanges requiring seamless omnichannel order handling',
     },
     {
@@ -55,7 +55,7 @@ const cometRetailos: CaseStudy = {
       age: 26,
       role: 'Store Associate · Comet Retail',
       quote:
-        "When I started at the store, I had maybe an hour of training before we opened. The POS felt familiar — it looked like an e-commerce site. I was processing sales confidently within the first hour. That almost never happens with retail systems.",
+        "New store associates at retail launches were routinely given minimal training time before opening — traditional POS systems carried enough complexity that staff rarely reached confident operation within the first hours of a shift.",
       painTag: '⏱️ New retail staff needing a system they could master in hours',
     },
     {
@@ -64,7 +64,7 @@ const cometRetailos: CaseStudy = {
       age: 35,
       role: 'Head of Retail Operations · Comet',
       quote:
-        "We had stores opening, staff hired, and inventory flowing in. We needed a complete POS system integrated with Shopify and Unicommerce in three weeks. That's not normally possible. The deployment came in on time without a single launch delay.",
+        "Retail operations heads overseeing simultaneous store openings needed a fully integrated POS — connected to both Shopify and Unicommerce — delivered within three weeks, a timeline that most retail systems could not realistically meet.",
       painTag: '🚀 Three-week launch timeline with zero tolerance for delay',
     },
   ],

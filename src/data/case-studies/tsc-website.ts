@@ -45,7 +45,7 @@ const tscWebsite: CaseStudy = {
       age: 37,
       role: 'Customer · researching mattresses from her phone',
       quote:
-        "I clicked the ad for the SmartGRID mattress and waited. And waited. The page took so long to load I started scrolling Instagram while I waited — and then just moved on. A mattress this expensive deserved a website that matched it.",
+        "Shoppers clicking through paid ads for the SmartGRID mattress were met with an 11-second load time. Attention drifted to other apps while the page loaded, and many did not return — a premium product was being evaluated against a storefront that communicated the opposite of what it cost.",
       painTag: '⏳ 11-second load time causing customer bounce before the page even appeared',
     },
     {
@@ -54,7 +54,7 @@ const tscWebsite: CaseStudy = {
       age: 31,
       role: 'Performance Marketing Manager · The Sleep Company',
       quote:
-        "We were spending significantly on paid traffic and the landing page speed was killing conversions. Our Lighthouse score was 32. We knew what was causing it — but fixing it within Shopify's constraints required expertise we needed to bring in.",
+        "Significant paid traffic budgets were being eroded by landing pages with a Lighthouse performance score of 32. Performance marketing teams understood the cause but lacked the Shopify-specific expertise needed to resolve it without risking existing functionality.",
       painTag: '📉 Poor Lighthouse scores undermining paid traffic conversion rates',
     },
     {
@@ -63,7 +63,7 @@ const tscWebsite: CaseStudy = {
       age: 44,
       role: 'VP Digital · The Sleep Company',
       quote:
-        "For a high-consideration product like a premium mattress, customers research online and then want to visit a store. We had experience centers across India but no way for online visitors to find them or book appointments. We were breaking the purchase journey at the most important moment.",
+        "For a high-consideration product like a premium mattress, digital teams knew customers researched online before visiting a store. Despite a network of experience centers across India, there was no store locator or appointment booking system — the online-to-offline journey was broken at the moment it mattered most.",
       painTag: '🗺️ No store discovery or appointment booking — breaking the online-to-offline journey',
     },
   ],

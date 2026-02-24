@@ -45,7 +45,7 @@ const beautyGarage: CaseStudy = {
       age: 32,
       role: 'Beauty Garage customer · salon-quality haircare enthusiast',
       quote:
-        "I bought a shampoo and it was excellent. But I had to go back to the site a week later to find the matching conditioner. A 'complete the ritual' suggestion when I was buying the shampoo would have helped me discover the right routine from the first visit.",
+        'Beauty Garage customers purchasing a single product — such as a shampoo — had no in-session prompt to discover matching items like conditioners or treatments. Routine completion required a separate return visit, missing an opportunity to build the full haircare ritual in a single session.',
       painTag: '🛍️ Single-product purchases missing routine-completion and product combination discovery',
     },
     {
@@ -54,7 +54,7 @@ const beautyGarage: CaseStudy = {
       age: 28,
       role: 'Brand Manager · Beauty Garage',
       quote:
-        "Our products are formulated to salon professional standards. The ingredients and results are premium. But the website looked like any generic beauty site — the design wasn't communicating the brand standard. I needed pixel-perfect implementation of our brand guidelines, not a close approximation.",
+        'Brand managers at Beauty Garage found that the website communicated a generic beauty standard rather than the salon-professional quality the brand\'s formulations represented. Generic Shopify theme adaptations fell short of the brand guidelines — approximations that were visible and damaging in a premium haircare context.',
       painTag: '🎨 Website design not reflecting salon-professional brand standards and product quality',
     },
     {
@@ -63,7 +63,7 @@ const beautyGarage: CaseStudy = {
       age: 40,
       role: 'Founder · Beauty Garage',
       quote:
-        "Our load times were slow and the design was outdated. But the biggest missed opportunity was the basket size — customers were buying individual products when they should be buying the complete routine. The website wasn't structured to surface how the products worked together.",
+        'Founders at Beauty Garage contended with slow load times and an outdated design, but the most significant commercial gap was basket size. Customers purchased individual products in isolation because the website offered no structure to surface how the shampoo, conditioner, mask, and treatment worked together as a complete professional routine.',
       painTag: '📉 Slow load times, outdated design, and insufficient product combination discovery',
     },
   ],

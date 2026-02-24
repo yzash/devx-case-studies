@@ -45,7 +45,7 @@ const dotAndKeyApp: CaseStudy = {
       age: 24,
       role: 'Skincare-first shopper · Mumbai',
       quote:
-        "The app feels clunky and slow. I keep going back to the website because at least that loads properly. If there are app-only deals I'm probably missing them — the experience just isn't smooth enough to trust.",
+        "Shoppers found the app too slow and unreliable to use with confidence, defaulting back to the website for purchases. App-exclusive deals went undiscovered because the experience itself wasn't smooth enough to stay in.",
       painTag: '📱 Slow, unreliable app experience',
     },
     {
@@ -54,7 +54,7 @@ const dotAndKeyApp: CaseStudy = {
       age: 29,
       role: 'Digital Marketing Manager · Dot & Key HQ',
       quote:
-        "Every time we want to run an app-exclusive offer or update the homepage, we're dependent on a development cycle that takes days. By the time it's live, the moment has passed.",
+        "Marketing managers were blocked from updating app content or launching exclusive offers without going through a multi-day development cycle. Campaign windows regularly closed before changes went live.",
       painTag: '⏳ Content updates blocked by dev cycles',
     },
     {
@@ -63,7 +63,7 @@ const dotAndKeyApp: CaseStudy = {
       age: 33,
       role: 'Product Manager · Dot & Key',
       quote:
-        "We want to run differentiated pricing for app users, but the platform just doesn't support it. And wishlist data resets when users reinstall — we're losing retention signals we should be building on.",
+        "Product managers were unable to offer differentiated pricing for app users because the platform had no mechanism to support it. Wishlist data also reset on reinstall, erasing retention signals the team had no way to recover or act on.",
       painTag: "🚫 Platform can't support the product vision",
     },
   ],

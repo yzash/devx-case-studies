@@ -45,7 +45,7 @@ const repindia: CaseStudy = {
       age: 26,
       role: 'Social Media Executive · RepIndia',
       quote:
-        "I spend most of my day resizing images for different platforms, writing five caption variations for every post, and manually scheduling across accounts. I joined an agency to do creative work. Instead I'm doing production work.",
+        'Social media executives at large digital agencies spent the majority of their working day on repetitive production tasks — resizing images for platform specifications, writing multiple caption variations, and manually scheduling posts — leaving little time for the creative work the role was meant to involve.',
       painTag: '⏱️ Creative talent consumed by production tasks',
     },
     {
@@ -54,7 +54,7 @@ const repindia: CaseStudy = {
       age: 33,
       role: 'Creative Director · RepIndia',
       quote:
-        "My team is talented and capable of brilliant work. But they have no bandwidth for strategic creative because every campaign consumes them with execution. We can't A/B test, we can't iterate, we can't experiment — we barely have time to deliver.",
+        'Creative directors leading talented teams found that campaign execution overhead left no bandwidth for strategic creative work — A/B testing, format experimentation, and iterative improvement were consistently deprioritized because the team was fully consumed just delivering the minimum required output.',
       painTag: '🧠 No bandwidth for strategic creative or experimentation',
     },
     {
@@ -63,7 +63,7 @@ const repindia: CaseStudy = {
       age: 38,
       role: 'Head of Performance · RepIndia',
       quote:
-        "Campaign CVR for our clients has plateaued. We know what we need to do — more testing, better timing, data-driven iterations — but the team is too stretched to execute what we know would improve results.",
+        'Performance leads at agencies watched client campaign CVR plateau even when the strategic remedies were clear — more testing, smarter timing, data-driven iteration — because the team was too stretched by production work to act on what the data was telling them.',
       painTag: '📉 Campaign CVR plateauing due to bandwidth constraints',
     },
   ],

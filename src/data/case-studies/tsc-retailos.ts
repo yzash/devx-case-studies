@@ -46,7 +46,7 @@ const tscRetailos: CaseStudy = {
       age: 43,
       role: 'Customer · considering a premium mattress purchase',
       quote:
-        "Buying a mattress is a considered decision. I visited the experience center expecting expert guidance — and the associate showed me products matched to my sleep position and budget right on the POS screen. It felt like a consultation, not a transaction.",
+        "Customers visiting experience centers for a high-consideration mattress purchase expected expert, personalised guidance. Without intelligent recommendation tools at the point of sale, associates had no way to surface products matched to individual sleep needs and budgets.",
       painTag: '💡 Consultative mattress purchasing requiring intelligent in-store recommendation tools',
     },
     {
@@ -55,7 +55,7 @@ const tscRetailos: CaseStudy = {
       age: 28,
       role: 'Store Associate · The Sleep Company Experience Center',
       quote:
-        "Previously, managing EMI payments, tracking which coupons were valid, checking warehouse stock for home delivery — all of it required separate systems or phone calls. Now it's all in one place. I can focus on the customer instead of the process.",
+        "Store associates managing EMI payments, coupon validation, and warehouse stock queries for home delivery were forced to navigate separate systems and make manual phone calls mid-sale. The operational complexity pulled attention away from the customer at the exact moment it mattered most.",
       painTag: '⚙️ Store associates juggling multiple disconnected systems during complex sales',
     },
     {
@@ -64,7 +64,7 @@ const tscRetailos: CaseStudy = {
       age: 39,
       role: 'Director of Retail Operations · The Sleep Company',
       quote:
-        "Our experience centers were growing but our operational visibility wasn't. Online and offline data lived separately. Cash handovers were manual. Inventory between warehouse and stores required manual reconciliation after every day. We were building a premium brand on a fragmented operations stack.",
+        "Retail operations directors overseeing a growing network of experience centers had no unified view across online and offline channels. Cash handovers were manual, inventory between warehouse and stores required daily reconciliation, and a premium brand was being run on a fragmented operations stack.",
       painTag: '🗂️ Online and offline operations siloed — growing reconciliation burden across experience centers',
     },
   ],

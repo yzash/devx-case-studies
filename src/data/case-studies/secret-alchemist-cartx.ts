@@ -46,7 +46,7 @@ const secretAlchemistCartx: CaseStudy = {
       age: 26,
       role: 'Secret Alchemist customer · fragrance enthusiast',
       quote:
-        "I added a perfume to my cart and was about to checkout when I noticed a 'complete your collection' suggestion showing a complementary fragrance. I hadn't thought about layering before — but the suggestion made sense and I added it. The cart made me a better shopper.",
+        'Fragrance shoppers checking out with a single perfume had no visibility into complementary products that would complete a layered scent experience — the opportunity to discover the brand\'s collection-building philosophy was absent at the highest-intent moment in the purchase journey.',
       painTag: '🛒 Single-product cart sessions missing layering and complementary fragrance opportunities',
     },
     {
@@ -55,7 +55,7 @@ const secretAlchemistCartx: CaseStudy = {
       age: 29,
       role: 'E-Commerce Manager · Secret Alchemist',
       quote:
-        "Our standard Shopify cart was basic — items listed, total shown, checkout button. There was no mechanism for upselling, no incentive to add more products, and the cart disappeared when you navigated away. A premium fragrance brand deserves a premium cart experience.",
+        'E-commerce managers at premium fragrance brands were stuck with a basic Shopify cart that listed items and showed a total with no upsell capability, no free shipping incentive mechanism, and no persistent visibility when customers navigated away — a cart experience that did nothing to reflect the brand\'s premium positioning.',
       painTag: '💸 Basic Shopify cart missing upsell mechanics, progress bars, and persistent visibility',
     },
     {
@@ -64,7 +64,7 @@ const secretAlchemistCartx: CaseStudy = {
       age: 35,
       role: 'Co-Founder · Secret Alchemist',
       quote:
-        "The fragrances in our collection are designed to complement each other — that's core to our brand philosophy. But the cart wasn't communicating that. Customers bought one and missed the collection-building experience we'd designed the range around.",
+        'Fragrance brand founders who had designed collections around complementary layering found that the cart communicated none of that philosophy — customers bought a single product and left without ever encountering the collection-building experience the range had been architected to create.',
       painTag: '🎭 Collection-building brand philosophy not reflected in a cart that shows only single items',
     },
   ],

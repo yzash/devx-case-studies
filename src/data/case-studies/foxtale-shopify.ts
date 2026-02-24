@@ -45,7 +45,7 @@ const foxtaleShopify: CaseStudy = {
       age: 25,
       role: 'Foxtale customer · adding products to cart during a promotion',
       quote:
-        "Every time I changed a quantity in my cart, I had to wait three seconds before I could do anything else. On a phone during a flash sale, that's an eternity. I almost gave up adding items.",
+        'Shoppers adjusting cart quantities during flash sales faced a three-second wait before the page became usable again. On mobile, that lag was long enough to break purchase momentum and push customers toward abandonment.',
       painTag: '⏱️ 3-second cart update lag frustrating customers during promotions',
     },
     {
@@ -54,7 +54,7 @@ const foxtaleShopify: CaseStudy = {
       age: 29,
       role: 'Marketing Manager · Foxtale',
       quote:
-        "I had promotional ideas — collection-specific offers, freebies triggered by cart value, page-specific banners — but every single one required a developer to build it. My campaign velocity was limited by the dev sprint calendar, not by my creativity.",
+        'Marketing managers with ideas for collection-specific offers, cart-value freebies, and page-level banners were blocked at every turn — each promotional concept required a developer to implement, making campaign velocity a function of the sprint calendar rather than marketing ambition.',
       painTag: '⏳ Every promotional change requiring developer intervention — marketing blocked',
     },
     {
@@ -63,7 +63,7 @@ const foxtaleShopify: CaseStudy = {
       age: 31,
       role: 'Engineering Lead · Foxtale',
       quote:
-        "The headless migration was coming, but it wasn't ready yet. We needed immediate improvements within Shopify — faster cart, more marketing flexibility — to bridge the gap. We had to push the platform further than its standard capabilities without breaking existing workflows.",
+        'Engineering leads found themselves needing to deliver meaningful improvements within an existing Shopify setup while the headless migration was still maturing. The platform had to be pushed beyond its standard capabilities without disrupting the workflows already in production.',
       painTag: '🔧 Bridge needed between current Shopify limitations and upcoming headless migration',
     },
   ],

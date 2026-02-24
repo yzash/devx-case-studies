@@ -45,7 +45,7 @@ const raymond: CaseStudy = {
       age: 38,
       role: 'Digital Marketing Director · Raymond Group',
       quote:
-        "We were running campaigns across Google, Meta, and email for five premium brands. But our attribution data was basic — last-click only, no cross-channel visibility. I was making multi-crore budget decisions based on incomplete information about which campaigns were actually driving purchase intent.",
+        'Marketing directors running multi-crore campaigns across Google, Meta, and email for several premium brands were forced to make budget decisions on last-click attribution alone — with no cross-channel visibility into which campaigns were genuinely driving purchase intent across a multi-session, multi-device customer journey.',
       painTag: '📊 Multi-crore marketing budget allocated on incomplete attribution data',
     },
     {
@@ -54,7 +54,7 @@ const raymond: CaseStudy = {
       age: 30,
       role: 'Product Manager · MyRaymond',
       quote:
-        "I knew we had a checkout drop-off but I couldn't tell you where in the funnel it was happening. Aggregate conversion rates are interesting but they don't tell you what to fix. I needed step-level funnel data for each brand — which we didn't have before GA4.",
+        'Product managers could see checkout drop-off in aggregate conversion rates but had no step-level visibility into where in the funnel it was occurring — or which brand was most affected — making it impossible to identify and fix the specific cause.',
       painTag: '🔍 Checkout drop-off visible in aggregates but step-level cause impossible to identify',
     },
     {
@@ -63,7 +63,7 @@ const raymond: CaseStudy = {
       age: 45,
       role: 'VP E-Commerce · Raymond Group',
       quote:
-        "With five premium brands on one platform, we needed to understand not just overall performance but brand-specific user behavior. How do customers move between Raymond and Park Avenue? Where does cross-brand discovery happen? Which brand's customers have the highest LTV? This was all invisible.",
+        'E-commerce leaders operating multi-brand platforms had no visibility into brand-specific user behavior — cross-brand navigation patterns, where discovery happened between brands, and which brand\'s customers carried the highest lifetime value were all entirely invisible in aggregate reporting.',
       painTag: '🏷️ Multi-brand behavioral data invisible — cross-brand patterns and brand-level LTV unknown',
     },
   ],

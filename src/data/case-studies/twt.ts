@@ -45,7 +45,7 @@ const twt: CaseStudy = {
       age: 27,
       role: 'Regular TWT shopper · Bengaluru',
       quote:
-        "I love the brand but the site crawls during sale days. I've had my cart disappear twice mid-checkout. I just want to buy my bars without the drama.",
+        "Shoppers during sale periods encountered pages that crawled and carts that failed mid-checkout. Loyal customers lost orders they had already committed to completing, creating unnecessary friction for a routine repurchase.",
       painTag: '🛒 Cart failures & slow pages',
     },
     {
@@ -54,7 +54,7 @@ const twt: CaseStudy = {
       age: 31,
       role: 'Content & Campaign Manager · The Whole Truth HQ',
       quote:
-        "Every new collection launch means another round of messy workarounds. We have product pages, category pages, landing pages — all with different layouts, and no clean way to manage them.",
+        "Content and campaign managers faced a different set of messy workarounds with every new collection launch. Product pages, category pages, and landing pages each required their own approach, with no unified system capable of managing the full range of layouts cleanly.",
       painTag: '📂 Content chaos across page patterns',
     },
     {
@@ -63,7 +63,7 @@ const twt: CaseStudy = {
       age: 35,
       role: 'Head of Product & Engineering · The Whole Truth',
       quote:
-        "Dukaan was blocking us at every turn. Rolling out a feature that should take a week was taking a month. We needed a stack we actually owned.",
+        "Engineering teams working within Dukaan's constraints found that features requiring a week of development were taking a month to ship. Platform limitations had turned routine product work into a slow, permission-constrained process the team had no way to accelerate.",
       painTag: '🐢 Platform limitations blocking feature velocity',
     },
   ],

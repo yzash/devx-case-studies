@@ -45,7 +45,7 @@ const aizaWebsite: CaseStudy = {
       age: 32,
       role: 'Premium beauty shopper · Dubai',
       quote:
-        "I discovered AÏZA through a recommendation and the products are genuinely beautiful — but finding the right one on the site feels harder than it should. The layout doesn't guide me.",
+        'Premium beauty shoppers arriving at the AÏZA site through recommendations found the layout provided no clear path to the right product. Despite strong word-of-mouth, the purchase journey lacked the guidance needed to convert discovery into a decision.',
       painTag: '🗺️ No clear purchase journey hierarchy',
     },
     {
@@ -54,7 +54,7 @@ const aizaWebsite: CaseStudy = {
       age: 28,
       role: 'Digital Merchandiser · AÏZA HQ',
       quote:
-        "The theme defaults look nothing like our brand. Every product card, every layout — we need it to carry the premium aesthetic we've built everywhere else. Right now it's doing the opposite.",
+        'Digital merchandisers at AÏZA found that Shopify theme defaults actively undermined the premium aesthetic the brand had established across other channels. Product cards and page layouts presented the range at odds with the identity built everywhere else.',
       painTag: '🎨 Theme defaults clash with brand identity',
     },
     {
@@ -63,7 +63,7 @@ const aizaWebsite: CaseStudy = {
       age: 40,
       role: 'Head of Ecommerce · AÏZA',
       quote:
-        "Add-to-Cart is buried. Trust signals are inconsistent. Shoppers are getting to the product page and leaving without converting. Our brand deserves better — so do our conversion rates.",
+        'Ecommerce leads at AÏZA observed shoppers reaching the product page and leaving without converting — a pattern traced to buried Add-to-Cart placement and inconsistent trust signals. Conversion elements lacked the intentional hierarchy needed to move shoppers from consideration to purchase.',
       painTag: '📉 Conversion elements misaligned and buried',
     },
   ],

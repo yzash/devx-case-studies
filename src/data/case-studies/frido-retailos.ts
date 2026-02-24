@@ -46,7 +46,7 @@ const fridoRetailos: CaseStudy = {
       age: 38,
       role: 'Corporate Procurement Manager · Frido B2B customer',
       quote:
-        "I wanted to place a bulk order for ergonomic seat cushions for our office — but the store couldn't generate a formal quotation. I needed GST-compliant invoicing and an official quote to get finance approval. Without that, I had to walk away.",
+        'Corporate procurement managers looking to place bulk orders for ergonomic products were turned away by stores that could not generate formal quotations. Without GST-compliant invoicing and an official quote for finance approval, bulk B2B sales simply could not proceed.',
       painTag: '📄 B2B buyers requiring formal quotation and GST-compliant invoicing at POS',
     },
     {
@@ -55,7 +55,7 @@ const fridoRetailos: CaseStudy = {
       age: 27,
       role: 'Store Manager · Frido Retail',
       quote:
-        "Our products have different prices on Amazon and Flipkart. Customers come in quoting online prices and I have no easy way to verify or match them. And multi-pack bundles are priced differently again. Without a system to handle this, pricing becomes a daily negotiation.",
+        'Store managers at Frido retail locations dealt with daily friction from marketplace price disparities — customers arriving with Amazon or Flipkart prices and no reliable in-store system to verify or match them. Multi-pack bundle pricing added another layer of inconsistency that turned every shift into an improvised negotiation.',
       painTag: '💱 Marketplace price parity and multi-pack pricing creating daily store friction',
     },
     {
@@ -64,7 +64,7 @@ const fridoRetailos: CaseStudy = {
       age: 41,
       role: 'VP Operations · Frido',
       quote:
-        "Every time we open a new store, it takes weeks to configure the backend, sync pricing, and get the team operational. And then reconciliation between what's in Shopify, what's in Unicommerce, and what's in the store takes hours every day. We needed systems that worked together, not separately.",
+        'Operations teams opening new Frido stores faced weeks of backend configuration before a location could go live. Once operational, reconciling data across Shopify, Unicommerce, and the in-store system consumed hours each day — overhead that compounded with every new location added.',
       painTag: '⏳ Multi-system reconciliation consuming ops team hours across every store',
     },
   ],

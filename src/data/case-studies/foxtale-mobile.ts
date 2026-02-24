@@ -45,7 +45,7 @@ const foxtaleMobile: CaseStudy = {
       age: 24,
       role: 'Foxtale customer · daily skincare routine enthusiast',
       quote:
-        "I browse the website on my phone but it never feels quite right. I have to zoom in on product descriptions, the cart is awkward, and I miss notifications about restocks. I'd been waiting for a Foxtale app — when it launched, I downloaded it immediately.",
+        'Skincare shoppers browsing on mobile found the website awkward to navigate — product descriptions required zooming, the cart felt clunky, and there was no way to receive restock notifications. A native app was the experience they had been waiting for.',
       painTag: '📱 Mobile web experience not matching the engagement depth a native app delivers',
     },
     {
@@ -54,7 +54,7 @@ const foxtaleMobile: CaseStudy = {
       age: 28,
       role: 'Product Lead · Foxtale',
       quote:
-        "We had a 30-day deadline because of a marketing window we wanted to hit for the app launch. A feature-complete mobile commerce app in 30 days isn't typical. We needed a technical partner who could move as fast as we needed to without compromising on quality.",
+        'Product leads faced a firm 30-day deadline tied to a committed marketing window. Delivering a feature-complete mobile commerce app in that timeframe was an atypical ask — one that required a technical partner capable of matching the pace without sacrificing quality.',
       painTag: '⏰ 30-day launch timeline for a full-featured native mobile commerce application',
     },
     {
@@ -63,7 +63,7 @@ const foxtaleMobile: CaseStudy = {
       age: 32,
       role: 'Head of Growth · Foxtale',
       quote:
-        "Our website converted at 3.7%. I wanted the app to beat that significantly — native apps should convert better because the experience is more intentional. If we built the right flow and got the engagement features right, 5%+ was achievable. We needed to build for that outcome from day one.",
+        'Growth teams knew the website converted at 3.7% and expected a native app to do measurably better — the intentionality of the mobile experience made 5%+ a realistic target, but only if the flow and engagement features were built for that outcome from the first line of code.',
       painTag: '🎯 App conversion rate needed to measurably outperform website from launch',
     },
   ],

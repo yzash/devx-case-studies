@@ -45,7 +45,7 @@ const levisons: CaseStudy = {
       age: 28,
       role: 'Regular shopper · Johannesburg',
       quote:
-        "The site takes so long to load and the pages don't scroll smoothly. I've left mid-browse more times than I'd like. I just want it to feel effortless.",
+        'Regular shoppers on the Levison\'s site encountered slow page loads and jerky scrolling that repeatedly broke browsing sessions mid-flow. The accumulated friction pushed customers away before a purchase decision could form.',
       painTag: '⚡ Slow browsing & friction',
     },
     {
@@ -54,7 +54,7 @@ const levisons: CaseStudy = {
       age: 36,
       role: 'Digital Merchandiser · Levison\'s HQ',
       quote:
-        "Every catalogue update takes longer than it should. I need to move fast when new stock arrives — but the platform slows me down every step of the way.",
+        'Digital merchandisers responsible for keeping the catalogue current found the platform added friction to every step of a stock update. The time it took to reflect new arrivals online consistently lagged behind what the pace of the business demanded.',
       painTag: '🐢 Slow operational turnaround',
     },
     {
@@ -63,7 +63,7 @@ const levisons: CaseStudy = {
       age: 33,
       role: 'Head of Digital · Levison\'s',
       quote:
-        "We've built real SEO equity over the years. Any migration that damages our rankings is a business risk, not just a technical one. I need a clean, structured move.",
+        'Digital heads overseeing platform migrations are acutely aware that years of accumulated SEO equity can be wiped out by a poorly executed move. Ranking losses from a migration are a direct business risk — not a side effect that can be corrected later.',
       painTag: '📉 SEO continuity risk',
     },
   ],

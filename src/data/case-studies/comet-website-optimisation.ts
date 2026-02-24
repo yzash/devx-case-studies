@@ -45,7 +45,7 @@ const cometWebsiteOptimisation: CaseStudy = {
       age: 20,
       role: 'Comet customer · hypebeast on his phone',
       quote:
-        "When a drop goes live I check Comet on my phone immediately. But the homepage and collection pages were slow to load — especially on 4G. By the time everything loaded, the sizes I wanted were gone. Fast is the minimum requirement for a sneaker brand.",
+        "Sneaker enthusiasts checking a drop on their phones faced homepage and collection pages that loaded slowly on 4G — by the time the content appeared, the sizes sought had already sold out, turning a performance issue directly into a missed purchase.",
       painTag: '⏱️ Slow mobile load times causing drop misses and bounce before content appeared',
     },
     {
@@ -54,7 +54,7 @@ const cometWebsiteOptimisation: CaseStudy = {
       age: 28,
       role: 'Performance Marketing Manager · Comet',
       quote:
-        "Our paid campaigns were driving strong click-through rates but the landing page performance was eating our conversion. Slow load times on mobile create a gap between the ad promise and the landing page experience. We were paying for traffic that was bouncing before converting.",
+        "Performance marketing managers saw strong click-through rates from paid campaigns fail to translate into conversions — slow mobile landing page load times created a drop-off between the ad click and the product page, with paid traffic bouncing before completing a purchase.",
       painTag: '📉 Paid traffic converting below potential due to landing page load time',
     },
     {
@@ -63,7 +63,7 @@ const cometWebsiteOptimisation: CaseStudy = {
       age: 31,
       role: 'Head of Digital Product · Comet',
       quote:
-        "Comet is a design-forward brand. The visual quality of our collections is a brand standard. But having that visual richness come at a performance cost was a tradeoff we couldn't accept. We needed the site to be both beautiful and fast — not one or the other.",
+        "Digital product heads at design-forward brands faced a persistent tension between visual richness and page performance — the high-quality imagery that defined the brand standard was also responsible for the load overhead that undermined the browsing experience.",
       painTag: '🎨 Rich visual experience and performance at odds — brand standard requiring both',
     },
   ],

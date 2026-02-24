@@ -19,15 +19,14 @@ export default function PeopleSection({ data }: PeopleSectionProps) {
         </p>
         <div className={styles.grid}>
           {data.personas.map((persona, i) => (
-            <div key={persona.name} className={`${styles.card} ${styles[`card${i}`]}`}>
+            <div key={i} className={`${styles.card} ${styles[`card${i}`]}`}>
               <div className={styles.top}>
                 <div className={styles.avatar}>{persona.avatar}</div>
                 <div>
-                  <div className={styles.name}>{persona.name}, {persona.age}</div>
                   <div className={styles.role}>{persona.role}</div>
                 </div>
               </div>
-              <p className={styles.quote}>&ldquo;{persona.quote}&rdquo;</p>
+              <p className={styles.quote}>{persona.quote}</p>
               <span className={styles.pain}>{persona.painTag}</span>
             </div>
           ))}

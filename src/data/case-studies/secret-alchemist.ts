@@ -45,7 +45,7 @@ const secretAlchemist: CaseStudy = {
       age: 29,
       role: 'Conscious beauty consumer · first visit to Secret Alchemist',
       quote:
-        "I found Secret Alchemist through Instagram and clicked through to the site. I knew it was co-founded by Samantha and that it was 'clean' — but I didn't really understand what that meant for this brand specifically. The homepage didn't answer that immediately. I had to dig.",
+        'Conscious beauty shoppers arriving from social media already knew the brand was "clean" but found the homepage unable to explain what that meant in specific terms — the clean perfume positioning was not immediately communicated, requiring visitors to dig through the site to find what differentiated the brand.',
       painTag: '❓ First-time visitors not understanding clean perfume positioning from homepage',
     },
     {
@@ -54,7 +54,7 @@ const secretAlchemist: CaseStudy = {
       age: 27,
       role: 'Content and Brand Lead · Secret Alchemist',
       quote:
-        "The brand story is exceptional — Indian botanicals, toxin-free formulations, conscious luxury. But the About Us page wasn't telling it. It felt generic rather than distinctive. The story that made us different wasn't the first thing you read.",
+        'Content leads at clean beauty brands with genuinely distinctive founding stories found their About Us pages failing to communicate what made the brand different — the narrative around Indian botanicals, toxin-free formulations, and conscious luxury was buried in generic page structures rather than leading the experience.',
       painTag: '📖 About Us page not communicating brand authenticity or clean beauty differentiation',
     },
     {
@@ -63,7 +63,7 @@ const secretAlchemist: CaseStudy = {
       age: 38,
       role: 'CEO · Secret Alchemist',
       quote:
-        "We're India's first clean perfume brand. That's a significant positioning statement — and the homepage should make it impossible to miss. The visual design needs to feel premium but approachable, the copy needs to be compelling, and the brand values need to be front and center.",
+        'Brand CEOs holding a significant and defensible positioning — such as being a category-first clean perfume brand in India — found that the homepage design failed to make that positioning unmissable, with brand values and visual premium perception both falling short of what the founding story deserved.',
       painTag: '🏆 India-first clean perfume positioning not prominent enough in homepage design',
     },
   ],

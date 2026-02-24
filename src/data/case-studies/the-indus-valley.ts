@@ -45,7 +45,7 @@ const theIndusValley: CaseStudy = {
       age: 33,
       role: 'Health-conscious home cook · Chennai',
       quote:
-        "I found The Indus Valley through an article on toxin-free cooking and went to the site excited — but the pages loaded slowly and the product images took forever on mobile. I bought eventually, but nearly didn't.",
+        "Shoppers arriving from editorial content on toxin-free living found product images loading slowly and pages stalling on mobile. Purchase intent built outside the site eroded quickly once they were on it.",
       painTag: '📱 Slow mobile page loads eroding purchase intent',
     },
     {
@@ -54,7 +54,7 @@ const theIndusValley: CaseStudy = {
       age: 35,
       role: 'Digital Operations Manager · The Indus Valley HQ',
       quote:
-        "Our traffic is growing but our conversion rate isn't keeping pace. Performance metrics keep showing up in audits as the issue, but we've struggled to systematically address it without breaking existing functionality.",
+        "Traffic growth was not translating to conversion growth, with performance metrics consistently flagged in audits as the cause. Systematically addressing the issues without breaking existing functionality proved difficult to manage internally.",
       painTag: '📉 Traffic growth not translating to conversion',
     },
     {
@@ -63,7 +63,7 @@ const theIndusValley: CaseStudy = {
       age: 42,
       role: 'Head of Ecommerce · The Indus Valley',
       quote:
-        "Everything we sell is premium and crafted to a high standard. Our website should reflect the same standard — but a slow site communicates the opposite of what our brand stands for.",
+        "A brand built on premium craftsmanship was being represented by a storefront that loaded slowly and performed inconsistently. The gap between product quality and site performance was directly at odds with what the brand stood for.",
       painTag: '🐢 Site performance misaligned with brand quality positioning',
     },
   ],

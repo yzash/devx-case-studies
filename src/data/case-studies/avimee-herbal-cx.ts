@@ -45,7 +45,7 @@ const avimeeHerbalCx: CaseStudy = {
       age: 34,
       role: 'Customer · experiencing hair loss and scalp issues',
       quote:
-        "I tried three different products from different brands before I found Avimee. None of them solved the problem because none of them asked me the right questions. The Scalp Test told me I had two root causes — stress-induced and hormonal — and recommended a specific regimen. For the first time, I was buying with confidence.",
+        'Customers experiencing hair loss cycled through multiple products across brands without resolution, because no tool identified the underlying root causes of their condition. Without diagnostic clarity — such as a stress-induced or hormonal trigger — purchases were guesses rather than informed decisions.',
       painTag: '🧬 Customers buying wrong products due to generic recommendations and no root cause diagnosis',
     },
     {
@@ -54,7 +54,7 @@ const avimeeHerbalCx: CaseStudy = {
       age: 28,
       role: 'Brand Manager · Avimee Herbal',
       quote:
-        "Every time we wanted to add a new question or adjust the scoring logic for the Scalp Test, it required a developer sprint. We had new clinical insights we wanted to incorporate but couldn't do it ourselves. We needed control over our own diagnostic tool.",
+        'Brand managers at Avimee Herbal were blocked from updating the Scalp Test whenever new clinical insights emerged. Adding questions or adjusting scoring logic required a full developer sprint, creating a persistent lag between the brand\'s knowledge and what the diagnostic tool could actually reflect.',
       painTag: '⏳ Brand team blocked from updating diagnostic logic without developer involvement',
     },
     {
@@ -63,7 +63,7 @@ const avimeeHerbalCx: CaseStudy = {
       age: 42,
       role: 'Founder · Avimee Herbal',
       quote:
-        "Our average order value was stuck at ₹700-900. Customers were buying one product at a time because they didn't know what else to buy. The Scalp Test was conceived as our competitive moat — personalized diagnosis that led to personalized regimens. We needed it to work technically as well as it worked conceptually.",
+        'Founders at Avimee Herbal saw average order value plateau at ₹700-900 as customers purchased one product at a time, unaware of what else their condition required. The Scalp Test concept — personalized diagnosis leading to personalized regimens — needed technical execution that matched the ambition behind it.',
       painTag: '📉 AOV plateau at ₹700-900 — single-product purchases missing regimen opportunity',
     },
   ],

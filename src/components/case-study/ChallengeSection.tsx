@@ -2,7 +2,7 @@ import { CaseStudy } from '@/types/case-study'
 import styles from './ChallengeSection.module.css'
 
 interface ChallengeSectionProps {
-  data: Pick<CaseStudy, 'challengeParagraphs' | 'challengeTension' | 'challengeMetrics'>
+  data: Pick<CaseStudy, 'challengeHeadline' | 'challengeParagraphs' | 'challengeTension' | 'challengeMetrics'>
 }
 
 export default function ChallengeSection({ data }: ChallengeSectionProps) {
@@ -12,9 +12,7 @@ export default function ChallengeSection({ data }: ChallengeSectionProps) {
         <div className={styles.layout}>
           <div className={styles.copy}>
             <div className="section-label">The Challenge</div>
-            <h2 className="section-title">
-              Luxury doesn&apos;t forgive a slow page<br />or a broken checkout.
-            </h2>
+            <h2 className="section-title" dangerouslySetInnerHTML={{ __html: data.challengeHeadline ?? 'The challenge that needed solving.' }} />
             {data.challengeParagraphs.map((para, i) => (
               <p key={i}>{para}</p>
             ))}

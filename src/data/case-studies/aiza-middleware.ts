@@ -23,6 +23,7 @@ const aizaMiddleware: CaseStudy = {
     { label: 'Impact Pillar', value: 'Enterprise Architecture' },
   ],
 
+  brandHeadline: "Arab heritage, modern fulfilment.<br />Not a single manual step between them.",
   brandIntro: [
     "AÏZA is a premium beauty brand serving a global audience with international order fulfilment requirements. As order volumes scaled across markets, the operational infrastructure connecting Shopify to the Aramex Warehouse Management System had become a daily source of manual effort, risk, and delay.",
     "The core problem was architectural: Shopify's order data structure didn't align with what Aramex WMS expected. Every order required human intervention to bridge the gap. For a brand growing internationally, that dependency wasn't sustainable — and every manual step was a potential fulfilment failure.",
@@ -36,6 +37,7 @@ const aizaMiddleware: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the ops manager translating orders by hand and the founder watching fulfilment errors compound.",
   peopleIntro:
     'Three people spent significant time every day managing a problem that should have been invisible. The middleware was built to give that time back.',
   personas: [
@@ -68,6 +70,7 @@ const aizaMiddleware: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Every AÏZA order required manual reformatting before it could ship.",
   challengeParagraphs: [
     "Shopify and Aramex WMS were speaking different languages. The gap between them required Fatima's team to act as daily translators — reformatting, enriching, and validating every order before it could enter the warehouse pipeline. For a growing international brand, this was operational debt accumulating with every order.",
     "The WMS integration timeline was too lengthy to allow customisation from the warehouse side. Relying on Aramex to change their system wasn't viable. The solution had to live in between — a middleware layer that transformed data automatically, handled international logistics requirements, and removed the human from a process that should run without one.",
@@ -82,6 +85,7 @@ const aizaMiddleware: CaseStudy = {
     { name: 'Operational team time consumed', value: 'High', barPercent: 80, barStyle: 'soft' },
   ],
 
+  approachHeadline: "A custom middleware layer transforming Shopify data into Aramex-ready logistics intelligence.",
   approachIntro:
     "The middleware layer was designed so Fatima, Tariq, and Sara would stop noticing the integration entirely — because a good system is invisible.",
   approachCards: [
@@ -129,6 +133,7 @@ const aizaMiddleware: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "90% reduction in ops involvement, 98% order pass rate, zero manual steps at fulfilment.",
   resultCards: [
     {
       number: '90%',

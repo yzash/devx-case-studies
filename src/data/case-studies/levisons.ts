@@ -23,6 +23,7 @@ const levisons: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "South Africa's multi-brand fashion retailer,<br />migrated without losing a single ranking.",
   brandIntro: [
     "Levison's is a South Africa–based multi-brand retail destination offering curated collections from globally recognised fashion and lifestyle labels. With an established digital presence and a loyal customer base, the brand needed more than a facelift — it needed a platform capable of growing with it.",
     'The existing Shopify setup had served its purpose, but structural limitations were slowing everything down: page speeds, operational workflows, and the team\'s ability to keep pace with the brand. The move to Fynd was about unlocking what the brand was always capable of.',
@@ -36,6 +37,7 @@ const levisons: CaseStudy = {
     { name: 'Year', value: '2026' },
   ],
 
+  peopleHeadline: "Built for the brand manager watching organic traffic through the migration, the digital lead managing a live catalog with no disruption window, and the eCommerce team building on a more capable platform.",
   peopleIntro:
     'Three people felt the weight of the old platform every day. The migration was designed to lift that weight from all of them.',
   personas: [
@@ -68,6 +70,7 @@ const levisons: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Levison's Shopify-to-Fynd migration needed SEO rankings preserved through a complete URL structure change.",
   challengeParagraphs: [
     "Levison's had outgrown Shopify — not in terms of scale alone, but in terms of capability. The platform's structural constraints meant that improving one thing often meant compromising another. URL structures were inconsistent, sitemaps weren't optimised, and frontend performance lagged behind what modern shoppers expect.",
     "The migration challenge wasn't just technical. Every change carried the risk of disrupting live operations, losing SEO equity earned over years, and unsettling a customer base that expected continuity. The brief demanded a move that was thorough enough to fix everything — and careful enough to break nothing.",
@@ -82,6 +85,7 @@ const levisons: CaseStudy = {
     { name: 'Live-site migration risk', value: 'High', barPercent: 88, barStyle: 'gold' },
   ],
 
+  approachHeadline: "Sitemap restructure, redirect mapping, SEO preservation strategy, and frontend performance optimization on Fynd.",
   approachIntro:
     "We treated this as a transformation, not just a technical lift-and-shift. Every decision mapped back to a real person who'd feel the difference.",
   approachCards: [
@@ -129,6 +133,7 @@ const levisons: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "SEO rankings stabilized, faster catalogue updates, improved browsing speed — zero downtime through migration.",
   resultCards: [
     {
       number: '↑↑',

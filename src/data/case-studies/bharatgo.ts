@@ -23,6 +23,7 @@ const bharatgo: CaseStudy = {
     { label: 'Impact Pillar', value: 'AI - Ops' },
   ],
 
+  brandHeadline: "D2C empowerment for 10,000 sellers.<br />GenAI turning hours into minutes.",
   brandIntro: [
     "BharatGo is a high-growth no-code SaaS platform backed by IIIT Kottayam and funded under Startup India, empowering 10,000+ Indian D2C brands and local entrepreneurs to launch professional e-commerce stores instantly. The platform's mission is democratisation — making professional online retail accessible to street vendors, boutique owners, and first-time entrepreneurs across India who have the products but not the digital skills.",
     "The core challenge was a skills gap embedded in the platform's user base. Most sellers couldn't write compelling product descriptions, edit images professionally, or create marketing content. This gap was costing them 4-6 hours per store setup and costing BharatGo $5,000+ monthly in manual support overhead. A comprehensive GenAI implementation transformed every bottleneck into an automated capability.",
@@ -36,6 +37,7 @@ const bharatgo: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the first-time seller paralyzed by content creation, the support team overwhelmed by tickets, and the founder scaling to millions of SKUs.",
   peopleIntro:
     "Three people were being failed by a platform that promised simplicity but delivered a 4-6 hour manual ordeal — a seller with a product and no digital skills, a support manager drowning in queries, and an engineering leader who needed to scale.",
   personas: [
@@ -68,6 +70,7 @@ const bharatgo: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "BharatGo's sellers needed a store launch in minutes, not the 4–6 hours automation hadn't solved.",
   challengeParagraphs: [
     "Ravi's situation was replicated across thousands of BharatGo sellers. The skills required to create a professional online store — writing SEO-optimised product titles, editing product photographs, generating social content, maintaining positive reviews — were skills that most small Indian entrepreneurs simply didn't have. The platform removed the technical barrier to launching a store. The content barrier remained, and it was equally disqualifying.",
     "For BharatGo, the operational math was unsustainable. $5,000+ monthly in manual support costs and a 4-6 hour onboarding process meant that seller growth was creating financial pressure rather than financial leverage. Arjun needed every new seller to be served largely without additional human input — and a GenAI implementation across five operational pillars was the architecture that made it possible.",
@@ -82,6 +85,7 @@ const bharatgo: CaseStudy = {
     { name: 'Fake review and multilingual moderation', value: 'Fully manual', barPercent: 78, barStyle: 'soft' },
   ],
 
+  approachHeadline: "Amazon Bedrock for product descriptions, SageMaker for image enhancement, RAG chatbots for self-service resolution.",
   approachIntro:
     "Five GenAI pillars transformed every manual bottleneck into an automated capability — so Ravi onboards himself, Priya handles exceptions, and Arjun scales economics.",
   approachCards: [
@@ -129,6 +133,7 @@ const bharatgo: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "Under 2-minute store launch, 68% cost reduction, 85% self-service resolution, 1,500+ daily listings automated.",
   resultCards: [
     {
       number: '<2 min',

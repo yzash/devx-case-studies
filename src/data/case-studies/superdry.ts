@@ -23,6 +23,7 @@ const superdry: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "Superdry India on Fynd —<br />a storefront as sharp as the brand it represents.",
   brandIntro: [
     "Superdry is an internationally recognised lifestyle brand known for its bold aesthetic and quality craftsmanship. In India, the brand commands a loyal following — but its digital storefront wasn't keeping pace with the energy its customers brought to it.",
     "The India storefront needed to be rebuilt to match the brand's ambition: fast, polished, consistent across every device, and smooth enough that nothing gets in the way of a great browse.",
@@ -36,6 +37,7 @@ const superdry: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the style-led shopper who expects premium digital presentation, the eCommerce manager running a phased rollout, and the brand team watching for UX regressions.",
   peopleIntro:
     "Three people interact with this storefront every day. We built every improvement around how it would land for them.",
   personas: [
@@ -68,6 +70,7 @@ const superdry: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Superdry India's Fynd storefront needed to perform at a premium retail standard from day one of launch.",
   challengeParagraphs: [
     "The Superdry India storefront had the brand equity — but the frontend experience wasn't living up to it. Slower page loads, uneven UX across templates, and navigation friction were eroding the confidence of shoppers who expected more from a brand they trusted.",
     "The challenge was to rebuild the experience without rebuilding everything at once. Improvements needed to be phased carefully to maintain live stability, while delivering meaningful gains in speed, responsiveness, and visual consistency at every step.",
@@ -82,6 +85,7 @@ const superdry: CaseStudy = {
     { name: 'Stability risk during enhancements', value: 'Moderate', barPercent: 72, barStyle: 'gold' },
   ],
 
+  approachHeadline: "Fynd storefront development with responsive UI, optimized asset loading, navigation refinement, and zero-regression phased rollout.",
   approachIntro:
     "Every improvement was purposeful. We traced each engineering decision back to a shopper who'd feel its effect.",
   approachCards: [
@@ -129,6 +133,7 @@ const superdry: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "On-standard launch performance, improved mobile responsiveness, phased rollout completed with zero regressions.",
   resultCards: [
     {
       number: '↑↑',

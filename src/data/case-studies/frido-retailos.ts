@@ -24,6 +24,7 @@ const fridoRetailos: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "Ergonomic products built for recovery.<br />Operations rebuilt to match their ambition.",
   brandIntro: [
     "Frido is a fast-growing Indian consumer brand focused on ergonomic and comfort-driven products across home and lifestyle categories. Having built strong traction online across Shopify, Amazon, and marketplaces, the brand began expanding into physical retail — with complex pricing models, multi-pack offerings, and B2B sales requirements that off-the-shelf POS systems simply couldn't accommodate.",
     "We deployed retailOS for Frido — a fully customizable, omnichannel-ready retail operating system built on modular architecture, deeply integrated with Shopify and Unicommerce, and capable of handling the complexity that makes Frido's commerce model unique: marketplace price parity, B2B quotation workflows, EMI payments, and multi-pack bundling logic.",
@@ -37,6 +38,7 @@ const fridoRetailos: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the B2B buyer waiting on a quote, the ops lead reconciling Amazon and Shopify prices manually, and the store manager processing bundles without logic to support them.",
   peopleIntro:
     "Three people were paying the price of a retail operation that couldn't match the complexity of the business — a B2B buyer who needed a formal quote, a store manager managing pricing discrepancies, and an ops head whose reconciliation hours were multiplying.",
   personas: [
@@ -69,6 +71,7 @@ const fridoRetailos: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Frido's retail stack couldn't handle B2B quotations, marketplace price parity, or bundle discount logic.",
   challengeParagraphs: [
     "Frido's retail expansion revealed the limits of standard POS systems. Ready-made solutions couldn't support the multi-pack pricing logic Frido needed for ergonomic accessory bundles, the B2B quotation workflows required for corporate clients like Kiran, or the marketplace price synchronization that kept Ananya from facing pricing confrontations every shift. Off-the-shelf tools forced Frido to choose between retail expansion and operational complexity — retailOS removed that choice.",
     "Nikhil's operations team faced a compounding problem: each new store added more reconciliation burden across Shopify, Unicommerce, and the store-level system. Pricing changes on Amazon had to be manually reflected in-store. B2B orders bypassed the POS entirely. EMI payments required separate coordination. Frido needed a single retail operating system that could handle all of it — not a collection of workarounds.",
@@ -83,6 +86,7 @@ const fridoRetailos: CaseStudy = {
     { name: 'New store onboarding speed', value: 'Weeks — backend-heavy configuration', barPercent: 78, barStyle: 'soft' },
   ],
 
+  approachHeadline: "retailOS on Medusa backend — B2B quotation engine, dynamic marketplace price sync, EMI via Snapmint and Razorpay.",
   approachIntro:
     "retailOS gave Kiran a formal quotation workflow, gave Ananya a pricing system that stayed current, and gave Nikhil a reconciliation process that ran itself.",
   approachCards: [
@@ -130,6 +134,7 @@ const fridoRetailos: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "30% faster reconciliation, 40% faster store onboarding, 15% AOV increase, 20% faster checkout.",
   resultCards: [
     {
       number: '30%',

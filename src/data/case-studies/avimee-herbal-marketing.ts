@@ -23,6 +23,7 @@ const avimeeHerbalMarketing: CaseStudy = {
     { label: 'Impact Pillar', value: 'Marketing Automation' },
   ],
 
+  brandHeadline: "Ayurvedic personalization extends<br />from the product to the message.",
   brandIntro: [
     "Avimee Herbal is a premium Ayurvedic haircare brand combining ancient herbal wisdom with modern science to address scalp and hair concerns. As the brand launched its innovative Scalp Test diagnostic platform, they needed a robust marketing and analytics infrastructure to track user behavior, personalize communications, and optimize the customer journey at scale.",
     "We integrated Mixpanel for real-time behavioral analytics and WebEngage for omnichannel engagement — building a connected marketing stack that unified diagnostic behavior, purchase patterns, and re-engagement workflows. The result: complete funnel visibility, automated personalized outreach based on root cause diagnosis, and a marketing infrastructure that scales engagement without scaling headcount.",
@@ -36,6 +37,7 @@ const avimeeHerbalMarketing: CaseStudy = {
     { name: 'Year', value: '2026' },
   ],
 
+  peopleHeadline: "Built for the marketer sending batch campaigns, the analyst reading aggregate data, and the founder whose retention strategy was guesswork.",
   peopleIntro:
     "Three people needed the marketing infrastructure to do what their product intelligence had earned the right to — a customer with diagnosed root causes deserving personalized follow-up, a marketer without visibility into what was working, and a growth leader whose re-engagement campaigns were manual.",
   personas: [
@@ -68,6 +70,7 @@ const avimeeHerbalMarketing: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Avimee Herbal was sending the same message to customers with completely different hair conditions.",
   challengeParagraphs: [
     "Avimee Herbal's Scalp Test was generating rich behavioral data — every question answered, every root cause identified, every product recommendation viewed — but without analytics infrastructure, that data was invisible. Nidhi had no way to see where users dropped off, which root cause combinations led to purchase, or how campaign attribution was working across channels. The diagnostic platform was sophisticated; the marketing intelligence to operate it was absent.",
     "Karthik's growth team faced a scalability wall. Re-engaging users based on diagnostic results required manual segmentation and campaign creation — a process that could only run occasionally and couldn't adapt to the nuances of each user's specific root cause profile. Ananya's journey — completing the test, not purchasing, and then returning after relevant content — was the ideal outcome. But it happened by chance, not by design. The marketing stack needed to make it happen systematically.",
@@ -82,6 +85,7 @@ const avimeeHerbalMarketing: CaseStudy = {
     { name: 'Personalization at scale', value: 'Limited — same messaging regardless of root cause', barPercent: 80, barStyle: 'soft' },
   ],
 
+  approachHeadline: "Mixpanel behavioral analytics and WebEngage omnichannel engagement, unified around root cause segmentation.",
   approachIntro:
     "The marketing stack was built to bring Ananya back based on her diagnosis, give Nidhi the funnel data she needed to optimize, and give Karthik continuous re-engagement that ran without his team.",
   approachCards: [
@@ -129,6 +133,7 @@ const avimeeHerbalMarketing: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "Real-time funnel visibility, automated personalized journeys, and a 360-degree view of every customer's path.",
   resultCards: [
     {
       number: '↑↑',

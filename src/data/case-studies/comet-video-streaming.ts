@@ -23,6 +23,7 @@ const cometVideoStreaming: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "Brand storytelling that does not pause<br />for a 4G connection.",
   brandIntro: [
     "Comet is a digitally native Indian sneaker brand delivering visually immersive e-commerce experiences to a mobile-first audience. To enhance product storytelling without impacting storefront performance, we implemented adaptive video streaming architecture powered by Cloudflare — enabling bandwidth-aware media delivery across devices and varying network conditions.",
     "We deployed Cloudflare's media delivery capabilities with bandwidth-adaptive streaming, optimized video asset handling for fast initial rendering, and CDN-based caching strategies — achieving a 60-75% reduction in video loading time and near-instant playback across mobile and desktop environments with 99%+ delivery reliability.",
@@ -36,6 +37,7 @@ const cometVideoStreaming: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the Gen-Z shopper on a variable mobile connection, the content team producing high-quality video, and the growth lead measuring engagement drop-off.",
   peopleIntro:
     "Three people needed video to work — a customer whose first impression of a sneaker came from a product video, a content manager whose video investments weren't delivering their potential, and a technical lead managing the performance cost of rich media.",
   personas: [
@@ -68,6 +70,7 @@ const cometVideoStreaming: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Comet's video content was buffering on the connections most of their audience was using.",
   challengeParagraphs: [
     "Comet's visual-first brand identity depended heavily on video to convey the quality and style of its sneakers. But video-heavy storefront components were creating loading overhead that undermined the experience — particularly for Kabir and the significant portion of Comet's customer base browsing on 4G mobile connections. Traditional video embedding delivered the same file quality to every user regardless of their connection, creating buffering for lower-bandwidth customers that the brand's premium experience couldn't tolerate.",
     "Pooja's creative investment in product videos — lifestyle content, 360-degree views, campaign films — was generating diminishing returns when those videos didn't load smoothly. Dev's technical challenge was delivering video quality that matched the connection: fiber-quality for home users, optimized quality for 4G users, without requiring separate content production for each scenario. Adaptive streaming was the solution — but it required proper infrastructure to implement correctly.",
@@ -82,6 +85,7 @@ const cometVideoStreaming: CaseStudy = {
     { name: 'Streaming reliability across network conditions', value: 'Inconsistent — performance varies widely', barPercent: 80, barStyle: 'soft' },
   ],
 
+  approachHeadline: "Cloudflare adaptive video streaming — multi-quality encoding, edge delivery, connection-aware playback.",
   approachIntro:
     "Adaptive streaming gave Kabir instant playback on 4G, validated Pooja's creative investment with views, and gave Dev an architecture that served every user the right quality.",
   approachCards: [
@@ -129,6 +133,7 @@ const cometVideoStreaming: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "60–75% video load time reduction, near-zero buffering, 99%+ delivery reliability at scale.",
   resultCards: [
     {
       number: '60–75%',

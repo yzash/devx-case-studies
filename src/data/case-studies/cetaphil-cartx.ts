@@ -24,6 +24,7 @@ const cetaphilCartx: CaseStudy = {
     { label: 'Product', value: 'cartx' },
   ],
 
+  brandHeadline: "Dermatologist-recommended, clinically trusted.<br />A cart that matched the credibility.",
   brandIntro: [
     "Skin Health & You is a certified ecommerce retailer associated with Galderma's Cetaphil portfolio in India, offering dermatologist-recommended skincare products through digital channels. Trust and clarity are not optional in a healthcare-adjacent retail context — customers making skincare purchases based on dermatologist guidance need confidence at every step of the purchase journey.",
     "As part of the Shopify migration for its certified ecommerce operations, cartx was implemented alongside the new storefront launch to establish a conversion-ready cart experience from day one — delivering promotional transparency, purchase clarity, and campaign flexibility without requiring post-launch optimization cycles.",
@@ -37,6 +38,7 @@ const cetaphilCartx: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the dermatologist-referred patient, the digital lead owning day-one conversion, and the ops team tracking cart stability at scale.",
   peopleIntro:
     "Three people needed the cart experience to earn their confidence — a customer who relies on dermatologist guidance, a campaign manager who needed flexibility from launch, and a business head who couldn't afford a second optimization cycle.",
   personas: [
@@ -69,6 +71,7 @@ const cetaphilCartx: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Cetaphil India needed a cart that built confidence at checkout from the very first day of launch.",
   challengeParagraphs: [
     "A new Shopify storefront needs to earn customer trust immediately — especially in a healthcare-adjacent retail context where customers have been directed by dermatologists and carry high product expectations. The native Shopify cart provided functional containment but no conversion intelligence: no promotional visibility, no milestone offers, and no way to show customers the value they were receiving before reaching checkout.",
     "For Shreya's campaigns, the constraints were operational. Coupon-only promotional architecture required customers to already know about codes that existed — with no in-cart mechanism to surface benefits automatically or guide customers toward offer eligibility. cartx was the answer to both problems: installed at launch, it provided promotional intelligence without touching the Shopify checkout that underpinned the storefront's operational stability.",
@@ -83,6 +86,7 @@ const cetaphilCartx: CaseStudy = {
     { name: 'Operational promotion management simplicity', value: 'Manual coupon dependency', barPercent: 75, barStyle: 'soft' },
   ],
 
+  approachHeadline: "cartx implemented at go-live: trust cues, basket expansion logic, and 99%+ cart stability from launch.",
   approachIntro:
     "cartx was configured to give Ritu the clarity she needed, Shreya the campaign flexibility she required, and Neelam the conversion performance she couldn't wait for.",
   approachCards: [
@@ -130,6 +134,7 @@ const cetaphilCartx: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "Conversion-ready from day one, 10–15% basket expansion, 99%+ cart stability maintained at scale.",
   resultCards: [
     {
       number: '✓',

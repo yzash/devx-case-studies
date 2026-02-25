@@ -23,6 +23,7 @@ const secretAlchemist: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "India's first clean perfume brand,<br />with a homepage that finally told the story.",
   brandIntro: [
     "Secret Alchemist is India's first clean perfume brand, co-founded by Samantha Ruth Prabhu, creating fragrances with rare Indian botanicals that are free from harmful toxins and phthalates. As a pioneering brand in a category that conscious beauty consumers are actively seeking, the homepage and About Us page needed to communicate the brand's unique positioning with clarity and emotional resonance.",
     "We redesigned the homepage and About Us page with compelling visual hierarchy, authentic brand storytelling, and strategic content architecture — elevating the first-impression experience, communicating the clean beauty mission, and guiding conscious consumers from discovery to product exploration with stronger emotional connection.",
@@ -36,6 +37,7 @@ const secretAlchemist: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the conscious fragrance buyer seeking clean credentials, the founder whose brand story deserved a proper stage, and the content team managing a heritage-heavy narrative.",
   peopleIntro:
     "Three people needed the homepage to do more work — a customer who needed to understand why clean perfume mattered, a content lead whose brand story wasn't landing, and a brand director whose India-first clean perfume story deserved a digital home worthy of it.",
   personas: [
@@ -68,6 +70,7 @@ const secretAlchemist: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Secret Alchemist's botanical heritage wasn't visible on a homepage that looked like every other beauty site.",
   challengeParagraphs: [
     "Secret Alchemist's brand premise — India's first clean perfume, made with rare Indian botanicals, free from toxins — was a powerful differentiation in the conscious beauty space. But the homepage wasn't leading with it. Anika arrived from an Instagram click with high intent and low context, and the homepage didn't quickly answer the question that conscious beauty consumers needed answered: what makes this different, and why does it matter for me?",
     "Meera's About Us page challenge was a storytelling problem. The brand's founding story — the connection between Indian botanical heritage, Samantha's advocacy for clean beauty, and the formulation science behind toxin-free fragrance — was authentically compelling. But the page was presenting it in a way that diluted its distinctiveness. Vikram needed a digital presence that converted brand belief into brand trust at the first impression.",
@@ -82,6 +85,7 @@ const secretAlchemist: CaseStudy = {
     { name: 'Customer journey from discovery to product exploration', value: 'Interrupted — content hierarchy not guiding effectively', barPercent: 78, barStyle: 'soft' },
   ],
 
+  approachHeadline: "Visual hierarchy redesign, Indian botanical storytelling architecture, and strategic content sequencing on homepage and About Us.",
   approachIntro:
     "We rebuilt the homepage and About Us to give Anika an instant answer, give Meera's brand story the design it deserved, and give Vikram a digital home that matched Secret Alchemist's pioneering status.",
   approachCards: [
@@ -129,6 +133,7 @@ const secretAlchemist: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "A brand homepage that leads with heritage, earns trust through transparency, and converts through clarity.",
   resultCards: [
     {
       number: '↑↑',

@@ -23,6 +23,7 @@ const freed: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "A grooming brand enters the market.<br />No technical debt, no compromise on speed.",
   brandIntro: [
     "Freed is a modern lifestyle and grooming brand entering the market with a strong contemporary aesthetic and a digital-first customer engagement strategy. From the outset, the brand understood that its first impression online would define customer perception — and that a templated, rushed storefront would undermine everything else it was investing in.",
     "We partnered with Freed during its launch phase to build a bespoke Shopify storefront from the ground up. The brief was to deliver performance, scalability, and conversion-readiness from day one — not as aspirations for a future phase, but as baseline requirements for go-live.",
@@ -36,6 +37,7 @@ const freed: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the first-time online shopper discovering a new brand, the founder launching into a competitive category, and the team that needed a theme they could scale without rebuilding.",
   peopleIntro:
     'Three people had everything riding on launch day going right — a first-time customer who would form an instant impression, a brand manager who needed the identity to land perfectly, and a founder for whom there was no second chance at a first launch.',
   personas: [
@@ -68,6 +70,7 @@ const freed: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Freed needed a Shopify store that launched fast, performed faster, and left nothing to rework.",
   challengeParagraphs: [
     "Launching a new brand on a tight timeline creates pressure that often produces technical debt. The typical outcome is a store that gets the brand live fast — but requires significant rework once reality sets in. For Freed, that pattern was unacceptable. The ambition was to do both: launch quickly and launch correctly.",
     "The challenge was one of architecture. Building a bespoke Shopify storefront that performs like a premium destination, looks like a considered brand, and scales like an established business — within the constraints of a launch timeline — required deliberate decisions at every stage, not optimisations to apply later.",
@@ -82,6 +85,7 @@ const freed: CaseStudy = {
     { name: 'Technical debt risk from speed-to-launch', value: 'Real', barPercent: 78, barStyle: 'gold' },
   ],
 
+  approachHeadline: "Bespoke Shopify build from scratch — mobile-first, performance-first, conversion-ready from day one.",
   approachIntro:
     "Every technical decision was made with Aryan's first visit, Kavya's brand standards, and Aditya's growth roadmap in mind simultaneously.",
   approachCards: [
@@ -129,6 +133,7 @@ const freed: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "45–60% faster than standard themes, full brand identity delivered, 99%+ stability, zero technical debt at launch.",
   resultCards: [
     {
       number: '45–60%',

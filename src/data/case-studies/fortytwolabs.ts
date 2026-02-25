@@ -23,6 +23,7 @@ const fortytwolabs: CaseStudy = {
     { label: 'Impact Pillar', value: 'Enterprise Architecture' },
   ],
 
+  brandHeadline: "Banking-grade cryptography.<br />Zero-downtime migration from Azure to AWS.",
   brandIntro: [
     "FortyTwo Labs is a pioneer in quantum-safe cryptography and identity management, protecting real-time digital communications for major financial institutions including ICICI Bank and Yes Bank. In a category where security and availability are not features but existential requirements, the infrastructure underpinning these services had to be held to the same standard.",
     "FortyTwo Labs operated a fragmented hybrid infrastructure across Microsoft Azure, AWS, and on-premises servers — creating multi-cloud complexity, inconsistent security policies, and an environment that was difficult to scale. We executed a comprehensive cloud consolidation to a standardised AWS architecture, migrating all workloads with zero service interruption and establishing a unified security and operations posture that the banking sector demands.",
@@ -36,6 +37,7 @@ const fortytwolabs: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the FinTech engineer managing a live banking workload, the security lead requiring defense-in-depth architecture, and the operations team with zero margin for error.",
   peopleIntro:
     "Three people depended on this infrastructure holding together — a banking client whose transactions relied on it, a DevOps engineer fighting multi-cloud complexity daily, and a CTO whose cryptography innovation was being slowed by infrastructure debt.",
   personas: [
@@ -68,6 +70,7 @@ const fortytwolabs: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "FortyTwo Labs needed to migrate quantum-safe cryptography infrastructure for ICICI Bank with no tolerance for downtime.",
   challengeParagraphs: [
     "The multi-cloud complexity at FortyTwo Labs wasn't just operationally inconvenient — it was a security architecture risk. Inconsistent policies across Azure, AWS, and on-premises systems created gaps that couldn't be consistently monitored or governed. For an organisation protecting real-time banking communications, that inconsistency was unacceptable. Arjun's team at ICICI Bank expected the infrastructure protecting their transactions to have a security posture as rigorous as the cryptography running on top of it.",
     "The migration required handling heterogeneous workloads: Linux cryptography servers requiring disk-level migration via S3 and custom EBS volumes; Windows Active Directory servers requiring zero-data-loss migration via AWS MGN; self-hosted PostgreSQL and Oracle databases requiring transition to managed RDS; and the entire network security architecture needing a rebuild around VPC isolation, AWS WAF, GuardDuty threat detection, and Secrets Manager key protection.",
@@ -82,6 +85,7 @@ const fortytwolabs: CaseStudy = {
     { name: 'Engineering time on infrastructure vs. cryptography', value: 'Imbalanced', barPercent: 78, barStyle: 'soft' },
   ],
 
+  approachHeadline: "Linux cryptography servers via S3/EBS, Windows AD via AWS MGN, PostgreSQL/Oracle to RDS — VPC, WAF, GuardDuty throughout.",
   approachIntro:
     "The migration was planned so Arjun's banking operations never noticed it happened, Priya has a single environment to operate, and Dr. Kumar's team focuses on cryptography.",
   approachCards: [
@@ -129,6 +133,7 @@ const fortytwolabs: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "Zero downtime, 100% data persistence, ICICI Bank and Yes Bank infrastructure live on AWS.",
   resultCards: [
     {
       number: '0',

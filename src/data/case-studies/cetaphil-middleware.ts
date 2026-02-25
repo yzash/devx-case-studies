@@ -23,6 +23,7 @@ const cetaphilMiddleware: CaseStudy = {
     { label: 'Impact Pillar', value: 'Enterprise Architecture' },
   ],
 
+  brandHeadline: "Clinical skincare at e-commerce scale.<br />Operations that no longer need a workaround.",
   brandIntro: [
     "Skin Health & You is a certified ecommerce retailer associated with Galderma's Cetaphil portfolio in India, managing high-volume skincare sales through digital commerce channels. Following the migration to Shopify, the brand faced a structural challenge that no off-the-shelf integration could solve: their existing ERP was architecturally configured for legacy marketplace data formats and could not accommodate Shopify's schema — within any available timeline.",
     "The constraint was real and non-negotiable. Re-engineering the ERP was off the table. Manual data preparation was unsustainable at scale. The solution required a purpose-built enterprise middleware layer that could translate, enrich, and transmit order data automatically — sitting between Shopify and the ERP, absorbing the complexity so neither system had to change.",
@@ -36,6 +37,7 @@ const cetaphilMiddleware: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the ops team reconciling orders manually, the finance lead splitting tax values by hand, and the IT head watching errors accumulate.",
   peopleIntro:
     "Three people were operating in a broken data pipeline. The middleware was built to make all three forget the pipeline exists.",
   personas: [
@@ -68,6 +70,7 @@ const cetaphilMiddleware: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Skin Health and You's ERP schema was structurally incompatible with Shopify's order model.",
   challengeParagraphs: [
     "The structural gap between Shopify's order schema and the ERP's expected data format was not a minor compatibility issue — it was an architectural incompatibility. The ERP had been configured specifically for legacy marketplace data structures. Shopify orders contained different field hierarchies, missing financial breakdowns that the ERP accounting workflows depended on, and structural formats the ERP simply couldn't parse without transformation.",
     "The complexity extended beyond field mapping. Shopify's default API responses didn't provide the financial bifurcation the ERP required — MRP, selling price, coupon discounts, and cashback utilization needed to be computed and injected into the order payload before transmission. And two-way synchronization was needed: the ERP also had to push fulfilment, cancellation, return, and delivery status updates back into Shopify to keep the commerce layer accurate.",
@@ -82,6 +85,7 @@ const cetaphilMiddleware: CaseStudy = {
     { name: 'Business continuity risk during transition', value: 'High', barPercent: 85, barStyle: 'gold' },
   ],
 
+  approachHeadline: "AWS Lambda serverless middleware — bidirectional Shopify-to-ERP sync with automated financial bifurcation.",
   approachIntro:
     "The middleware was engineered to be invisible — Priya's ERP receives perfect data, Akash stops preparing anything manually, and Neelam's business never pauses.",
   approachCards: [
@@ -129,6 +133,7 @@ const cetaphilMiddleware: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "Zero downtime, 90% ops effort reduction, 99%+ uptime, 98% order passage rate.",
   resultCards: [
     {
       number: '0',

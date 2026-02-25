@@ -23,6 +23,7 @@ const declutter: CaseStudy = {
     { label: 'Impact Pillar', value: 'AI - Ops' },
   ],
 
+  brandHeadline: "Mental health technology built<br />for the therapists who use it every session.",
   brandIntro: [
     "Declutter Health is an innovative mental health platform connecting patients with psychiatrists through structured digital therapy sessions. In a discipline where the quality of clinical documentation directly affects the quality of care, the manual work of post-session documentation was creating a hidden tax on every practitioner — taking time from therapy and reducing the depth of clinical insight available for treatment decisions.",
     "We built an AI-powered video analysis system that transforms therapy session recordings into comprehensive clinical reports automatically — generating medical-grade summaries, emotional timelines, speech pattern analysis, and accurate transcriptions in minutes. The result is psychiatrists who can see more patients, document more accurately, and track patient progress with quantitative precision that manual note-taking could never provide.",
@@ -36,6 +37,7 @@ const declutter: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the therapist losing billable hours to note-taking, the clinical lead needing outcome data, and the founder bringing responsible AI to a sensitive domain.",
   peopleIntro:
     "Three people experienced the limitations of manual clinical documentation differently — a psychiatrist losing time, a patient losing depth of care, and a founder facing a scalability ceiling.",
   personas: [
@@ -68,6 +70,7 @@ const declutter: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Declutter's therapists spent 20–30 minutes on post-session documentation that AI could process in 2.",
   challengeParagraphs: [
     "The gap between what happened in a therapy session and what ended up in clinical notes was not a minor accuracy problem — it was a systematic loss of clinical data. Dr. Meera couldn't simultaneously conduct therapy and capture micro-expressions, speech rhythm changes, precise timestamps of emotional shifts, or exact patient phrasing. The notes she wrote were reconstructions, not recordings — and reconstructions lose the detail that drives treatment accuracy.",
     "For Nandita's platform, this wasn't just a quality issue — it was a scalability constraint. Every hour of therapy required additional documentation time that the platform's growth model couldn't sustain indefinitely. The solution needed to eliminate documentation time entirely while improving documentation quality — capturing what manual note-taking couldn't, automatically.",
@@ -82,6 +85,7 @@ const declutter: CaseStudy = {
     { name: 'Session throughput ceiling', value: 'Documentation-constrained', barPercent: 80, barStyle: 'soft' },
   ],
 
+  approachHeadline: "Amazon Bedrock for clinical summaries, MediaPipe for facial tracking, Transcribe for speaker diarization — HIPAA-compliant throughout.",
   approachIntro:
     "Every component was built around a single principle: capture what Dr. Meera cannot capture alone, so she can focus entirely on the patient in front of her.",
   approachCards: [
@@ -129,6 +133,7 @@ const declutter: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "2–3 minute AI processing replacing 20–30 minute manual documentation, under 1% error rate, $0.15 per session.",
   resultCards: [
     {
       number: '2–3 min',

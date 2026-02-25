@@ -24,6 +24,7 @@ const cometRetailos: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "Sneakers online and in-store —<br />one inventory, one version of reality.",
   brandIntro: [
     "Comet is a fast-growing Indian sneaker brand known for bold designs and accessible pricing, with strong momentum among Gen Z and young urban consumers. As demand scaled, Comet expanded into offline retail across multiple cities — requiring a retail technology partner that could match its pace, ambition, and omnichannel vision.",
     "We deployed retailOS across Comet's retail stores in under three weeks — integrating seamlessly with their existing Shopify and Unicommerce stack, delivering SKU-level inventory tracking, unified omnichannel order management, and a premium browser-based POS interface that required no new hardware and matched the brand's design-forward aesthetic.",
@@ -37,6 +38,7 @@ const cometRetailos: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the store associate billing on a slow POS, the ops manager chasing stock discrepancies, and the growth lead measuring true omnichannel performance.",
   peopleIntro:
     "Three people had to trust that the retail infrastructure would work from day one — a customer expecting a seamless in-store experience, a store associate needing a system that was intuitive from hour one, and an ops lead with a three-week deadline.",
   personas: [
@@ -69,6 +71,7 @@ const cometRetailos: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Comet's retail stores and Shopify were running on different versions of the same inventory.",
   challengeParagraphs: [
     "Comet's retail launch was already in motion when they approached devx. Stores were ready, staff hired, and inventory flowing in. The brand required a robust POS system that integrated seamlessly with Shopify and Unicommerce — without disrupting existing workflows or requiring new hardware. The aggressive three-week timeline left no room for complex implementation or extended staff training.",
     "As a design-forward brand with a Gen Z audience, the in-store experience also had to match the premium quality of the product. A clunky or dated POS interface would undermine the brand perception Comet had built online. The system needed to be intuitive enough that Meera could serve customers confidently on day one — and omnichannel enough that Aarav's online purchase history was immediately visible at any store.",
@@ -83,6 +86,7 @@ const cometRetailos: CaseStudy = {
     { name: 'Inventory tracking granularity', value: 'Item-code level required', barPercent: 80, barStyle: 'soft' },
   ],
 
+  approachHeadline: "retailOS deployed in under 3 weeks — browser-based POS, RFID-level stock tracking, Shopify and Unicommerce sync.",
   approachIntro:
     "retailOS gave Aarav a seamless omnichannel experience, gave Meera a POS she learned in an hour, and gave Suresh a launch that came in exactly on time.",
   approachCards: [
@@ -136,6 +140,7 @@ const cometRetailos: CaseStudy = {
     title: 'Retail Operations Leadership',
   },
 
+  resultsHeadline: "100% real-time inventory sync, 35% accuracy improvement, 40% faster billing, live in under 3 weeks.",
   resultCards: [
     {
       number: '100%',

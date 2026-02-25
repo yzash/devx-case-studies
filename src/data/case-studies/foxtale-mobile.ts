@@ -23,6 +23,7 @@ const foxtaleMobile: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "A Series C skincare brand,<br />250,000 app users in the first year.",
   brandIntro: [
     "Foxtale is a Series C-funded Indian skincare brand offering science-backed products for Indian skin types. To deepen customer relationships and drive repeat purchases, the brand needed a mobile app that went beyond their website capabilities — feature-rich, native, and launched in record time with perfect Shopify backend sync.",
     "We built and launched Foxtale's mobile commerce platform in 30 days using Strapi as a unified data layer, delivered a streamlined mobile-first shopping flow with optimized product browsing and native checkout, and designed a future-ready architecture for AR and personalization features. The app acquired 250,000 users in its first year, converting at 5.2% versus 3.7% on the website.",
@@ -36,6 +37,7 @@ const foxtaleMobile: CaseStudy = {
     { name: 'Year', value: '2024' },
   ],
 
+  peopleHeadline: "Built for the skincare loyalist who wanted an app, the product team racing a 30-day deadline, and the growth lead tracking conversion by channel.",
   peopleIntro:
     "Three people needed the mobile app to deliver on an aggressive commitment — a customer who wanted a better shopping experience on her phone, a product lead with a 30-day launch deadline, and a growth head who needed the app to convert better than the website.",
   personas: [
@@ -68,6 +70,7 @@ const foxtaleMobile: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Foxtale's mobile commerce ambition had no home — the app needed to launch in 30 days.",
   challengeParagraphs: [
     "Foxtale's mobile app project had three simultaneous constraints: a 30-day deadline, Shopify backend synchronization requirements, and a conversion rate target that exceeded the website. Building a feature-rich native mobile commerce experience that synced perfectly with Shopify's product catalog, inventory, and order management — while also supporting app-specific content and a future AR capability — required architectural decisions that would enable both the launch speed and the long-term capability.",
     "Riya's timeline wasn't negotiable — a specific marketing window had been committed to and the pre-launch campaign was already running. The architecture had to be decided quickly, the Strapi data layer had to be implemented efficiently, and the commerce flow had to be built with Deepak's conversion goals in mind from the first line of code. Speed and quality were not tradeoffs — they were simultaneous requirements.",
@@ -82,6 +85,7 @@ const foxtaleMobile: CaseStudy = {
     { name: 'App-exclusive content management', value: 'Requires unified data layer alongside Shopify sync', barPercent: 78, barStyle: 'soft' },
   ],
 
+  approachHeadline: "Custom React Native app with Strapi data layer, real-time Shopify sync, push notifications, and AR-ready architecture.",
   approachIntro:
     "The app was built to give Neha a native experience she preferred over the website, give Riya a launch that hit the 30-day target, and give Deepak a conversion rate that validated every decision.",
   approachCards: [
@@ -129,6 +133,7 @@ const foxtaleMobile: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "250,000 users in year one, 5.2% app conversion vs. 3.7% on web, 40% higher conversion than the mobile site.",
   resultCards: [
     {
       number: '250K',

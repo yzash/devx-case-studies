@@ -2,7 +2,7 @@ import { CaseStudy } from '@/types/case-study'
 import styles from './BrandSection.module.css'
 
 interface BrandSectionProps {
-  data: Pick<CaseStudy, 'brandIntro' | 'brandTags' | 'brandStats'>
+  data: Pick<CaseStudy, 'brandHeadline' | 'brandIntro' | 'brandTags' | 'brandStats'>
 }
 
 export default function BrandSection({ data }: BrandSectionProps) {
@@ -12,7 +12,7 @@ export default function BrandSection({ data }: BrandSectionProps) {
         <div className={styles.layout}>
           <div className={styles.copy}>
             <div className="section-label">About the Brand</div>
-            <h2 className="section-title">A house built on craft.<br />A debut built on care.</h2>
+            <h2 className="section-title" dangerouslySetInnerHTML={{ __html: data.brandHeadline ?? 'A house built on craft.<br />A debut built on care.' }} />
             {data.brandIntro.map((para, i) => (
               <p key={i}>{para}</p>
             ))}

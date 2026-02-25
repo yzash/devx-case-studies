@@ -23,6 +23,7 @@ const fbc: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "Premium beauty in Australia,<br />supported by a partner who never stops watching.",
   brandIntro: [
     "French Beauty Co is an Australia-based premium beauty retailer offering curated skincare and cosmetic brands to a global customer base. With a growing catalog of high-quality products and a brand narrative centered on Parisian beauty rituals, the storefront needed to be as carefully considered as the curation itself.",
     "Over a partnership spanning more than a year, we provided ongoing maintenance, strategic UX consulting, and performance optimization to a brand that understood growth isn't a single project — it's continuous, deliberate improvement. Every enhancement was designed to strengthen storytelling, improve purchase clarity, and keep operations stable as the brand scaled.",
@@ -36,6 +37,7 @@ const fbc: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the brand team launching new collections on tight timelines, the eCommerce lead managing performance consistency, and the founder who needed site stability after press moments.",
   peopleIntro:
     'Three people lived with the storefront every day over the course of the partnership — each with a different relationship to its quality and stability.',
   personas: [
@@ -68,6 +70,7 @@ const fbc: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "French Beauty Co needed more than a build — they needed a technical partner who anticipated problems.",
   challengeParagraphs: [
     "French Beauty Co had built a strong brand and a curated catalog — but the operational infrastructure supporting the storefront had grown without governance. Deployments happened directly to production. Performance degraded silently. Third-party integrations introduced instability that no one caught until a customer did.",
     "The UX challenges were subtler but equally consequential. Growing catalog complexity had outpaced the product communication framework. PDPs carried information, but not hierarchy — Emma had the data she needed, but not in the order she needed it. Storytelling pages were underdeveloped for a brand whose narrative was a genuine differentiator.",
@@ -82,6 +85,7 @@ const fbc: CaseStudy = {
     { name: 'Brand storytelling page quality', value: 'Insufficient', barPercent: 70, barStyle: 'soft' },
   ],
 
+  approachHeadline: "12-month ongoing Shopify partnership — staging workflow, storytelling pages, PDP hierarchy, proactive monitoring.",
   approachIntro:
     "The partnership was structured around what Emma needed to understand, what Sophie needed to operate safely, and what Claire needed to trust.",
   approachCards: [
@@ -129,6 +133,7 @@ const fbc: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "40–55% faster load, 15–20% browsing efficiency improvement, sustained stability across 12+ months.",
   resultCards: [
     {
       number: '40–55%',

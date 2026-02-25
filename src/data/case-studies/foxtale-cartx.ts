@@ -24,6 +24,7 @@ const foxtaleCartx: CaseStudy = {
     { label: 'Impact Pillar', value: 'Marketing Automation' },
   ],
 
+  brandHeadline: "Multi-channel campaigns, one cart<br />that knows which campaign sent you.",
   brandIntro: [
     "Foxtale is a Series C-funded Indian skincare brand running sophisticated multi-channel campaigns across Instagram, Facebook, and Google with unique offers for each audience. Their cart couldn't translate campaign intent into personalized shopping experiences — users clicking BOGO ads arrived at generic cart pages, and the marketing team needed developer support for every offer change.",
     // TODO: Verify metrics — 50% cart abandonment reduction, 3x campaign velocity, 35% AOV increase
@@ -38,6 +39,7 @@ const foxtaleCartx: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the shopper who clicked an Instagram offer and found a generic cart, the marketer blocked by dev sprints, and the growth lead watching campaign AOV fall short.",
   peopleIntro:
     "The disconnect between ad promise and cart reality was costing Foxtale on three fronts — a customer who clicked a BOGO offer only to find a generic cart, a marketer blocked by developer dependency, and a growth lead watching campaign-driven AOV plateau.",
   personas: [
@@ -70,6 +72,7 @@ const foxtaleCartx: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Foxtale's BOGO ads were sending customers to a cart with no sign of the deal they clicked.",
   challengeParagraphs: [
     "Foxtale's marketing sophistication had outpaced their cart's intelligence. Shruti's team ran multi-channel campaigns with audience-specific offers — different creatives for Instagram skincare enthusiasts, Google search intent traffic, and Facebook retargeting audiences. But when any of these users clicked through, they arrived at the same generic cart. The campaign promise vanished at the most critical conversion moment.",
     "The promotional system limitations compounded the problem. Multi-tiered offers, cart-wise freebies, and code-specific promotions couldn't be managed within Shopify's native cart functionality. Every new promotional structure required a development sprint — meaning Shruti's campaign velocity was constrained by engineering bandwidth rather than marketing creativity. Aditya watched the campaign AOV gap persist while the technical blocker remained unresolved.",
@@ -84,6 +87,7 @@ const foxtaleCartx: CaseStudy = {
     { name: 'Cart abandonment from unmet offer promise', value: 'Measurable — customers leaving to find promised deal', barPercent: 80, barStyle: 'soft' },
   ],
 
+  approachHeadline: "UTM-driven cart personalization, multi-tier promotion engine, and metaobjects-based self-service offer management.",
   approachIntro:
     "The cartx system was built to show Priyanka the offer she clicked for, free Shruti from developer dependency, and close Aditya's campaign AOV gap.",
   approachCards: [
@@ -131,6 +135,7 @@ const foxtaleCartx: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "50% cart abandonment reduction, 3x campaign velocity, 35% AOV increase from campaign traffic.",
   resultCards: [
     {
       number: '50%',

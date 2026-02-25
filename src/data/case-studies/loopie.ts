@@ -23,6 +23,7 @@ const loopie: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "Baby products for conscious parents.<br />A storefront that made the choice easy.",
   brandIntro: [
     "Loopie is an Indian D2C brand specializing in premium baby strollers and parenting products. In a category where parents research extensively before purchasing, the digital experience needs to earn trust, reduce hesitation, and make the path to purchase as smooth as possible.",
     "The storefront had the right products — but the browsing and buying experience wasn't keeping pace with the brand's growth ambitions. Product discovery was limited, PDPs were cluttered, and the cart created friction at exactly the moment customers needed confidence. A targeted conversion optimization engagement addressed each of these pressure points with precision.",
@@ -36,6 +37,7 @@ const loopie: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the new parent hesitating over a major stroller purchase, the brand team watching ATC data fall short, and the founder whose product range deserved better discovery.",
   peopleIntro:
     "Three people were navigating a storefront that wasn't doing enough for them — a parent researching carefully, a merchandiser limited in visibility, and a growth lead watching conversion stagnate.",
   personas: [
@@ -68,6 +70,7 @@ const loopie: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Loopie's add-to-cart rate was soft on a storefront with strong products and weak conversion cues.",
   challengeParagraphs: [
     "Loopie was operating with a storefront that put products in front of customers but didn't guide them. The homepage lacked the structured CTAs and featured sections that turn browsing into discovery. Product pages presented information as walls of text rather than digestible, scannable content — a critical failure in a high-consideration category where parents need clarity, not overwhelm.",
     "The cart experience compounded everything. Accessibility was inconsistent — customers had to hunt for the Add-to-Cart button, which created friction precisely when intent was highest. Cart interactions were slow, coupon visibility was low, and the reviews section wasn't formatted to build the social proof that parenting purchases depend on. Each friction point individually was manageable; combined, they were systematically limiting conversion.",
@@ -82,6 +85,7 @@ const loopie: CaseStudy = {
     { name: 'Reviews section trust impact', value: 'Underdeveloped', barPercent: 70, barStyle: 'soft' },
   ],
 
+  approachHeadline: "Homepage CTAs, tabbed PDP redesign, floating ATC, slide-out cart drawer, and prominent coupon visibility.",
   approachIntro:
     "Every change was evaluated against one question: does this make Priyanka more likely to buy, Rahul more likely to surface products, and Anita more likely to hit her conversion targets?",
   approachCards: [
@@ -129,6 +133,7 @@ const loopie: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "35% ATC rate increase, 45% faster cart interactions, 28% AOV increase.",
   resultCards: [
     {
       number: '35%',

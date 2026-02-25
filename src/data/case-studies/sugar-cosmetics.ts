@@ -23,6 +23,7 @@ const sugarCosmetics: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "Bold cosmetics for every Indian skin tone.<br />Digital consistency across every touchpoint.",
   brandIntro: [
     "SUGAR Cosmetics is a leading Indian beauty brand known for trend-forward products and a strong digital-first customer base. With a growing product catalog and increasing mobile traffic, the brand needed to improve digital consistency across key storefront touchpoints — aligning product information visibility, browsing clarity, and interaction flows for a seamless shopping experience.",
     "We delivered a comprehensive UX enhancement program — establishing unified product information hierarchy across homepage, PLPs, and PDPs; improving interaction clarity through consistent purchase action placement; and strengthening visual continuity across browsing journeys. The result: faster product evaluation, reduced browsing friction, and improved purchase confidence.",
@@ -36,6 +37,7 @@ const sugarCosmetics: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the mobile shopper switching between browse and buy, the merchandising team managing cross-page consistency, and the growth lead measuring product evaluation speed.",
   peopleIntro:
     "Three people were experiencing the gap between SUGAR's bold brand identity and a digital experience that didn't fully deliver it — a customer who needed key product information faster, a product manager whose catalog depth was hidden, and a brand lead watching mobile engagement plateau.",
   personas: [
@@ -68,6 +70,7 @@ const sugarCosmetics: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "SUGAR Cosmetics' product information hierarchy was inconsistent across PLP, PDP, and homepage.",
   challengeParagraphs: [
     "SUGAR Cosmetics' digital storefront had grown rapidly alongside the brand — but that growth had introduced inconsistencies. Product information that Priya needed to make a quick decision on the collection page required a PDP visit. CTA placement varied between homepage, collection, and product pages, creating micro-frictions that accumulated into a browsing experience that didn't match the brand's boldness. Mobile users — a growing proportion of SUGAR's audience — felt the roughness most acutely.",
     "Kavya's catalog management challenge was visible in the data: customers were clustering around hero products without discovering the breadth that made SUGAR's range valuable. The browsing experience wasn't structured to surface product diversity or guide customers through the category depth. Dhruv's team needed enhancements delivered without disrupting ongoing campaign operations — the storefront had to improve continuously while staying live.",
@@ -82,6 +85,7 @@ const sugarCosmetics: CaseStudy = {
     { name: 'Visual consistency across page types', value: 'Inconsistent — different experiences per section', barPercent: 78, barStyle: 'soft' },
   ],
 
+  approachHeadline: "Unified product information architecture, consistent CTA placement, and mobile browsing flow optimization across the storefront.",
   approachIntro:
     "We made Priya's browse decisions faster, helped Kavya's catalog surface more deeply, and gave Dhruv a digital experience that matched SUGAR's brand confidence.",
   approachCards: [
@@ -129,6 +133,7 @@ const sugarCosmetics: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "20–30% faster product evaluation, consistent cross-page presentation, improved mobile browsing clarity.",
   resultCards: [
     {
       number: '20–30%',

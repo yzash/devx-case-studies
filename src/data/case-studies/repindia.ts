@@ -23,6 +23,7 @@ const repindia: CaseStudy = {
     { label: 'Impact Pillar', value: 'AI - Ops' },
   ],
 
+  brandHeadline: "India's largest digital agency,<br />now powered by AI that writes and publishes.",
   brandIntro: [
     "RepIndia is one of India's leading digital agencies, managing social media strategy and execution for the country's largest brands with a turnover exceeding ₹100 Cr. At that scale, the volume of content production — across clients, platforms, formats, and campaigns — creates an operational burden that grows directly with the client roster.",
     "Creative teams were spending the majority of their time on tasks that were necessary but not strategic: resizing images for platform specifications, writing caption variations, researching hashtags, scheduling posts. An AI-powered automation platform was implemented to absorb those hours systematically — giving the agency's talented teams time to do the work that actually required their expertise.",
@@ -36,6 +37,7 @@ const repindia: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the content creator resizing assets for seven platforms, the account manager approving 200 posts a week, and the operations lead calculating cost per deliverable.",
   peopleIntro:
     "Three people were experiencing the creative toll of a manual content production pipeline — a social media executive doing production work instead of creative work, a creative director whose team had no bandwidth, and a growth head watching campaign performance plateau.",
   personas: [
@@ -68,6 +70,7 @@ const repindia: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "RepIndia's social media team was spending 5–7 hours a day on caption writing and format conversion.",
   challengeParagraphs: [
     "The manual content production workflow at RepIndia was a compounding problem. Each new client didn't just add revenue — it added proportional production overhead. Image resizing alone, across Instagram, Twitter, LinkedIn, Facebook, and YouTube formats for every post across every client, represented dozens of hours weekly. Caption writing, hashtag research, scheduling — all manual, all repeatable, all automatable.",
     "The strategic cost was invisible but real. Aditya's team was talented enough to deliver creative work that outperformed — but they never had the time to do it. Every hour spent on Photoshop production was an hour not spent on testing, optimisation, or the kind of creative iteration that actually moves campaign metrics. Automation wasn't just about efficiency — it was about unlocking the creative potential the agency already had.",
@@ -82,6 +85,7 @@ const repindia: CaseStudy = {
     { name: 'Client scalability without headcount growth', value: 'Blocked', barPercent: 80, barStyle: 'gold' },
   ],
 
+  approachHeadline: "Amazon Bedrock and Claude AI for caption generation, automated image processing, and end-to-end multi-platform publishing orchestration.",
   approachIntro:
     "The automation platform was built to give Priya her creative hours back, give Aditya's team the bandwidth for strategy, and give Anuj the data-driven iteration that moves campaign performance.",
   approachCards: [
@@ -129,6 +133,7 @@ const repindia: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "60–70% workflow automation, 15–20% CVR improvement, 5–7 hours per team member saved per day.",
   resultCards: [
     {
       number: '60–70%',

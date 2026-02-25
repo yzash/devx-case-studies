@@ -3,14 +3,15 @@ import styles from './JourneySection.module.css'
 
 interface JourneySectionProps {
   phases: JourneyPhase[]
+  headline?: string
 }
 
-export default function JourneySection({ phases }: JourneySectionProps) {
+export default function JourneySection({ phases, headline }: JourneySectionProps) {
   return (
     <section className={styles.section}>
       <div className="container">
         <div className="section-label">The Journey</div>
-        <h2 className="section-title">How we got there — phase by phase.</h2>
+        <h2 className="section-title" dangerouslySetInnerHTML={{ __html: headline ?? 'How we got there — phase by phase.' }} />
         <div className={styles.timeline}>
           {phases.map((phase, i) => (
             <div key={phase.name} className={styles.phase}>

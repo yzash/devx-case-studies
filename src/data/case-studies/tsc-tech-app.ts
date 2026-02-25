@@ -23,6 +23,7 @@ const tscTechApp: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "Sleep technicians across India —<br />routed, tracked, and notified automatically.",
   brandIntro: [
     "The Sleep Company is India's leading D2C sleep brand, built on patented SmartGRID technology across mattresses, chairs, and ergonomic furniture. With a rapidly growing customer base and pan-India delivery coverage, the brand's after-sales operations — installation, maintenance, and warranty service — had become as critical to customer experience as the product itself.",
     "We built a dual-interface field operations system: an admin panel for the customer experience team to manage job allocation, and a mobile app for field technicians to receive optimized routes, update job status in real time, and communicate service needs back to operations. Manual spreadsheet management was replaced by intelligent automation — and the operations team gained complete visibility into every service job across India.",
@@ -36,6 +37,7 @@ const tscTechApp: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the field technician driving the wrong route, the ops manager allocating jobs by hand, and the customer waiting for a notification that never came.",
   peopleIntro:
     "Three people were living with the consequences of field operations running on spreadsheets — a customer waiting without updates, a technician with an inefficient route, and an ops manager without visibility into any of it.",
   personas: [
@@ -68,6 +70,7 @@ const tscTechApp: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "The Sleep Company's field operations ran on manual job allocation with no route optimization and no real-time visibility.",
   challengeParagraphs: [
     "The Sleep Company's customer experience team was manually assigning installation, maintenance, and warranty jobs to technicians using spreadsheets and WhatsApp — a process that couldn't scale as customer volume grew. Priyanka spent hours each day on allocation that should have been automated. And the manual process created coverage gaps: technicians in the wrong areas, jobs assigned without proximity logic, and no systematic way to know when a service request had actually been completed.",
     "For Ravi, the absence of route optimization meant a significant portion of every working day was wasted in transit. Jobs were sequenced in the order they arrived, not in the order that minimized travel. And when he encountered an issue — a part that needed replacement, a job that required escalation — the communication back to Priyanka's team was informal and unreliable. Anjali waited for updates that the system had no mechanism to generate.",
@@ -82,6 +85,7 @@ const tscTechApp: CaseStudy = {
     { name: 'Ops reporting and accountability', value: 'Delayed — manual consolidation', barPercent: 80, barStyle: 'soft' },
   ],
 
+  approachHeadline: "Dual-interface system — admin panel for dispatch, mobile app for technicians — with Google route optimization and 10–15km radius allocation.",
   approachIntro:
     "The system was built to give Anjali proactive service updates, give Ravi an optimized day, and give Priyanka complete visibility into everything happening in the field.",
   approachCards: [
@@ -129,6 +133,7 @@ const tscTechApp: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "100% elimination of manual allocation, 30–40% routing efficiency improvement, automated customer notifications.",
   resultCards: [
     {
       number: '100%',

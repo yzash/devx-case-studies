@@ -23,6 +23,7 @@ const tscWebsite: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "SmartGRID science deserves a storefront<br />that loads in 2 seconds, not 11.",
   brandIntro: [
     "The Sleep Company is India's fastest-growing sleep wellness brand, built on patented SmartGRID technology. Their Shopify storefront was significantly underperforming — with page load times reaching 11 seconds, they were losing potential customers before pages even loaded. Beyond speed, they needed to bridge online and offline experiences, helping customers find physical stores and book in-person consultations for a considered, high-value purchase.",
     "We delivered a complete digital transformation: comprehensive Shopify performance overhaul, an intelligent store locator, integrated appointment booking, and WhatsApp commerce via Gupshup — reducing load time from 11 seconds to 2, boosting Lighthouse performance by 87%, and creating a seamless bridge between digital research and in-store experience.",
@@ -36,6 +37,7 @@ const tscWebsite: CaseStudy = {
     { name: 'Year', value: '2024' },
   ],
 
+  peopleHeadline: "Built for the mattress shopper abandoning a slow PDP, the marketing team whose SEO scores were suppressing organic reach, and the growth lead who needed the site to handle campaign traffic.",
   peopleIntro:
     "Three people were experiencing the cost of a slow, disconnected digital experience — a customer who bounced before the page loaded, a marketing manager watching conversion data deteriorate, and a brand director whose premium brand was delivered on underperforming infrastructure.",
   personas: [
@@ -68,6 +70,7 @@ const tscWebsite: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "The Sleep Company's website was loading in 11 seconds and scoring 32 on Lighthouse — while the brand was scaling.",
   challengeParagraphs: [
     "The Sleep Company's website performance was a competitive liability. An 11-second load time on fast WiFi created immediate bounce for Megha and thousands of customers like her — paid acquisition investments were generating traffic that the site was failing to convert. The Lighthouse performance score of 32 reflected a technically complex Shopify build that had grown without performance optimization, accumulating render-blocking scripts, unoptimized media, and inefficient code that compounded with every new feature addition.",
     "Beyond speed, Kavitha's team recognized that the digital experience was disconnected from the physical one. Customers who researched the SmartGRID mattress online had no way to find nearby experience centers or book in-person product trials. WhatsApp — the channel where millions of Indian consumers are most comfortable — wasn't part of the customer journey at all. The brand had built exceptional retail experiences but no digital pathway to lead customers to them.",
@@ -82,6 +85,7 @@ const tscWebsite: CaseStudy = {
     { name: 'WhatsApp commerce capability', value: 'Absent — largest messaging channel unused', barPercent: 78, barStyle: 'soft' },
   ],
 
+  approachHeadline: "Full Shopify overhaul — load time from 11s to 2s, store locator, appointment booking, WhatsApp via Gupshup.",
   approachIntro:
     "We built a site that loaded before Megha lost patience, gave Arjun the Lighthouse score his campaigns needed, and gave Kavitha the omnichannel bridge her customers were looking for.",
   approachCards: [
@@ -129,6 +133,7 @@ const tscWebsite: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "82% load time improvement, 87% Lighthouse score improvement, 51% SEO score improvement.",
   resultCards: [
     {
       number: '82%',

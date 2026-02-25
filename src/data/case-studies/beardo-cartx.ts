@@ -24,6 +24,7 @@ const beardoCartx: CaseStudy = {
     { label: 'Product', value: 'cartx' },
   ],
 
+  brandHeadline: "Men's grooming built on boldness.<br />The cart now lives up to it.",
   brandIntro: [
     "Beardo is one of India's leading men's grooming brands with a high-volume D2C storefront serving a loyal and growing customer base. With strong campaign activity and frequent promotional cycles, the brand needed a cart experience that could surface offers intelligently, reduce pre-checkout hesitation, and convert consideration into commitment.",
     "The native Shopify cart was functional — but passive. It didn't communicate promotions, didn't validate coupons before checkout, and couldn't automate Gift-With-Purchase without heavy coupon logic. cartx was introduced as a conversion-focused cart layer to solve all of this without touching Shopify's checkout — protecting platform stability while dramatically improving the purchase experience.",
@@ -37,6 +38,7 @@ const beardoCartx: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the grooming loyalist who didn't know about the deal, the marketer running coupon campaigns, and the growth lead watching cart value stagnate.",
   peopleIntro:
     'Three people felt the friction in the old cart every time it mattered most — a shopper who needed clarity before committing, a marketer running promotions on manual logic, and a growth lead watching AOV plateau.',
   personas: [
@@ -69,6 +71,7 @@ const beardoCartx: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Beardo's cart was passive — no offer visibility, no upselling, no GWP intelligence.",
   challengeParagraphs: [
     "Beardo's cart was invisible in the wrong ways. It held the items — but it didn't communicate value. Customers arrived at checkout not knowing about the offers they qualified for, which created hesitation precisely when confidence was needed most. Coupon validation only at checkout meant some customers gave up rather than hunting for codes.",
     "Promotional infrastructure was equally costly. Every Gift-With-Purchase campaign required manual configuration and monitoring. For a brand running frequent campaigns with high promotional dependency, this was operational overhead that didn't need to exist — and a conversion ceiling that didn't need to stay where it was.",
@@ -83,6 +86,7 @@ const beardoCartx: CaseStudy = {
     { name: 'Cart-to-Checkout progression efficiency', value: 'Below potential', barPercent: 72, barStyle: 'soft' },
   ],
 
+  approachHeadline: "cartx integration with smart upsells, GWP automation, and offer-visibility triggers.",
   approachIntro:
     'cartx was configured and customised to give Rohan the clarity he needed, Priya the automation she was owed, and Dev the basket value opportunity he could see.',
   approachCards: [
@@ -130,6 +134,7 @@ const beardoCartx: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "25% cart-to-checkout improvement, 15% AOV uplift, 80% reduction in promotional coupon dependency.",
   resultCards: [
     {
       number: '25%',

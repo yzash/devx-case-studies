@@ -23,6 +23,7 @@ const avimeeHerbalCx: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "Ayurvedic science, root causes first.<br />Now the storefront diagnoses before it sells.",
   brandIntro: [
     "Avimee Herbal is a premium Ayurvedic haircare brand combining ancient herbal wisdom with modern science to address scalp and hair concerns. Their product range focuses on natural, plant-based solutions for hair regrowth, scalp health, and holistic hair wellness — emphasizing personalized care through diagnostic approaches that identify root causes rather than treating surface symptoms.",
     // TODO: Verify metrics — 67% AOV increase, 7% conversion rate lift
@@ -37,6 +38,7 @@ const avimeeHerbalCx: CaseStudy = {
     { name: 'Year', value: '2026' },
   ],
 
+  peopleHeadline: "Built for the customer cycling through wrong products, the brand manager blocked by dev queues, and the founder watching AOV plateau.",
   peopleIntro:
     "Three people needed something that generic product pages couldn't provide — a customer who didn't know why her hair was falling, a brand manager who wanted to update the diagnostic without a developer, and a founder watching single-product basket sizes plateau.",
   personas: [
@@ -69,6 +71,7 @@ const avimeeHerbalCx: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Avimee Herbal's personalization philosophy had no technical home on their shopping experience.",
   challengeParagraphs: [
     "Avimee Herbal's product philosophy was built on identifying root causes — but their shopping experience was generic. Shalini's journey from scalp concern to product was identical to any other customer's, even though her root causes were different. The result was single-product purchases, low basket sizes, and the classic problem of customers returning products that were clinically sound but mismatched to their specific condition.",
     "Pooja faced a second challenge: the initial diagnostic tool was static. Adding new questions, adjusting scoring logic, or incorporating new clinical root causes required developer involvement for every change. In a category where clinical knowledge evolves and the brand's understanding of their customers deepens continuously, a static tool was a permanent bottleneck. Rajiv needed a platform that the brand team owned — not one that required engineering sprints to evolve.",
@@ -83,6 +86,7 @@ const avimeeHerbalCx: CaseStudy = {
     { name: 'Clinical data informing recommendations', value: 'Absent — scoring logic not connected to products', barPercent: 78, barStyle: 'soft' },
   ],
 
+  approachHeadline: "A dynamic scalp diagnostic engine — admin-controlled question builder, multi-root-cause scoring, Shiprocket checkout.",
   approachIntro:
     "The Scalp Test platform was built to give Shalini her root cause diagnosis, give Pooja control over her own diagnostic tool, and give Rajiv the AOV growth that personalized regimen discovery unlocks.",
   approachCards: [
@@ -130,6 +134,7 @@ const avimeeHerbalCx: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "67% AOV increase, 7% conversion lift, full brand-team ownership of diagnostic logic.",
   resultCards: [
     {
       number: '67%',

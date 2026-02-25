@@ -24,6 +24,7 @@ const secretAlchemistCartx: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "Clean fragrance, curated rituals.<br />A cart that layers both beautifully.",
   brandIntro: [
     "Secret Alchemist is India's first clean perfume brand, co-founded by Samantha Ruth Prabhu, creating fragrances with rare Indian botanicals. Having established strong brand positioning, the brand needed its cart experience to match — implementing cartx to transform cart performance with advanced upsell logic, progress bars, and sticky cart functionality.",
     "We integrated cartx across Secret Alchemist's Shopify storefront — delivering lightning-fast cart performance, strategic upsell and cross-sell recommendations, free shipping threshold progress bars, and persistent sticky cart visibility throughout browsing — significantly improving conversion rates and average order value.",
@@ -37,6 +38,7 @@ const secretAlchemistCartx: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the fragrance collector open to layering, the brand team running free shipping thresholds, and the growth lead watching cross-sell attach rate fall short.",
   peopleIntro:
     "Three people needed the cart to work harder — a customer who added one fragrance but didn't know what to layer with it, a brand manager watching single-product basket sizes, and a founder whose cart UX wasn't keeping up with the brand experience.",
   personas: [
@@ -69,6 +71,7 @@ const secretAlchemistCartx: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Secret Alchemist's cart was leaving fragrance layering upsells and free shipping thresholds invisible.",
   challengeParagraphs: [
     "Secret Alchemist's standard Shopify cart was a functional holdover in a premium brand experience. It listed items, showed a total, and provided a checkout button — with no mechanism for communicating the brand's collection-building philosophy or encouraging customers to discover complementary fragrances. Shreya's single-product sessions weren't a reflection of limited interest; they were a reflection of a cart that didn't surface the layering opportunities Rohan had designed the range to support.",
     "Aashna's conversion data told a clear story: the cart was not contributing to the purchase decision — it was merely recording it. There was no free shipping threshold incentive, no sticky visibility to keep the cart accessible during continued browsing, and no upsell mechanism to surface complementary products at the highest-intent moment in the customer journey. The brand had earned the customer to the cart. The cart wasn't earning the sale.",
@@ -83,6 +86,7 @@ const secretAlchemistCartx: CaseStudy = {
     { name: 'Cart loading performance', value: 'Standard Shopify — no optimization', barPercent: 78, barStyle: 'soft' },
   ],
 
+  approachHeadline: "cartx integration with fragrance layering upsells, free shipping progress bar, sticky cart, and collection cross-sell logic.",
   approachIntro:
     "cartx was built to show Shreya what to layer her fragrance with, give Aashna the cart mechanics to grow AOV, and give Rohan's collection-building philosophy a cart that expressed it.",
   approachCards: [
@@ -130,6 +134,7 @@ const secretAlchemistCartx: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "Higher cross-sell attach rate, free shipping threshold visibility driving basket growth, improved ATC-to-checkout flow.",
   resultCards: [
     {
       number: '↑↑',

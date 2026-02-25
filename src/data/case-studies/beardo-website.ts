@@ -23,6 +23,7 @@ const beardoWebsite: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "Bold grooming, built for Indian men.<br />A storefront rebuilt for how they shop.",
   brandIntro: [
     "Beardo is a leading men's grooming brand in India, offering beard care, skincare, fragrances, and styling products for modern consumers. With a strong community, a growing catalog, and high mobile traffic, the brand needed a digital presence that matched the edge and confidence it stood for.",
     "The existing storefront had grown organically but hadn't evolved strategically. Visual aesthetics lagged behind the brand's positioning, mobile browsing journeys were friction-heavy, and an expanding product catalog had made navigation harder, not easier. The revamp needed to modernise without disrupting — and maintain what was working while fundamentally improving what wasn't.",
@@ -36,6 +37,7 @@ const beardoWebsite: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the mobile grooming shopper, the merchandiser managing PDP real estate, and the growth lead watching conversion data underperform.",
   peopleIntro:
     "Three people experienced the old storefront's limitations every day — a mobile shopper who browsed but hesitated, a merchandiser who managed an increasingly unwieldy catalog, and a growth lead who watched conversion numbers underperform.",
   personas: [
@@ -68,6 +70,7 @@ const beardoWebsite: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Beardo's storefront was built for desktop browsing in a brand built for mobile-first shoppers.",
   challengeParagraphs: [
     "Beardo's storefront had accumulated the debt of rapid growth. Legacy components, growing integrations, and years of campaign additions had degraded performance. On mobile — where the majority of traffic arrived — the browsing experience was clunky, and conversion elements like Add-to-Cart lacked the accessibility a high-intent shopper needed.",
     "The revamp needed to be surgical. A full rebuild was off the table — but targeted improvements to the custom theme, combined with mobile-first UX restructuring and a comprehensive performance pass, could deliver the transformation the brand needed without the disruption of a platform migration.",
@@ -82,6 +85,7 @@ const beardoWebsite: CaseStudy = {
     { name: 'Visual alignment with brand positioning', value: 'Outdated', barPercent: 82, barStyle: 'gold' },
   ],
 
+  approachHeadline: "Mobile-first PDP restructure, sticky ATC, and systematic performance optimization across the storefront.",
   approachIntro:
     "The revamp was built around Vikram's mobile experience, Sanjay's catalog management needs, and Anand's conversion ambitions.",
   approachCards: [
@@ -129,6 +133,7 @@ const beardoWebsite: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "60% performance improvement, 20% conversion rate increase, 20% mobile engagement improvement.",
   resultCards: [
     {
       number: '60%',

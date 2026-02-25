@@ -2,7 +2,7 @@ import { CaseStudy } from '@/types/case-study'
 import styles from './ApproachSection.module.css'
 
 interface ApproachSectionProps {
-  data: Pick<CaseStudy, 'approachCards' | 'approachIntro'>
+  data: Pick<CaseStudy, 'approachHeadline' | 'approachCards' | 'approachIntro'>
 }
 
 export default function ApproachSection({ data }: ApproachSectionProps) {
@@ -10,9 +10,7 @@ export default function ApproachSection({ data }: ApproachSectionProps) {
     <section style={{ background: '#fff' }}>
       <div className="container">
         <div className="section-label">Our Approach</div>
-        <h2 className="section-title">
-          Every technical decision had a<br />human consequence behind it.
-        </h2>
+        <h2 className="section-title" dangerouslySetInnerHTML={{ __html: data.approachHeadline ?? 'Every technical decision had a<br />human consequence behind it.' }} />
         <p className="section-intro">
           {data.approachIntro ??
             "We didn't build features. We built experiences — tracing every engineering choice back to a real person who'd feel its effect."}

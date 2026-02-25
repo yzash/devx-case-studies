@@ -25,6 +25,7 @@ const foxtaleAr: CaseStudy = {
 
   brandIntro: [
     "Foxtale is a Series C-funded Indian skincare brand that built its reputation on science-backed products for Indian skin types. To deepen personalization and help customers find their perfect products through AI-powered skin analysis, the brand integrated AR technology and a quiz-based skin assessment into their mobile app.",
+    // TODO: Verify metrics — 333% quiz completion improvement, 40% conversion lift, 25% AOV lift
     "We integrated Fynd's Glam AR technology for AI-powered skin analysis and built a personalized quiz that delivered tailored skincare recommendations. After data-driven optimization of the initial low-completion quiz, we achieved a 333% improvement in completion rates, a 40% increase in conversion for users who completed the quiz, and a 25% higher average order value through personalized bundle recommendations.",
   ],
   brandTags: ['Skincare', 'AR', 'Glam AR', 'Fynd', 'Personalization', 'Mobile App', 'India'],

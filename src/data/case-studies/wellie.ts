@@ -54,7 +54,7 @@ const wellie: CaseStudy = {
       age: 30,
       role: 'Founder · Wellie',
       quote:
-        "Wellie's formulations carried FDA, GMP, FEDIAF, ISO, and HACCP certifications, and the ingredients were clean and science-backed. But the product page was not communicating that standard. Conscious dog parents — the exact audience the brand was built for — arrived at the PDP and could not find the evidence they needed to buy.",
+        "Wellie's formulations carried FDA, GMP, FEDIAF, ISO, and HACCP certifications, and the ingredients were clean and science-backed. But the product page was not communicating that standard. Conscious dog parents — Wellie's core customer — arrived at the PDP and could not find the evidence they needed to buy.",
       painTag: '📋 Science-backed certifications not prominently visible on PDPs — primary audience not converting',
     },
     {

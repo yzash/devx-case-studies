@@ -45,7 +45,7 @@ const tyaSuites: CaseStudy = {
       age: 44,
       role: 'CTO · Enterprise Customer of TYA Suite',
       quote:
-        "Enterprise customers relying on TYA Suite daily were exposed to the risk of downtime or misconfiguration with each deployment or account change. For applications embedded in daily operations, that unpredictability was a material concern — not an acceptable cost of software updates.",
+        "Enterprise customers relying on TYA Suite daily were exposed to the risk of downtime or misconfiguration with each deployment or account change. For applications embedded in daily operations, that unpredictability was a material concern — a liability that compounded with every deployment cycle.",
       painTag: '⚠️ Enterprise customers experiencing deployment risk and inconsistency',
     },
     {

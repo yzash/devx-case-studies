@@ -63,7 +63,7 @@ const theIndusValley: CaseStudy = {
       age: 42,
       role: 'Head of Ecommerce · The Indus Valley',
       quote:
-        "A brand built on premium craftsmanship was being represented by a storefront that loaded slowly and performed inconsistently. The gap between product quality and site performance was directly at odds with what the brand stood for.",
+        "A brand built on premium craftsmanship was being represented by a storefront that loaded slowly and performed inconsistently. Site performance at odds with product quality is a contradiction the brand couldn't afford to leave unresolved.",
       painTag: '🐢 Site performance misaligned with brand quality positioning',
     },
   ],

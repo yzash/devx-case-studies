@@ -23,6 +23,7 @@ const hireforCareAi: CaseStudy = {
     { label: 'Impact Pillar', value: 'AI - Ops' },
   ],
 
+  brandHeadline: "Special-needs care is too important<br />for a matching process built on guesswork.",
   brandIntro: [
     "HireForCare connects families of special-needs children with qualified caregivers and therapists who have the skills, personality, and approach to make a genuine difference. In a domain where a poor match isn't just inconvenient but potentially harmful — disrupting therapy continuity for children with autism, ADHD, or developmental delays — the quality of matching is the platform's core value proposition.",
     "We built the AI matching platform at the heart of HireForCare: a machine learning system that evaluates 50+ compatibility factors to generate caregiver-family matches, automates the screening workflow that previously took weeks, and learns from every successful placement to improve future recommendations.",
@@ -36,6 +37,7 @@ const hireforCareAi: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the parent facing a 2-week wait, the care coordinator drowning in manual screening, and the operations lead building a platform that had to be right — not just fast.",
   peopleIntro:
     "Three people were experiencing the real cost of poor matching — a mother whose son couldn't sustain a caregiver relationship, a coordinator overwhelmed by manual vetting, and a CEO whose platform reputation rested on match quality.",
   personas: [
@@ -68,6 +70,7 @@ const hireforCareAi: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "HireForCare's 2–3 week caregiver screening process was too slow for families in urgent need.",
   challengeParagraphs: [
     "Special-needs caregiving requires a fundamentally different matching model than most professional placement contexts. Kavita's son doesn't just need a qualified ABA therapist — he needs one with the patience for his specific communication style, the ability to work within her family's cultural context, scheduling availability that matches his school routine, and a personality that settles him rather than unsettles him. These factors don't fit into a database query. They require understanding.",
     "The manual matching process at HireForCare was exhaustive but imperfect — coordinators like Anjali were making subjective judgements based on incomplete information, spending weeks on each placement. And even after careful vetting, match failures were common enough that Vikram's platform faced a trust challenge. The AI needed to assess both the structured requirements and the soft factors that actually determined whether a placement would last.",
@@ -82,6 +85,7 @@ const hireforCareAi: CaseStudy = {
     { name: 'Platform trust from match failure rate', value: 'At risk', barPercent: 85, barStyle: 'gold' },
   ],
 
+  approachHeadline: "ML matching across 50+ factors, NLP for soft requirements, automated screening with continuous learning — HIPAA-compliant.",
   approachIntro:
     "The matching system was built to find what Kavita couldn't articulate, automate what Anjali had to do manually, and improve every time Vikram's platform produces a successful long-term placement.",
   approachCards: [
@@ -129,6 +133,7 @@ const hireforCareAi: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "85% faster screening, 90%+ match quality score, 2–3 week process reduced to 2–3 days.",
   resultCards: [
     {
       number: '85%',

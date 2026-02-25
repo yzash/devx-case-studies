@@ -23,6 +23,7 @@ const cetaphilMigration: CaseStudy = {
     { label: 'Impact Pillar', value: 'Enterprise Architecture' },
   ],
 
+  brandHeadline: "Clinical skincare deserves a platform<br />that holds under pressure.",
   brandIntro: [
     "Skin Health & You is a certified ecommerce retailer associated with Galderma's Cetaphil portfolio in India, offering dermatologist-recommended skincare products through digital channels. When the announcement came that their existing platform, Kartify, was shutting down, the brand faced a challenge with a hard deadline and no room for failure.",
     "The migration to Shopify was not optional and not on a flexible timeline. Every customer record, every product, every historical order, and every operational data structure had to move — accurately, completely, and without disrupting a business that couldn't afford downtime. We were brought in to design and execute a migration that would be as invisible to customers as a migration could possibly be.",
@@ -36,6 +37,7 @@ const cetaphilMigration: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the product lead managing a non-negotiable deadline, the digital manager preserving years of customer data, and the ops team with orders in flight.",
   peopleIntro:
     'Three people had everything at stake in the migration going right — a customer who expected continuity, an operations manager in a race against time, and a business head whose revenue depended on uninterrupted commerce.',
   personas: [
@@ -68,6 +70,7 @@ const cetaphilMigration: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Skin Health and You had a fixed external deadline and a Kartify platform they couldn't stay on.",
   challengeParagraphs: [
     "Platform migrations are never simple — but forced migrations with external deadlines are in a different category entirely. The Kartify shutdown gave Skin Health & You a fixed window that couldn't be negotiated. Within that window, a complete data migration was required: product catalog, customer accounts, historical orders, and custom operational datasets built on Kartify's architecture — all of which needed transformation into Shopify-compatible structures.",
     "The data architecture differences between Kartify and Shopify were significant. Kartify-specific data structures required purpose-built transformation logic, not mapping. Customer familiarity with the storefront layout needed to be preserved to avoid friction for returning buyers. And every step of the process had to be validated before go-live — because there was no version of this migration that allowed for a rollback.",
@@ -82,6 +85,7 @@ const cetaphilMigration: CaseStudy = {
     { name: 'Business downtime tolerance', value: 'Zero', barPercent: 90, barStyle: 'gold' },
   ],
 
+  approachHeadline: "Full catalog, customer, and historical order migration from Kartify to Shopify — zero critical downtime.",
   approachIntro:
     "Every decision in the migration strategy was driven by Neelam's zero-downtime requirement, Akash's data completeness mandate, and Ritu's expectation of continuity.",
   approachCards: [
@@ -129,6 +133,7 @@ const cetaphilMigration: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "Migration completed on deadline, 100% data integrity preserved, zero critical downtime through the transition.",
   resultCards: [
     {
       number: '✓',

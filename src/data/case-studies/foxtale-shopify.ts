@@ -23,6 +23,7 @@ const foxtaleShopify: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "Before the headless migration —<br />a Shopify already twice as fast.",
   brandIntro: [
     "Foxtale is a Series C-funded Indian skincare brand that needed immediate performance improvements and advanced promotional capabilities within their existing Shopify setup before migrating to headless architecture. The native Shopify cart was slow, promotional flexibility was limited, and the platform couldn't support the sophisticated offer structures their marketing team required.",
     "We pushed Shopify to its technical limits — halving cart update time from 3 seconds to 1.5 seconds, building a metaobjects-based offer management system enabling unlimited promotional configurations, and creating product and collection-level customization infrastructure that made the marketing team independent from engineering for most campaign changes.",
@@ -36,6 +37,7 @@ const foxtaleShopify: CaseStudy = {
     { name: 'Year', value: '2024' },
   ],
 
+  peopleHeadline: "Built for the marketer constrained by development sprint cycles, the shopper experiencing 3-second cart loads, and the growth lead preparing for headless migration.",
   peopleIntro:
     "Three people needed Shopify to work harder before the headless migration was ready — a customer frustrated by cart lag, a marketer blocked by platform limitations, and an engineering lead who needed to buy the team time.",
   personas: [
@@ -68,6 +70,7 @@ const foxtaleShopify: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Foxtale's marketing team was filing dev requests for every promotional offer change.",
   challengeParagraphs: [
     "Foxtale's Shopify cart was a measurable problem. Each cart quantity update took 3 seconds to process — a user experience issue that drove abandonment particularly during time-sensitive promotions when customers were actively managing their baskets. Within Shopify's native constraints, the cart performance was a function of API round-trips that standard optimization techniques couldn't fully eliminate.",
     "The promotional flexibility gap was equally constraining. Meghna's campaigns required multi-tiered offers, page-specific promotions, and complex freebie rules that Shopify's native promotional system wasn't designed to handle. Every new offer structure required engineering work, creating a bottleneck between campaign conception and campaign execution. Karan's team needed to solve both problems within the existing Shopify infrastructure while the headless migration matured.",
@@ -82,6 +85,7 @@ const foxtaleShopify: CaseStudy = {
     { name: 'Engineering bandwidth for marketing requests', value: 'Overstretched — blocking campaign velocity', barPercent: 78, barStyle: 'soft' },
   ],
 
+  approachHeadline: "Cart speed optimization, metaobjects-based offer management, and headless-compatible architecture — all in Shopify.",
   approachIntro:
     "We made Isha's cart twice as responsive, gave Meghna control over her own promotions, and freed Karan's engineering team from the marketing request backlog.",
   approachCards: [
@@ -129,6 +133,7 @@ const foxtaleShopify: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "50% cart speed improvement, 40% reduction in marketing-to-engineering requests, migration-ready architecture.",
   resultCards: [
     {
       number: '50%',

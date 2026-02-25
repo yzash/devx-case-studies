@@ -23,6 +23,7 @@ const foxtaleAr: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "Science-backed skincare meets AR skin analysis.<br />Personalization that earns the purchase.",
   brandIntro: [
     "Foxtale is a Series C-funded Indian skincare brand that built its reputation on science-backed products for Indian skin types. To deepen personalization and help customers find their perfect products through AI-powered skin analysis, the brand integrated AR technology and a quiz-based skin assessment into their mobile app.",
     // TODO: Verify metrics — 333% quiz completion improvement, 40% conversion lift, 25% AOV lift
@@ -37,6 +38,7 @@ const foxtaleAr: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the shopper overwhelmed by serums, the product manager watching drop-off without knowing where, and the growth lead who needed AR to prove commercial value.",
   peopleIntro:
     "Three people needed the AR skin analysis to solve a real problem — a customer who didn't know which serum to choose, a product manager whose quiz wasn't completing, and a growth lead who needed AR to prove its commercial value.",
   personas: [
@@ -69,6 +71,7 @@ const foxtaleAr: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Foxtale's personalization quiz had real conversion potential hidden behind a 12% completion rate.",
   challengeParagraphs: [
     "Foxtale's initial personalized quiz had the right premise — help customers understand their skin concerns and recommend the right products — but the execution wasn't completing. With 12-15% quiz completion, Divya's team was seeing strong conversion signals from completers but couldn't fix the experience without understanding exactly where users were leaving. The data showed the potential; the UX wasn't delivering it.",
     "Karan's ROI question was legitimate. AR technology is a meaningful investment, and the integration of Fynd's Glam AR into the existing app architecture required a tight 15-day delivery window. If the AR skin analysis improved quiz completion and drove conversion and AOV uplift, it would prove its value. If it was a novelty that users tried once and abandoned, it would be an expensive experiment. The optimization needed to be rigorous and the measurement clear.",
@@ -83,6 +86,7 @@ const foxtaleAr: CaseStudy = {
     { name: 'AOV impact of personalized recommendations', value: 'Unmeasured — hypothesis only', barPercent: 78, barStyle: 'soft' },
   ],
 
+  approachHeadline: "Glam AR skin analysis integrated in 15 days, quiz redesigned from 12% to 50% completion through question-level analytics.",
   approachIntro:
     "We gave Tara an instant skin analysis she trusted, gave Divya the drop-off data she needed to optimize, and gave Karan the commercial proof that AR was a business feature, not a novelty.",
   approachCards: [
@@ -130,6 +134,7 @@ const foxtaleAr: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "333% quiz completion improvement, 40% conversion increase, 25% higher AOV — delivered in 15 days.",
   resultCards: [
     {
       number: '333%',

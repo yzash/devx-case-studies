@@ -24,6 +24,7 @@ const tscRetailos: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "SmartGRID mattresses, one omnichannel backbone<br />connecting every store and every sale.",
   brandIntro: [
     "The Sleep Company is a premium mattress and comfort-tech brand known for its proprietary SmartGRID® technology. With rapid expansion across digital commerce and physical experience centers, the brand focuses on delivering a high-touch, consultative buying journey. As offline retail scaled nationally, maintaining operational precision and brand consistency across online and in-store touchpoints became a strategic priority.",
     "We deployed retailOS on the same commerce architecture as The Sleep Company's e-commerce platform — creating a unified omnichannel backbone with shared inventory, centralized coupon management, AI mattress recommenders, and a brand-aligned POS interface that matched the premium in-store experience the brand had built its reputation on.",
@@ -37,6 +38,7 @@ const tscRetailos: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the store associate recommending without inventory data, the ops lead reconciling cash manually, and the growth team running promotions that did not sync across channels.",
   peopleIntro:
     "Three people needed the in-store experience to feel as premium and seamless as buying a SmartGRID mattress online — a customer in a consultation, a store associate managing a complex sale, and an operations director with reconciliation chaos across a growing store network.",
   personas: [
@@ -69,6 +71,7 @@ const tscRetailos: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "The Sleep Company's stores, stock, and promotions were running without a shared operational backbone.",
   challengeParagraphs: [
     "The Sleep Company's in-store experience had been designed to match the premium standard of the SmartGRID brand — consultative, personal, and expert. But the operational infrastructure behind the experience center didn't match that standard. Inventory reconciliation between e-commerce and physical stores was manual and delayed. Deepa's team managed campaign coupons, EMI offers, and warehouse stock queries through separate tools and phone calls — complexity that stole time from the customer conversation that made the brand exceptional.",
     "Rahul's visibility into the retail estate was insufficient for a multi-city network. Reporting on experience center performance required manual data consolidation. Cash handover processes lacked structured audit trails. Stock Transfer Notes between warehouse and stores were handled informally. The operational debt was invisible in the brand's marketing — but very visible to the teams delivering the in-store experience every day.",
@@ -83,6 +86,7 @@ const tscRetailos: CaseStudy = {
     { name: 'Retail operational reporting', value: 'Delayed — data consolidated manually', barPercent: 78, barStyle: 'soft' },
   ],
 
+  approachHeadline: "retailOS with AI mattress recommender at POS, centralized coupon engine, STN/GRN automation, and EMI and endless aisle.",
   approachIntro:
     "retailOS gave Sunita a consultative buying experience, gave Deepa one system for everything, and gave Rahul complete visibility across his entire retail network.",
   approachCards: [
@@ -130,6 +134,7 @@ const tscRetailos: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "10% AOV increase, 35% faster billing, 40% faster reconciliation, omnichannel inventory unified in real time.",
   resultCards: [
     {
       number: '10%',

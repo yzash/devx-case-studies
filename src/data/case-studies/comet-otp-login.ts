@@ -23,6 +23,7 @@ const cometOtpLogin: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "A Gen-Z brand built for mobile.<br />Login that works the same way.",
   brandIntro: [
     "Comet is a digitally native Indian sneaker brand focused on delivering modern retail experiences through its e-commerce storefront. To align with mobile-first customer expectations and reduce login friction, we engineered a custom mobile number OTP authentication system that works natively within Shopify's customer validation framework.",
     "The implementation required custom backend logic to map mobile numbers to Shopify customer accounts, structured handling of duplicate records, and authentication workflows consistent across both storefront and checkout — delivering a seamless, passwordless login experience without disrupting any existing order or account workflows.",
@@ -36,6 +37,7 @@ const cometOtpLogin: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the mobile-native Gen-Z shopper, the product team managing duplicate account records, and the ops lead watching login friction erode checkout completion.",
   peopleIntro:
     "Three people were experiencing the friction of authentication that didn't match how people actually want to access their accounts — a customer who couldn't remember an email, a support agent handling duplicate account confusion, and a brand manager whose mobile-first brand had an email-first login.",
   personas: [
@@ -68,6 +70,7 @@ const cometOtpLogin: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Comet's email-first login was built for a generation that doesn't use email to shop.",
   challengeParagraphs: [
     "Shopify's native authentication relies on email-based customer login workflows — a model that creates friction for Comet's mobile-first Gen Z audience. Dev's experience wasn't unusual: customers who shop across devices, register with multiple emails, and simply can't remember which credential they used for a specific store face a login wall at the worst possible moment — the start of a limited drop or a time-sensitive promotion.",
     "The identity resolution complexity compounded the problem. Multiple customer records associated with the same phone number created support burden for Ishaan and data fragmentation for the brand. And the authentication inconsistency between storefront and checkout created a disjointed experience that Sanjana's product team needed to unify. The solution had to work within Shopify's validation framework without compromising account security or disrupting existing order workflows.",
@@ -82,6 +85,7 @@ const cometOtpLogin: CaseStudy = {
     { name: 'Password reset abandonment rate', value: 'Elevated — customers exiting rather than recovering', barPercent: 78, barStyle: 'soft' },
   ],
 
+  approachHeadline: "Custom mobile OTP authentication with identity resolution, mobile-to-email mapping, and checkout continuity.",
   approachIntro:
     "OTP authentication was engineered to remove the login friction that was silently costing Comet customers at their most important moments.",
   approachCards: [
@@ -129,6 +133,7 @@ const cometOtpLogin: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "Passwordless login, reduced login friction, and duplicate account records resolved at source.",
   resultCards: [
     {
       number: '✓',

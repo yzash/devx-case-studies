@@ -23,6 +23,7 @@ const missMosa: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "Indian resort wear, built to be found.<br />An end-to-end Shopify launch done right.",
   brandIntro: [
     "Miss Mosa (formerly Alamode By Akanksha) is a premium Indian fashion brand specializing in resort wear, swimwear, and contemporary women's clothing. With a distinctive aesthetic built around bold color, refined silhouettes, and resort lifestyle, the brand needed a digital home that matched the premium quality of its collections.",
     "We built Miss Mosa's complete Shopify store from the ground up — achieving high page speed scores, implementing rich smooth animations, and developing custom product filtering aligned with the brand's collection architecture. The result: a premium fashion digital destination that loads fast, feels luxurious, and helps customers find exactly what they're looking for.",
@@ -36,6 +37,7 @@ const missMosa: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the resort-wear shopper filtering by occasion and style, the founder launching under a new brand identity, and the team needing custom filters.",
   peopleIntro:
     "Three people needed a website built from scratch to a premium standard — a customer looking for resort wear who needed to filter by style and occasion, a brand owner whose previous site wasn't matching the brand she'd built, and a digital manager watching bounce rates from slow load times.",
   personas: [
@@ -68,6 +70,7 @@ const missMosa: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Miss Mosa needed a premium Shopify store that could handle rich animations without sacrificing load performance.",
   challengeParagraphs: [
     "Building Miss Mosa's website from scratch meant making consequential architectural decisions from the beginning. The brand's product range — resort wear, swimwear, and contemporary women's fashion across colors, silhouettes, and occasions — required custom filtering that Shopify's standard filters weren't designed to support. Kritika's product discovery experience depended on being able to filter by attributes that were specific to Miss Mosa's collection logic rather than generic e-commerce categories.",
     "Akanksha's premium positioning required visual richness that performance optimization had to accommodate rather than eliminate. Rich animations enhanced the brand's luxury feel — but every animation added to the performance budget. Priyanka's mobile load time concern meant that every design decision had to earn its place against the performance baseline. Building beautiful and fast simultaneously required intentional trade-off management from day one.",
@@ -82,6 +85,7 @@ const missMosa: CaseStudy = {
     { name: 'Animation quality vs. performance trade-off', value: 'Must resolve — both non-negotiable', barPercent: 80, barStyle: 'soft' },
   ],
 
+  approachHeadline: "Performance-first Shopify build with rich animations, custom product filters, and a mobile-first luxury fashion UX.",
   approachIntro:
     "We built the site to help Kritika find her resort look in seconds, realize Akanksha's brand vision in every pixel, and give Priyanka performance metrics she was proud of.",
   approachCards: [
@@ -129,6 +133,7 @@ const missMosa: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "High page speed scores with full animation, improved product discovery via custom collection filters.",
   resultCards: [
     {
       number: '✓',

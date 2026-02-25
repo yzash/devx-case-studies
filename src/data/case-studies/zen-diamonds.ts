@@ -23,6 +23,7 @@ const zenDiamonds: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "Internationally recognized diamonds.<br />A storefront worthy of every high-consideration browse.",
   brandIntro: [
     "Zen Diamonds is an internationally recognized jewellery brand offering premium diamond collections through curated digital and retail experiences. In the luxury category, the digital experience carries enormous weight — a slow page or a confusing product journey doesn't just reduce conversion; it contradicts the brand promise.",
     "The storefront was carrying the weight of high-resolution imagery, complex collection browsing, and growing mobile traffic — without the performance architecture to support any of them well. We partnered with Zen Diamonds to address performance and UX holistically, improving the technical foundation while refining the browsing and decision-making experience for discerning luxury shoppers.",
@@ -36,6 +37,7 @@ const zenDiamonds: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the luxury shopper evaluating a significant purchase on mobile, the digital manager whose imagery was both asset and liability, and the brand director holding the site to an in-store standard.",
   peopleIntro:
     'Three people were affected by a storefront that underperformed its product — an affluent shopper whose expectations were not met, a digital manager whose high-resolution imagery became a liability, and a brand director for whom every slow second was a reputational cost.',
   personas: [
@@ -68,6 +70,7 @@ const zenDiamonds: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Zen Diamonds' high-resolution jewellery photography was the reason customers arrived — and the reason pages were slow.",
   challengeParagraphs: [
     "Zen Diamonds operated in a category where the digital experience had to earn the trust required for high-consideration purchases. Priya wasn't browsing for impulse items — she was evaluating a significant investment. Every friction point in the browsing journey — a slow image load, a confusing navigation path, a mobile layout that didn't inspire confidence — worked against the purchase decision she came to make.",
     "The technical challenge was real: jewellery imagery is inherently high-resolution and cannot be meaningfully compressed without visual quality loss. The solution had to be architectural — delivery strategies, loading prioritisation, and rendering optimisation that maintained presentation quality while eliminating the load overhead.",
@@ -82,6 +85,7 @@ const zenDiamonds: CaseStudy = {
     { name: 'Navigation hierarchy for collection exploration', value: 'Requiring refinement', barPercent: 70, barStyle: 'soft' },
   ],
 
+  approachHeadline: "Structured asset delivery for luxury imagery, lazy loading, PDP interaction hierarchy refinement, and mobile-first layout improvements.",
   approachIntro:
     "The approach was structured around Priya's trust, Aditya's imagery requirements, and Shefali's brand standard — with no concession on any of them.",
   approachCards: [
@@ -129,6 +133,7 @@ const zenDiamonds: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "45–60% faster page loading, 20–25% mobile responsiveness improvement, full visual quality preserved.",
   resultCards: [
     {
       number: '45–60%',

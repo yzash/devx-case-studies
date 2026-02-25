@@ -57,7 +57,7 @@ export default async function CaseStudyPage({ params }: PageProps) {
       <ChallengeSection data={cs} />
       <ApproachSection data={cs} />
       {cs.journey && cs.journey.length > 0 && (
-        <JourneySection phases={cs.journey} />
+        <JourneySection phases={cs.journey} headline={cs.journeyHeadline} />
       )}
       <ResultsSection data={cs} />
       <HumanImpactSection data={cs} />

@@ -23,6 +23,7 @@ const tscVoiceAgent: CaseStudy = {
     { label: 'Impact Pillar', value: 'AI - Ops' },
   ],
 
+  brandHeadline: "Hinglish AI calling agent confirms COD orders<br />before the return window opens.",
   brandIntro: [
     "The Sleep Company is India's leading sleep solutions brand, known for its SmartGRID technology across mattresses, chairs, and ergonomic furniture. With a nationwide customer base and high Cash on Delivery (COD) order volumes, the brand's operational performance depends critically on the efficiency of order confirmation and delivery coordination — particularly for high-value furniture orders where failed deliveries are especially costly.",
     "We deployed a production-grade AI Humanoid Voice Calling Agent that replaced a manual calling operation costing $198 per day. The result was a transformation in every delivery metric: order confirmation speed, same-day confirmation rates, RTO reduction, and operational costs — while maintaining the premium customer communication quality the brand's customers expected.",
@@ -36,6 +37,7 @@ const tscVoiceAgent: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the COD customer who expected a human call, the ops team making 200 calls a day manually, and the finance lead watching RTO rates drain margin.",
   peopleIntro:
     "Three people were living with the consequences of a slow, expensive manual confirmation process — a customer waiting days, a call center manager managing impossible volumes, and an operations VP watching RTO costs compound.",
   personas: [
@@ -68,6 +70,7 @@ const tscVoiceAgent: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "The Sleep Company's COD confirmation process was costing $198 a day and confirming only 11% of orders same-day.",
   challengeParagraphs: [
     "Cash on Delivery order confirmation is a last-mile problem hiding as a customer service problem. For The Sleep Company, the human caller model had fundamental constraints: it operated within business hours, couldn't handle peak volumes during sale periods, and was producing same-day confirmation for only 11.66% of orders — leaving most customers in a 24-72 hour confirmation window that created anxiety, changed-mind cancellations, and ultimately, expensive RTO situations.",
     "At $198 per day, the manual model was both inefficient and expensive. The AI solution needed to operate 24/7 at scale, speak in the Hinglish code-switching style that connected with The Sleep Company's diverse pan-India customer base, and execute complex in-call actions — scheduling delivery slots, verifying order details, creating CRM tickets — without human assistance.",
@@ -82,6 +85,7 @@ const tscVoiceAgent: CaseStudy = {
     { name: 'Peak period call volume handling', value: 'Insufficient', barPercent: 78, barStyle: 'soft' },
   ],
 
+  approachHeadline: "Hinglish NLP voice agent with sub-100ms latency, 200+ concurrent calls via Promise Pooling, RAG knowledge base, and CRM integration.",
   approachIntro:
     "The AI agent was built to call Reena the moment her order is placed, handle Deepak's volume without a headcount ceiling, and drive the RTO and cost improvements Amitabh needed.",
   approachCards: [
@@ -129,6 +133,7 @@ const tscVoiceAgent: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "80.56% cost reduction, same-day confirmation up from 11% to 68%, 37.68% RTO reduction.",
   resultCards: [
     {
       number: '80.56%',

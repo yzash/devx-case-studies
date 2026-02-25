@@ -23,6 +23,7 @@ const cometCheckoutExtensibility: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "Every promotional offer visible<br />at the moment the purchase is made.",
   brandIntro: [
     "Comet is a digitally native Indian sneaker brand delivering seamless e-commerce experiences to a mobile-first audience. To improve purchase confidence and operational data reliability, we optimized checkout journeys through guided promotional visibility and structured customer input validation aligned with Shopify's secure checkout framework.",
     "We introduced promotional awareness mechanisms in the checkout flow, structured mobile number validation to standardize customer data capture, and delivered all enhancements through controlled deployment workflows — achieving measurable improvements in checkout progression confidence, purchase completion speed, and data quality.",
@@ -36,6 +37,7 @@ const cometCheckoutExtensibility: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the shopper who didn't know about the coupon, the ops lead chasing invalid contact data, and the marketer watching redemption rates fall short.",
   peopleIntro:
     "Three people were losing value at the checkout — a customer who didn't know about a coupon she could have used, an ops team dealing with invalid contact data, and a brand manager watching checkout abandonment persist despite strong cart metrics.",
   personas: [
@@ -68,6 +70,7 @@ const cometCheckoutExtensibility: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Comet's best offers were invisible at the checkout step where they would have done the most work.",
   challengeParagraphs: [
     "Comet's checkout had two distinct problems. The first was promotional invisibility — customers like Anjali who were eligible for discounts didn't know about them during the checkout flow, creating uncertainty about whether they were getting the best price. That uncertainty was translating into hesitation and, in some cases, abandonment. The second was data quality — an estimated 30% invalid mobile number rate in customer records was creating downstream operational communication failures that Nisha's team dealt with daily.",
     "Arjun's conversion data reflected both problems: strong cart metrics with weaker-than-expected checkout completion suggested the issue was in the checkout experience rather than in the upstream funnel. Fixing it required changes within Shopify's checkout framework without disrupting the native security and transaction handling that Shopify's checkout provides — a constrained engineering challenge that required Shopify Checkout Extensibility rather than custom checkout replacement.",
@@ -82,6 +85,7 @@ const cometCheckoutExtensibility: CaseStudy = {
     { name: 'Checkout completion confidence signals', value: 'Absent — no clarity at payment hesitation point', barPercent: 80, barStyle: 'soft' },
   ],
 
+  approachHeadline: "Shopify Checkout Extensibility — promotional UI, mobile validation, and coupon visibility at the decision point.",
   approachIntro:
     "We gave Anjali the promotional visibility she needed to complete confidently, gave Nisha data she could act on, and gave Arjun a checkout conversion rate that matched the cart quality.",
   approachCards: [
@@ -129,6 +133,7 @@ const cometCheckoutExtensibility: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "18–25% checkout progression improvement, 60–70% reduction in invalid contact data, 15–20% higher coupon utilization.",
   resultCards: [
     {
       number: '18–25%',

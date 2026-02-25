@@ -23,6 +23,7 @@ const hireforCareInfra: CaseStudy = {
     { label: 'Impact Pillar', value: 'Enterprise Architecture' },
   ],
 
+  brandHeadline: "Healthcare data demands infrastructure<br />that treats compliance as non-negotiable.",
   brandIntro: [
     "HireForCare is a specialized healthcare platform connecting families of special-needs children with trained caregivers and therapists. The platform handles some of the most sensitive personal data in existence: patient medical records, therapy session recordings, caregiver background checks, and payment information for families in uniquely vulnerable situations.",
     "We architected the AWS infrastructure foundation that makes HireForCare's operations possible — a HIPAA-compliant, enterprise-grade security architecture built from day one for the protection standards healthcare applications require and the scale growth demands.",
@@ -36,6 +37,7 @@ const hireforCareInfra: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the family trusting the platform with sensitive health information, the compliance lead facing audit risk, and the engineering team scaling to 10,000+ concurrent users.",
   peopleIntro:
     "Three people needed this infrastructure to work flawlessly before HireForCare could serve a single family — a mother whose child's medical data was on the platform, a therapist who needed to trust where session recordings lived, and a CTO building for both security and scale.",
   personas: [
@@ -68,6 +70,7 @@ const hireforCareInfra: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "HireForCare's sensitive caregiving platform needed HIPAA compliance built into the architecture — not bolted on.",
   challengeParagraphs: [
     "HIPAA compliance in healthcare applications is not a checklist — it is an architectural posture. Every data store, every transmission path, every access control, and every audit trail needs to be designed with patient data protection as the primary constraint. For HireForCare, handling therapy session videos, medical records, and caregiver background information for children with special needs, the failure consequences were not abstract: a breach would affect families and children already navigating extraordinary challenges.",
     "Aditya needed an infrastructure that was compliant immediately, operational now, and capable of scaling to tens of thousands of users without architectural rework. Building HIPAA compliance retroactively is significantly more expensive and disruptive than building it correctly from the start — the infrastructure had to be engineered correctly once.",
@@ -82,6 +85,7 @@ const hireforCareInfra: CaseStudy = {
     { name: 'Breach consequence severity', value: 'Catastrophic — protecting vulnerable children', barPercent: 98, barStyle: 'gold' },
   ],
 
+  approachHeadline: "HIPAA-compliant AWS architecture — KMS, WAF, VPC isolation, GuardDuty, CloudTrail, multi-AZ disaster recovery.",
   approachIntro:
     "Every infrastructure decision was held to a single standard: would Priya trust her child's data here? If the answer wasn't an unambiguous yes, we built it differently.",
   approachCards: [
@@ -129,6 +133,7 @@ const hireforCareInfra: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "100% HIPAA compliance, zero security incidents, 10,000+ concurrent users supported without incident.",
   resultCards: [
     {
       number: '100%',

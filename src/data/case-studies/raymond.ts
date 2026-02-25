@@ -23,6 +23,7 @@ const raymond: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "Four brands, one analytics foundation.<br />Raymond finally sees every customer step.",
   brandIntro: [
     "MyRaymond is the official e-commerce platform for Raymond Group, featuring premium brands including Raymond, Park Avenue, ColorPlus, Parx, and Sleepz. With a multi-brand catalog spanning formal wear, casual wear, and lifestyle products, the platform needed comprehensive GA4 event tracking to enable data-driven decision making, optimize conversion funnels, and improve marketing ROI.",
     "We implemented comprehensive GA4 event tracking across all critical touchpoints — including enhanced e-commerce events, conversion funnel tracking, cross-brand navigation patterns, and advanced user behavior analytics — giving Raymond's marketing, product, and leadership teams complete visibility into their customer journey for the first time.",
@@ -36,6 +37,7 @@ const raymond: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the brand manager optimizing budget without attribution clarity, the product lead testing features without behavioral data, and the analytics team running blind across four brands.",
   peopleIntro:
     "Three people were making important decisions without the data to support them well — a marketing director allocating budget without attribution clarity, a product manager optimizing funnels with aggregate data only, and a brand head of a premium multi-brand platform with no behavioral visibility.",
   personas: [
@@ -68,6 +70,7 @@ const raymond: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "MyRaymond's four brands were operating without step-level funnel data or reliable marketing attribution.",
   challengeParagraphs: [
     "MyRaymond's multi-brand architecture created a complex analytics challenge. Standard page view tracking couldn't reveal how customers moved between Raymond and Park Avenue collections, what drove cross-brand discovery, or which brand interactions preceded purchase. Priyanka's funnel optimization work was constrained by aggregate data that pointed to a problem without revealing its location — the checkout drop-off was visible in the overall conversion rate, but not in any specific funnel step.",
     "Kabir's attribution problem was compounded by the premium fashion context: customers buying Raymond formalwear often research across multiple sessions and multiple devices before purchasing. Last-click attribution systematically misattributed conversions to the final touchpoint and systematically undervalued the awareness and consideration touchpoints that actually drove the purchase decision. Ashish needed brand-level behavioral intelligence that multi-brand GA4 implementation could provide — but hadn't yet.",
@@ -82,6 +85,7 @@ const raymond: CaseStudy = {
     { name: 'E-commerce event completeness', value: 'Minimal — purchase only, no pre-purchase events', barPercent: 80, barStyle: 'soft' },
   ],
 
+  approachHeadline: "Comprehensive GA4 implementation — enhanced e-commerce events, funnel step tracking, multi-brand segmentation, and attribution enrichment.",
   approachIntro:
     "GA4 implementation gave Kabir attribution data he could act on, gave Priyanka the step-level funnel clarity she needed to optimize, and gave Ashish the brand-level intelligence a premium multi-brand platform requires.",
   approachCards: [
@@ -129,6 +133,7 @@ const raymond: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "Complete customer journey visibility, data-driven optimization enabled, and accurate attribution across all four Raymond brands.",
   resultCards: [
     {
       number: '✓',

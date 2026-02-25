@@ -23,6 +23,7 @@ const aizaWebsite: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "Arab heritage and modern science.<br />A storefront that finally said so.",
   brandIntro: [
     "AÏZA is a premium beauty brand inspired by traditional Arab self-care rituals and modern scientific innovation. Combining heritage ingredients — dates, black seed, frankincense — with clinically proven actives developed in global laboratories, AÏZA occupies a unique position: culturally rooted, scientifically rigorous, and visually refined.",
     "The digital storefront needed to reflect all of that. A Shopify theme-based build was the chosen path — but without careful execution, a standard theme would flatten a brand defined by nuance. The work was about making Shopify feel bespoke: structured, premium, and conversion-ready without the overhead of a fully custom build.",
@@ -36,6 +37,7 @@ const aizaWebsite: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the shopper who nearly left, the founder whose vision wasn't on the page, and the ops lead watching performance flags.",
   peopleIntro:
     "Three perspectives shaped the UX decisions — a customer who expected luxury, a merchandiser who needed clarity, and a brand leader who couldn't afford compromise.",
   personas: [
@@ -68,6 +70,7 @@ const aizaWebsite: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "A default Shopify theme was undercutting a premium beauty brand's identity at every scroll.",
   challengeParagraphs: [
     "Premium brand identity is fragile. AÏZA had invested heavily in visual storytelling, cultural positioning, and product quality — but the Shopify theme was erasing that work before a customer even reached a product. Default layout patterns don't understand brand hierarchy. They don't distinguish between a mass-market catalogue and a curated premium collection.",
     "The conversion challenges were structural. Add-to-Cart placement, quantity management, purchase messaging, and trust signals all lacked the intentional hierarchy that guides shoppers from consideration to commitment. Fixing these within a theme-based approach — without destroying performance — required precise, methodical craft.",
@@ -82,6 +85,7 @@ const aizaWebsite: CaseStudy = {
     { name: 'Page load performance with visual richness', value: 'At risk', barPercent: 68, barStyle: 'soft' },
   ],
 
+  approachHeadline: "PDP hierarchy, visual storytelling, and a purchase flow rebuilt around AÏZA's brand premium.",
   approachIntro:
     'Every component was rebuilt around how Layla browses, what Hana needed to present, and what Omar needed to convert.',
   approachCards: [
@@ -129,6 +133,7 @@ const aizaWebsite: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "60% faster PDP load, 2x overall sales value, 50% faster add-to-cart to checkout.",
   resultCards: [
     {
       number: '60%',

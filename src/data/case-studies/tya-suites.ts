@@ -23,6 +23,7 @@ const tyaSuites: CaseStudy = {
     { label: 'Impact Pillar', value: 'Enterprise Architecture' },
   ],
 
+  brandHeadline: "Multi-tenant SaaS deployments automated.<br />95% faster, 99% fewer errors.",
   brandIntro: [
     "TYA Suite is a multi-tenant SaaS platform serving enterprise customers across isolated AWS accounts — providing each client with a dedicated, governed environment. As the customer base grew, the operational model for provisioning and maintaining these environments had not evolved: each new account required manual configuration, each deployment required coordinated human effort, and configuration drift between environments was a constant operational risk.",
     "We implemented Infrastructure-as-Code and CI/CD automation that transformed TYA Suite's deployment architecture from a manual, error-prone process into a standardised, automated pipeline. The result: 95% faster deployments, 99% error reduction, and an engineering team freed from infrastructure maintenance to focus on product.",
@@ -36,6 +37,7 @@ const tyaSuites: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the enterprise customer exposed to deployment risk, the DevOps engineer managing drift across dozens of AWS accounts, and the engineering lead whose team was building infrastructure instead of product.",
   peopleIntro:
     "Three people were paying the cost of an infrastructure automation gap — an enterprise customer experiencing deployment disruption, a DevOps engineer managing chaos across dozens of accounts, and an engineering leader whose team was building infrastructure instead of product.",
   personas: [
@@ -68,6 +70,7 @@ const tyaSuites: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "TYA Suite's multi-account deployments required days of manual coordination and accumulated configuration drift.",
   challengeParagraphs: [
     "TYA Suite's multi-account architecture was the right isolation model for enterprise SaaS — each customer deserved their own governed environment. But without Infrastructure-as-Code, each environment diverged from the others over time. Manual provisioning introduced subtle variations. Individual deployment steps were performed differently across accounts. The operational debt was invisible until something went wrong — and then it was expensive to diagnose and fix.",
     "Arjun's team was consuming engineering hours on infrastructure work that should have been automated. New account provisioning took days of coordinated human effort. Deployments required careful sequencing that couldn't scale as customer count grew. Every hour the engineering team spent on infrastructure coordination was an hour not spent on the product features that attracted customers to TYA Suite in the first place.",
@@ -82,6 +85,7 @@ const tyaSuites: CaseStudy = {
     { name: 'Engineering time on infrastructure vs. product', value: 'Imbalanced', barPercent: 78, barStyle: 'soft' },
   ],
 
+  approachHeadline: "Terraform IaC, GitHub Actions and AWS CodePipeline CI/CD, centralized config management, and blue-green zero-downtime deployments.",
   approachIntro:
     "The automation architecture was built to give Aditya invisible deployments, give Priya a single system to manage, and give Arjun's team the development velocity they should have had.",
   approachCards: [
@@ -129,6 +133,7 @@ const tyaSuites: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "95% faster deployments, 99% error reduction, zero customer-facing downtime through every release.",
   resultCards: [
     {
       number: '95%',

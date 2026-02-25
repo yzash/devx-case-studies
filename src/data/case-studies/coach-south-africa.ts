@@ -23,6 +23,7 @@ const coachSouthAfrica: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "Coach arrives in South Africa.<br />The digital debut built to last.",
   brandIntro: [
     'Coach is a globally recognised luxury fashion house with a legacy of exceptional craftsmanship and elevated retail experiences. Entering South Africa meant more than switching on a website — it meant earning trust in a market that expects precision, performance, and a sense of belonging.',
     "The brief was clear: build a digital flagship that feels as considered as the products inside it. Every interaction had to reflect the brand's global standard — while feeling at home in South Africa.",
@@ -37,6 +38,7 @@ const coachSouthAfrica: CaseStudy = {
     { name: 'Year', value: '2026' },
   ],
 
+  peopleHeadline: "Built for the regional customer expecting a flagship digital experience, the eCommerce lead managing fulfilment from day one, and the brand team watching launch quality.",
   peopleIntro:
     "Three types of people needed this launch to feel effortless. We kept all three in mind throughout every build decision.",
   personas: [
@@ -69,6 +71,7 @@ const coachSouthAfrica: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Coach's South Africa launch needed a Fynd-based commerce infrastructure built entirely from scratch.",
   challengeParagraphs: [
     "Coach's South Africa launch wasn't just a technical project — it was a brand moment. The digital storefront would be the first touchpoint for an entirely new market. A sluggish load time, a confusing checkout, or mismatched inventory wasn't just a bug. It was a broken promise to every shopper who'd waited for Coach to arrive in their country.",
     "The complexity ran deep: region-specific logistics required a custom integration with Bobgo, ERP synchronisation had to be built from scratch, and media-rich product pages had to load fast on South African network conditions — all within a strict launch window.",
@@ -83,6 +86,7 @@ const coachSouthAfrica: CaseStudy = {
     { name: 'Launch timeline pressure', value: 'Strict', barPercent: 88, barStyle: 'gold' },
   ],
 
+  approachHeadline: "Fynd storefront, custom Bobgo logistics extension, ERP sync, and media-rich performance optimization.",
   approachIntro:
     "We didn't build features. We built experiences — tracing every engineering choice back to a real person who'd feel its effect.",
   approachCards: [
@@ -130,6 +134,7 @@ const coachSouthAfrica: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "On-time, on-brand market debut — zero checkout or fulfilment failures at launch.",
   resultCards: [
     {
       number: '✓',

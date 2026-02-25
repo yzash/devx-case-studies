@@ -23,6 +23,7 @@ const kameroAi: CaseStudy = {
     { label: 'Impact Pillar', value: 'AI - Ops' },
   ],
 
+  brandHeadline: "You're in 50,000 photos.<br />Find yours in under 3 seconds.",
   brandIntro: [
     "Kamero is a global event photography platform serving 50,000+ events including weddings, corporate conferences, sports tournaments, and award ceremonies. The platform sits at the intersection of AI infrastructure and human memory — helping event organizers deliver a personalized photo experience that transforms how guests remember and share the occasions that matter most.",
     "We built the AI-powered facial recognition and delivery infrastructure at the heart of Kamero's platform: a system that matches event photographs to individual attendees in real time, delivering personalized photo galleries to guests' phones within seconds of a photographer pressing the shutter — at event scale, globally.",
@@ -36,6 +37,7 @@ const kameroAi: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the wedding guest who missed their own photos, the photographer managing 50,000-image events, and the platform founder scaling to global events simultaneously.",
   peopleIntro:
     "Three people experienced the old world of event photography — and the new one made possible by AI — from completely different vantage points.",
   personas: [
@@ -68,6 +70,7 @@ const kameroAi: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Kamero's event photographers were capturing thousands of faces — and guests waited days to find their own.",
   challengeParagraphs: [
     "The traditional event photography workflow was sequential where it needed to be simultaneous. Photos were taken, then culled, then sorted, then edited, then organized by person, then delivered — a pipeline with days or weeks between capture and receipt. The manual bottleneck in this pipeline was identification: with thousands of attendees and tens of thousands of photos, manually matching images to individuals was operationally impossible at scale.",
     "The technical challenge was formidable: building facial recognition infrastructure capable of operating at real-time speeds across 50,000+ concurrent global events, with 95%+ accuracy under real-world conditions — varying lighting, group shots, partially obscured faces, different angles — while maintaining privacy compliance across jurisdictions and delivering to mobile devices in under 3 seconds from photographer upload.",
@@ -82,6 +85,7 @@ const kameroAi: CaseStudy = {
     { name: 'Privacy compliance across global markets', value: 'Critical requirement', barPercent: 82, barStyle: 'gold' },
   ],
 
+  approachHeadline: "AWS Rekognition plus custom deep learning — GDPR-compliant facial recognition with sub-3-second delivery.",
   approachIntro:
     "Every architectural decision was made around Ananya's 3-second expectation, Raj's sorting reality, and Vikram's product vision of the 'wow' moment.",
   approachCards: [
@@ -129,6 +133,7 @@ const kameroAi: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "Sub-3-second photo delivery, 50,000+ concurrent global events supported, 95%+ facial recognition accuracy.",
   resultCards: [
     {
       number: '<3 sec',

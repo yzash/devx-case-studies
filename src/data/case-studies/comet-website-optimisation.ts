@@ -23,6 +23,7 @@ const cometWebsiteOptimisation: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "Fast fashion. Faster storefront.<br />Performance built for Gen-Z intent.",
   brandIntro: [
     "Comet is a digitally native Indian sneaker brand delivering modern, design-led e-commerce experiences to a mobile-first audience. To support growing customer traffic and improve browsing continuity, the brand needed to optimize storefront performance — strengthening loading efficiency and enabling faster customer interactions across high-engagement shopping journeys.",
     "We conducted comprehensive performance audits across homepage, PLPs, and PDPs — implementing image delivery optimization, lazy loading for non-critical components, third-party script cleanup, and mobile-first performance tuning. The result: 50-65% improvement in overall page load performance and 20-25% improvement in mobile interaction responsiveness.",
@@ -36,6 +37,7 @@ const cometWebsiteOptimisation: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the Gen-Z shopper who leaves in 3 seconds, the product manager auditing Core Web Vitals, and the growth lead watching mobile engagement data.",
   peopleIntro:
     "Three people were experiencing the consequences of a site that loaded slower than the sneaker culture it served — a customer who bounced before seeing the drop, a marketer whose paid traffic wasn't converting, and a product manager whose brand standards were undermined by performance.",
   personas: [
@@ -68,6 +70,7 @@ const cometWebsiteOptimisation: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Comet's storefront load times were costing browsing sessions among an audience with no patience for slow.",
   challengeParagraphs: [
     "Comet's media-heavy storefront was a performance challenge inherent to the brand's visual identity. High-quality sneaker imagery across homepage hero sections, collection grids, and PDP galleries was non-negotiable for brand standards — but unoptimized media delivery was the primary driver of load time. Third-party integrations had added JavaScript execution overhead that compounded the media loading delays, and mobile users felt both problems acutely.",
     "The performance impact was measurable in conversion data: Rahul's campaigns showed click-through rates that didn't translate into the conversion rates a healthy landing page should deliver. And for Rishabh's drop-purchase behavior — inherently time-sensitive — slow loading was the difference between a successful purchase and an out-of-stock disappointment. The optimization had to preserve Comet's visual quality while eliminating the speed penalty it was creating.",
@@ -82,6 +85,7 @@ const cometWebsiteOptimisation: CaseStudy = {
     { name: 'Above-the-fold rendering speed', value: 'Delayed — non-critical assets blocking initial view', barPercent: 78, barStyle: 'soft' },
   ],
 
+  approachHeadline: "Comprehensive audit, image delivery optimization, lazy loading, and mobile-first performance tuning across the storefront.",
   approachIntro:
     "We made the site fast enough for Rishabh to catch a drop, improved Rahul's conversion from paid traffic, and gave Priya performance without compromising visual quality.",
   approachCards: [
@@ -129,6 +133,7 @@ const cometWebsiteOptimisation: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "50–65% page load improvement, 20–25% mobile responsiveness improvement across the storefront.",
   resultCards: [
     {
       number: '50–65%',

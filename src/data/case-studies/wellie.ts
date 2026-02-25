@@ -23,6 +23,7 @@ const wellie: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "Science-backed pet wellness —<br />certifications that were finally visible.",
   brandIntro: [
     "Wellie is an Indian pet wellness brand offering functional dog treats made with clean ingredients and backed by science, founded by Tarini. Their products — formulated for specific health benefits like joint support, digestion, and skin health — are designed for the growing number of conscious Indian dog parents who approach their pets' nutrition with the same care as their own.",
     "We revamped Wellie's product detail pages with enhanced UI/UX and strategic trust-building elements tailored for the dog parent audience — implementing certification badges, enhanced product information, trust signals, and a social proof framework — significantly increasing conversion rates and reducing purchase hesitation.",
@@ -36,6 +37,7 @@ const wellie: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the dog parent researching ingredients before purchasing, the founder whose certifications weren't surfaced, and the growth lead watching high-intent traffic leave without buying.",
   peopleIntro:
     "Three people needed the product page to do more work — a dog parent hesitating over safety certifications, a brand manager whose clinical formulations deserved clinical presentation, and a founder watching conversion data reveal persistent purchase hesitation.",
   personas: [
@@ -68,6 +70,7 @@ const wellie: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Wellie's FDA, GMP, and FEDIAF certifications were buried on a PDP that conscious dog parents couldn't trust.",
   challengeParagraphs: [
     "Wellie's target customer — a conscious, informed dog parent like Shreya — approaches pet nutrition with the same scrutiny they apply to their own food. They want to see certifications, understand ingredient sourcing, read formulation science, and hear from other dog parents before committing to a product they'll give their dog daily. The existing PDP had the product information but not the trust architecture: certifications were buried, scientific backing wasn't presented accessibly, and social proof was minimal.",
     "Tarini's challenge was that the gap between Wellie's actual quality — multiple certifications, clean science-backed formulations, rigorous quality standards — and what was visible on the product page was significant. Vivek's conversion data confirmed the cost: high-intent traffic from pet wellness communities was arriving, reading, not finding what it needed, and leaving. The page needed to be rebuilt around the dog parent's specific decision framework, not the generic e-commerce product page template.",
@@ -82,6 +85,7 @@ const wellie: CaseStudy = {
     { name: 'Trust signal architecture for safety-conscious audience', value: 'Absent — no structured credibility framework', barPercent: 90, barStyle: 'gold' },
   ],
 
+  approachHeadline: "PDP revamp with above-the-fold certification badges, ingredient transparency sections, and a dog parent-focused content hierarchy.",
   approachIntro:
     "The PDP revamp was built to give Shreya the certifications she was looking for, give Tarini's formulation science the prominence it earned, and convert Vivek's high-intent traffic at the rate the product quality deserved.",
   approachCards: [
@@ -129,6 +133,7 @@ const wellie: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "Increased conversion rates, reduced purchase hesitation, and Wellie's premium credentials visible from the first scroll.",
   resultCards: [
     {
       number: '↑↑',

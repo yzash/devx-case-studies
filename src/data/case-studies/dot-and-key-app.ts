@@ -23,6 +23,7 @@ const dotAndKeyApp: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "Ingredient-led skincare,<br />an app experience built to match.",
   brandIntro: [
     "Dot & Key is a leading ingredient-led Indian skincare brand known for science-backed formulations and a highly engaged digital community. As mobile commerce became the dominant channel, the brand needed an app experience that could match the precision and personality of its products.",
     "The existing app, built on Shopify App Maker, had served as a starting point — but not a destination. Performance was sluggish, content management was rigid, and the platform simply couldn't support the kind of app-exclusive personalisation the brand wanted to offer. The brief was to build something custom, capable, and worthy of the community that had grown around the brand.",
@@ -36,6 +37,7 @@ const dotAndKeyApp: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the ingredient-conscious shopper browsing on mobile, the content team updating campaigns without dev waits, and the growth lead tracking conversion by channel.",
   peopleIntro:
     'Three people were let down by the old app every day. The rebuild put each of them at the centre of every technical decision.',
   personas: [
@@ -68,6 +70,7 @@ const dotAndKeyApp: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Dot and Key's Shopify App Maker was too slow and too rigid for a brand growing at their pace.",
   challengeParagraphs: [
     "Dot & Key's growth had outpaced what Shopify App Maker could deliver. The platform's performance ceiling was visible to every shopper, its content management rigidity frustrated every campaign, and its architecture blocked the personalisation ambitions the product team had been building toward.",
     "The missing features weren't edge cases — they were table stakes for a brand competing at this level. Persistent wishlists, differentiated pricing, automated refunds, and real-time content control had all been requested and denied by the platform's limitations. A custom build wasn't optional; it was overdue.",
@@ -82,6 +85,7 @@ const dotAndKeyApp: CaseStudy = {
     { name: 'Automated refund workflows', value: 'Absent', barPercent: 75, barStyle: 'soft' },
   ],
 
+  approachHeadline: "Custom React Native app with Strapi CMS, dual-cart pricing, persistent wishlist, and automated refunds.",
   approachIntro:
     'The custom build was designed around the people who would use it daily — a shopper who needed speed, a marketer who needed agility, and a PM who needed capability.',
   approachCards: [
@@ -129,6 +133,7 @@ const dotAndKeyApp: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "60% faster load, 40% faster content rollout, 25–30% conversion increase, 15–18% retention improvement.",
   resultCards: [
     {
       number: '60%',

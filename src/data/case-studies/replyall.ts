@@ -23,6 +23,7 @@ const replyall: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "A new D2C brand deserves a storefront<br />that does not look like a template.",
   brandIntro: [
     "ReplyAll is an emerging Indian D2C brand with a distinct identity and a digital-first launch strategy. Coming to market without an existing online presence, the brand needed to establish its digital home with precision — a custom Shopify storefront that captured the brand's personality through pixel-perfect design and polished, performant animations.",
     "The engagement was end-to-end: from theme architecture and design implementation through animation integration, mobile optimization, and launch validation. For a new brand entering a competitive D2C landscape, the first impression is the only first impression — and it needed to be flawless.",
@@ -36,6 +37,7 @@ const replyall: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the first-time shopper forming a brand impression, the founder who knew what the brand should feel like, and the team that needed an architecture they could grow into.",
   peopleIntro:
     "Three people had different stakes in a launch that had to be perfect on day one — a first-time visitor, a brand designer, and a founder.",
   personas: [
@@ -68,6 +70,7 @@ const replyall: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "ReplyAll needed a Shopify theme built from scratch — polished, performant, and ready for scale from launch day.",
   challengeParagraphs: [
     "A new brand launch on a custom Shopify theme presents a specific set of challenges that template implementations don't encounter. ReplyAll's design specifications went beyond what standard theme customization could support — animations, bespoke layouts, and interaction details that required a ground-up build to implement faithfully.",
     "The mobile-first imperative was non-negotiable. India's D2C market is overwhelmingly mobile — Kavya is the rule, not the exception. Every component, every animation, and every interaction had to be designed for thumb navigation on a mid-range Android as the baseline, with the desktop experience as the enhancement. And it all had to launch on schedule, perform from day one, and give Arjun a foundation he could build on without rebuilding.",
@@ -82,6 +85,7 @@ const replyall: CaseStudy = {
     { name: 'Scalable architecture from day one', value: 'Required', barPercent: 75, barStyle: 'soft' },
   ],
 
+  approachHeadline: "Custom Shopify theme with pixel-perfect design, performant animations, and a mobile-first scalable architecture.",
   approachIntro:
     "The build was structured to give Kavya an unforgettable first impression, Rohan the pixel-perfect execution his designs deserved, and Arjun a platform worthy of the brand's ambitions.",
   approachCards: [
@@ -129,6 +133,7 @@ const replyall: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "A fully custom branded storefront — launched with no performance compromise and no technical debt.",
   resultCards: [
     {
       number: '✓',

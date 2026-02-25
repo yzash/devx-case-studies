@@ -23,6 +23,7 @@ const beautyGarage: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "Professional haircare, properly presented.<br />A storefront as expert as the products.",
   brandIntro: [
     "Beauty Garage is a premium Indian haircare brand offering professional salon-quality products — shampoos, conditioners, masks, and treatments — designed for customers who take their hair as seriously as their skincare. With salon-professional formulations and a growing D2C presence, the brand needed a website that delivered the premium salon experience digitally.",
     "We delivered a comprehensive website revamp — pixel-perfect design implementation, speed optimization through code and asset management, and strategic upselling sections including product combos, frequently bought together, and related products — elevating brand perception, improving site performance, and increasing average order value.",
@@ -36,6 +37,7 @@ const beautyGarage: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the professional stylist browsing for expertise, the buyer looking for ritual cues, and the team managing a growing catalog.",
   peopleIntro:
     "Three people needed the website to work harder — a customer looking for a complete haircare routine who bought only one product, a brand manager whose premium products deserved better digital presentation, and a founder watching website performance constrain conversion.",
   personas: [
@@ -68,6 +70,7 @@ const beautyGarage: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Beauty Garage's brand authority wasn't reflected in a storefront that looked like a template.",
   challengeParagraphs: [
     "Beauty Garage's website had accumulated the debt of rapid growth — design inconsistencies, performance overhead, and a product presentation that treated each item as independent rather than as part of an interconnected professional haircare system. Nisha's single-product purchase pattern wasn't unusual: the website had no mechanism to surface how the shampoo, conditioner, mask, and treatment worked together as a complete professional ritual.",
     "Divya's brand standard challenge was specific: pixel-perfect design implementation meant no deviation from the brand guidelines in typography, spacing, imagery treatment, or color hierarchy. Generic Shopify themes had been adapted rather than designed — and the approximation was visible in the premium haircare context where brand presentation signaled product quality. Rohit needed the performance improvement, the design lift, and the AOV mechanism simultaneously.",
@@ -82,6 +85,7 @@ const beautyGarage: CaseStudy = {
     { name: 'Mobile experience quality', value: 'Below standard — inconsistent across devices', barPercent: 78, barStyle: 'soft' },
   ],
 
+  approachHeadline: "Pixel-perfect redesign, performance optimization, and 'complete the ritual' upsell logic throughout.",
   approachIntro:
     "We gave Nisha a complete haircare ritual experience, gave Divya pixel-perfect brand expression, and gave Rohit performance and AOV improvements in the same revamp.",
   approachCards: [
@@ -129,6 +133,7 @@ const beautyGarage: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "Elevated brand credibility, stronger site performance, and increased average order value from ritual-based upselling.",
   resultCards: [
     {
       number: '↑↑',

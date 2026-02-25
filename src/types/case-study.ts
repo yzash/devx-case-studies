@@ -85,30 +85,37 @@ export interface CaseStudy {
   heroMeta: { label: string; value: string }[]
 
   // Brand section
+  brandHeadline?: string                     // overrides hardcoded section h2
   brandIntro: string[]                       // array of paragraphs
   brandTags: string[]
   brandStats: BrandStat[]
 
   // People
+  peopleHeadline?: string                    // overrides hardcoded section h2
   peopleIntro?: string
   personas: Persona[]
 
   // Challenge
+  challengeHeadline?: string                 // overrides hardcoded section h2
   challengeParagraphs: string[]
   challengeTension: string
   challengeMetrics: ChallengeMetric[]
 
   // Approach
+  approachHeadline?: string                  // overrides hardcoded section h2
   approachIntro?: string
   approachCards: ApproachCard[]
 
   // Journey (optional)
+  journeyHeadline?: string                   // overrides hardcoded section h2
   journey?: JourneyPhase[]
 
   // Results
+  resultsHeadline?: string                   // overrides hardcoded section h2
   resultCards: ResultCard[]
 
   // Human Impact
+  humanImpactHeadline?: string               // overrides hardcoded section h2
   humanImpactCards: HumanImpactCard[]
 
   // Testimonial (optional)

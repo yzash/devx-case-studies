@@ -24,6 +24,7 @@ const eumeRetailos: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "Travel accessories built for movement.<br />The ops infrastructure built to match.",
   brandIntro: [
     "EUME is a design-led lifestyle brand known for functional travel gear and everyday carry essentials. With growing traction across D2C and marketplaces, the brand expanded into physical retail to strengthen customer experience and increase offline discovery. As product variants, inventory movement, and returns became more complex, EUME required a scalable retail operating system that could unify store operations with its existing ecommerce stack.",
     "We deployed retailOS across EUME's retail stores — implementing SKU-level inventory traceability, structured STN/GRN workflows, integrated return handling, and a centralized coupon engine. The result: complete operational visibility, 45% faster stock reconciliation, and a retail backbone that scales with the brand.",
@@ -37,6 +38,7 @@ const eumeRetailos: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the store manager tracking inventory by hand, the ops lead chasing return reconciliation, and the founder watching combo sell-through underperform.",
   peopleIntro:
     "Three people were navigating the costs of a retail operation without the infrastructure to support it — a customer whose return went untracked, a store manager drowning in reconciliation, and an ops head without real-time visibility.",
   personas: [
@@ -69,6 +71,7 @@ const eumeRetailos: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "EUME's retail operations were running on manual stock counts and disconnected reconciliation workflows.",
   challengeParagraphs: [
     "EUME's retail expansion exposed the limits of manual operations at scale. SKU-level inventory movement — sales, returns, transfers — was tracked inconsistently across stores and warehouses. Rajan's team spent hours each day on reconciliation that should have been automated. And when Priya returned a product in-store, the process of validating eligibility, updating inventory, and syncing with Shopify required manual intervention that delayed refunds and created stock discrepancies.",
     "The absence of structured Stock Transfer Note (STN) and Goods Receipt Note (GRN) workflows meant every inter-store and warehouse movement was prone to error. Coupon and discount management was fragmented across touchpoints. Vikram lacked the operational dashboard to see his retail estate in real time. EUME needed a retail operating system — not a patchwork of manual processes.",
@@ -83,6 +86,7 @@ const eumeRetailos: CaseStudy = {
     { name: 'Multi-store inventory overview', value: 'None — no centralized dashboard', barPercent: 80, barStyle: 'soft' },
   ],
 
+  approachHeadline: "retailOS with SKU-level tracking, STN/GRN automation, real-time Shopify returns sync, and centralized coupon engine.",
   approachIntro:
     "retailOS gave Priya a seamless return experience, gave Rajan a system that reconciles itself, and gave Vikram a single view of his entire operation.",
   approachCards: [
@@ -130,6 +134,7 @@ const eumeRetailos: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "100% SKU traceability, 45% faster reconciliation, 30% faster return processing, 18% combo attach rate increase.",
   resultCards: [
     {
       number: '100%',

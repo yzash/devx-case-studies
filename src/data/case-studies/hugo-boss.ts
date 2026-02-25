@@ -23,6 +23,7 @@ const hugoBoss: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "Hugo Boss UAE: premium fashion,<br />one integrated commerce engine.",
   brandIntro: [
     "Hugo Boss is a globally renowned premium fashion house with exacting standards for every customer touchpoint. Entering and scaling the UAE market required a commerce ecosystem that could match those standards — not just a storefront, but a fully integrated operational architecture capable of real-time synchronisation across catalog, inventory, logistics, and checkout.",
     "The engagement delivered a fully integrated commerce solution across Storefront, OMS, Catalog, and Inventory on the Fynd platform. Built on Boltic Serverless with Workflow Builder, the architecture orchestrated complex integrations across Salsify PIM, SAP ERP, Tradeling WMS, cross-border logistics, and a custom dual-payment checkout — establishing a foundation built for the precision the brand demands.",
@@ -36,6 +37,7 @@ const hugoBoss: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the regional eCommerce manager owning catalog accuracy, the ops lead routing orders through Tradeling, and the brand team demanding premium digital execution.",
   peopleIntro:
     "Three people needed this commerce engine to work flawlessly — and each had a different definition of what flawless meant.",
   personas: [
@@ -68,6 +70,7 @@ const hugoBoss: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Hugo Boss UAE needed a full commerce stack connecting Salsify PIM, SAP ERP, and Tradeling WMS — simultaneously.",
   challengeParagraphs: [
     "Orchestrating a commerce engine for a premium global brand in the UAE means solving problems that standard platform implementations don't encounter. Catalog data flows from a global Salsify PIM via SFTP. Inventory and warehouse operations run through Tradeling WMS. Financial data integrates with SAP. Each system has its own data model, its own timing requirements, and its own tolerance for error — which is zero.",
     "Cross-border logistics introduced additional complexity: Delivery Note EDI (ASN) and Receive Advice flows had to be implemented to satisfy regional fulfilment requirements. The checkout needed to support regional payment methods through JusPay while maintaining international payment reliability through Checkout.com. Every integration had to hold under the performance expectations a premium fashion brand sets for its customers.",
@@ -82,6 +85,7 @@ const hugoBoss: CaseStudy = {
     { name: 'Checkout reliability for premium transactions', value: 'Zero tolerance', barPercent: 95, barStyle: 'gold' },
   ],
 
+  approachHeadline: "Fynd storefront, Boltic Serverless workflow automation, Salsify PIM SFTP sync, SAP ERP, and custom JusPay and Checkout.com payment layer.",
   approachIntro:
     "The architecture was built so that Amira experiences effortlessness, Tariq experiences automation, and Layla experiences compliance — simultaneously.",
   approachCards: [
@@ -129,6 +133,7 @@ const hugoBoss: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "Real-time catalog and inventory visibility, full operational automation, compliance by architecture.",
   resultCards: [
     {
       number: '✓',

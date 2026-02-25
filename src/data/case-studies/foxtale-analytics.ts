@@ -23,6 +23,7 @@ const foxtaleAnalytics: CaseStudy = {
     { label: 'Impact Pillar', value: 'Marketing Automation' },
   ],
 
+  brandHeadline: "Series C skincare brand.<br />Data-blind no longer.",
   brandIntro: [
     "Foxtale is a Series C-funded Indian skincare brand scaling rapidly across D2C channels. Their marketing and product teams were making decisions based on incomplete data — unable to track detailed customer journeys, identify specific funnel drop-off points, or measure campaign effectiveness with the granularity that a fast-scaling brand requires.",
     // TODO: Verify metrics — 35% conversion rate improvement
@@ -37,6 +38,7 @@ const foxtaleAnalytics: CaseStudy = {
     { name: 'Year', value: '2024' },
   ],
 
+  peopleHeadline: "Built for the product manager guessing at checkout drop-off, the marketer misallocating spend, and the VP watching reports arrive 3 days too late.",
   peopleIntro:
     "Three people were making consequential decisions on incomplete information — a product manager who couldn't find the checkout drop-off, a marketer allocating budget without attribution, and a growth lead waiting days for reports.",
   personas: [
@@ -69,6 +71,7 @@ const foxtaleAnalytics: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Foxtale's marketing team was making budget decisions with last-click data in a multi-touch world.",
   challengeParagraphs: [
     "Foxtale's analytics gap was a strategic constraint. Anika knew there was a checkout drop-off but couldn't identify where in the funnel users abandoned — shipping step, payment method selection, or order review. Each hypothesis required a separate analysis cycle, and the standard analytics tools didn't have the event granularity to answer the question definitively. The product team was iterating on hunches.",
     "Varun's attribution problem was equally consequential. Last-click attribution was crediting Google Search for conversions that were genuinely driven by Instagram awareness campaigns — causing budget misallocation across channels. Siddharth's reporting lag made both problems worse: by the time data surfaced, campaign windows had passed and optimization opportunities were gone. Foxtale needed analytics infrastructure that matched the pace and sophistication of their marketing operation.",
@@ -83,6 +86,7 @@ const foxtaleAnalytics: CaseStudy = {
     { name: 'A/B test decision speed', value: 'Slow — insufficient real-time data to conclude', barPercent: 78, barStyle: 'soft' },
   ],
 
+  approachHeadline: "Mixpanel with custom event tracking, step-level funnel analytics, multi-touch attribution, and role-specific real-time dashboards.",
   approachIntro:
     "The analytics stack was built to give Anika the step-level funnel answer, give Varun the attribution truth, and give Siddharth real-time performance visibility.",
   approachCards: [
@@ -130,6 +134,7 @@ const foxtaleAnalytics: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "35% conversion improvement, 50% faster decisions, 25% better marketing ROI through attribution accuracy.",
   resultCards: [
     {
       number: '35%',

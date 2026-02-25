@@ -23,6 +23,7 @@ const theIndusValley: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "Toxin-free cookware built with intention.<br />Now the storefront performs the same way.",
   brandIntro: [
     "The Indus Valley is a premium Indian kitchenware and lifestyle brand known for its toxin-free cookware and commitment to sustainable home products. With growing online demand and a product catalog that communicates through rich visual content, the storefront needed to perform at the standard the brand had set for its products.",
     "Performance had degraded as the catalog grew. Media-heavy product pages, legacy scripts, and accumulated third-party integrations had combined to create load time bottlenecks that were quietly costing browsing sessions and purchase momentum. The work was focused and technical: remove the friction, preserve the functionality, and deliver speed without disrupting what was working.",
@@ -36,6 +37,7 @@ const theIndusValley: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the health-conscious home cook whose mobile page stalled, the ops manager watching traffic not convert, and the eCommerce head whose premium brand was loading like a discount one.",
   peopleIntro:
     'Three people were paying the price of a slow storefront — a shopper who expected premium performance, a merchandiser watching traffic not convert, and a brand leader who knew speed was part of quality.',
   personas: [
@@ -68,6 +70,7 @@ const theIndusValley: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "The Indus Valley's media-heavy storefront was quietly eroding purchase intent before customers reached the product.",
   challengeParagraphs: [
     "The Indus Valley had built a brand around quality and intentionality — but the storefront was delivering an experience that contradicted both. Compressed images were still too large, third-party scripts were executing in ways that blocked rendering, and the mobile experience was particularly affected by assets that hadn't been optimised for smaller connections.",
     "The challenge wasn't identifying the problem — performance audits had flagged the issues. The challenge was systematically resolving them without introducing new instability. Every optimization had to be tested against existing integrations, and improvements had to hold under the higher traffic loads that campaigns would bring.",
@@ -82,6 +85,7 @@ const theIndusValley: CaseStudy = {
     { name: 'Above-the-fold rendering speed', value: 'Too slow', barPercent: 78, barStyle: 'soft' },
   ],
 
+  approachHeadline: "Asset compression, lazy loading, script execution cleanup, and mobile-first performance tuning on Shopify.",
   approachIntro:
     'Every optimization decision was mapped to a real browsing impact — what Meena felt, what Suresh could measure, and what Kavitha could point to.',
   approachCards: [
@@ -129,6 +133,7 @@ const theIndusValley: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "50–65% page load improvement, 20–30% mobile interaction improvement, conversion aligned with traffic quality.",
   resultCards: [
     {
       number: '50–65%',

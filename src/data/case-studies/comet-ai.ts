@@ -23,6 +23,7 @@ const cometAi: CaseStudy = {
     { label: 'Impact Pillar', value: 'AI - Ops' },
   ],
 
+  brandHeadline: "Gen-Z sneakers, Gen-Z service.<br />An AI sales assistant that never logs off.",
   brandIntro: [
     "Comet is a Gen-Z focused D2C sneaker brand with a vibrant personality, a highly engaged social media community, and a product drop culture that drives intense, time-sensitive customer demand. The brand had built real equity with its audience — but its customer support infrastructure was designed for a different scale.",
     "As traffic grew — especially around product drops — the gap between what customers expected and what a manual support team could deliver became impossible to close. Sizing questions went unanswered. Style queries arrived at midnight. Cart abandonment climbed during the exact moments when responsive, on-brand support would have converted the sale. An AI sales assistant was the answer — but it had to sound like Comet, not like a chatbot.",
@@ -36,6 +37,7 @@ const cometAi: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the sneaker fan who wanted fit advice at 2am, the support team drowning in repetitive queries, and the growth lead who needed AI to earn its keep commercially.",
   peopleIntro:
     "Three people were let down by a support model that couldn't keep up with Comet's community — a shopper who wanted instant answers, a support lead drowning in volume, and a growth lead watching support costs eat into margins.",
   personas: [
@@ -68,6 +70,7 @@ const cometAi: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Comet's Gen-Z customers wanted instant answers at midnight, not a support ticket queue.",
   challengeParagraphs: [
     "Gen-Z customers don't wait. Zara's decision to buy a limited drop happens in a window measured in minutes, not hours — and the questions standing between her intent and her purchase are almost always the same ones: sizing, styling, availability, delivery. A manual support team operating within business hours couldn't cover those windows, and no generic chatbot could replicate the brand personality that made Comet worth buying from in the first place.",
     "The support operation was a ceiling on growth. Nikhil's team was handling escalating volumes with no relief mechanism, and the repetitive nature of the tickets — the same sizing charts, the same tracking links, the same return policy questions — was consuming bandwidth that should have been focused on complex customer relationships. The AI needed to be both a sales tool and an operational relief valve, simultaneously.",
@@ -82,6 +85,7 @@ const cometAi: CaseStudy = {
     { name: 'Support cost scaling relative to traffic growth', value: 'Linear — unsustainable', barPercent: 85, barStyle: 'gold' },
   ],
 
+  approachHeadline: "RAG-powered AI chatbot trained on Comet's brand voice — 24/7 sales assistance with human escalation.",
   approachIntro:
     "The AI was designed to give Zara an instant answer at midnight, give Nikhil his time back, and give Dev a support model that doesn't cost more as it scales.",
   approachCards: [
@@ -129,6 +133,7 @@ const cometAi: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "12–15% CVR lift, 70% support tasks automated, 40–50% support cost reduction.",
   resultCards: [
     {
       number: '12–15%',

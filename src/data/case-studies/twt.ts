@@ -23,6 +23,7 @@ const twt: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "Clean-label nutrition built on radical transparency.<br />Now the commerce platform matches.",
   brandIntro: [
     "The Whole Truth is one of India's fastest-growing clean-label nutrition brands, built on a single promise: complete transparency in ingredients. As the brand scaled rapidly, the technology underneath it needed to match that ambition — not slow it down.",
     "The existing commerce environment, built on Dukaan, had served its early purpose but was hitting a ceiling. Pages were slow, content was hard to manage across multiple layouts, and the cart experience cracked under peak-traffic pressure. The brief was clear: rebuild the stack with a foundation capable of keeping pace with a brand that never cuts corners.",
@@ -36,6 +37,7 @@ const twt: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the loyal shopper whose cart failed on sale day, the content manager juggling page patterns without a CMS, and the engineering lead blocked by platform constraints.",
   peopleIntro:
     'Three people experienced the limitations of the old stack every single day. Every architectural decision in the rebuild was designed to lift those frustrations.',
   personas: [
@@ -68,6 +70,7 @@ const twt: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "The Whole Truth had outgrown Dukaan — carts were failing, content was chaotic, and features took a month to ship.",
   challengeParagraphs: [
     "The Whole Truth had outgrown its commerce foundation. Dukaan's constraints weren't just inconveniences — they were compounding. Content teams were managing multiple page patterns with no unified CMS, engineering couldn't ship features fast enough, and the cart was failing under the traffic the brand's marketing team was working hard to drive.",
     "Rebuilding wasn't optional — but rebuilding carelessly would have been worse. The new stack needed to eliminate every identified bottleneck while preserving customer experience continuity and operational stability throughout the transition.",
@@ -82,6 +85,7 @@ const twt: CaseStudy = {
     { name: 'Manual Cash & Carry workflows', value: 'Operational drag', barPercent: 65, barStyle: 'soft' },
   ],
 
+  approachHeadline: "Dukaan to Medusa.js and Next.js and Strapi — full-stack rebuild with caching, pre-rendering, and Clickpost order automation.",
   approachIntro:
     'Each technical decision was anchored to a real pain point — not best-practice theory, but what Riya, Arjun, and Divya actually needed.',
   approachCards: [
@@ -129,6 +133,7 @@ const twt: CaseStudy = {
     },
   ],
 
+  resultsHeadline: "30–40% cart latency reduction, 2–3x faster page speed, 2–3x faster feature launches.",
   resultCards: [
     {
       number: '30–40%',

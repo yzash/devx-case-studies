@@ -23,6 +23,7 @@ const foxtaleHeadless: CaseStudy = {
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
+  brandHeadline: "Series C scale, headless infrastructure.<br />$6K/month eliminated, 93% faster cart.",
   brandIntro: [
     "Foxtale is a Series C-funded Indian skincare brand offering science-backed, dermatologist-tested products designed for Indian skin types. As one of India's fastest-growing brands in the skincare space, their rapid scale exposed a fundamental constraint: their Shopify storefront couldn't keep pace with growing traffic, and CloudFront infrastructure costs had ballooned to $6,000 monthly.",
     "We built a custom Next.js headless frontend with optimized cart logic, migrated to AWS-powered backend infrastructure, and completely eliminated $6,000 monthly in CloudFront costs through strategic traffic routing. Cart interaction time dropped from 1.5 seconds to 0.1 seconds, and the platform handled 8-10 lakh concurrent sessions during the January 2026 sale with zero downtime.",
@@ -36,6 +37,7 @@ const foxtaleHeadless: CaseStudy = {
     { name: 'Year', value: '2025' },
   ],
 
+  peopleHeadline: "Built for the shopper whose cart lagged during a flash sale, the CTO watching cloud costs climb, and the growth lead whose sale-day traffic exposed the platform ceiling.",
   peopleIntro:
     "Three people were hitting the ceiling that Shopify's native architecture imposed — a customer frustrated by cart lag, a CTO watching infrastructure bills grow, and an engineering lead managing a platform that couldn't handle sale-day traffic.",
   personas: [
@@ -68,6 +70,7 @@ const foxtaleHeadless: CaseStudy = {
     },
   ],
 
+  challengeHeadline: "Foxtale's Shopify stack was costing $6,000 a month in CloudFront fees and 1.5 seconds per cart load.",
   challengeParagraphs: [
     "Foxtale's growth had outpaced the architecture they were running on. The Shopify native cart — where Riya's 1.5-second frustration lived — was not a configuration problem but an architectural ceiling. Promotions, discount logic, and cart interactions that drove Foxtale's marketing strategy were constrained by Shopify's built-in limitations. And as CloudFront costs grew alongside traffic, Rohit was watching a cost structure that didn't scale efficiently with the brand.",
     "The January and sale-season traffic spikes were Tanvi's recurring stress point. Shopify's native frontend lacked the elastic scalability that 8-10 lakh sessions required, and the team had no reliable way to stress-test the architecture before a high-stakes sale event. The headless migration was not a technical preference but a business requirement: performance, cost efficiency, and sale-day reliability needed to be solved simultaneously.",
@@ -82,6 +85,7 @@ const foxtaleHeadless: CaseStudy = {
     { name: 'Infrastructure cost efficiency', value: 'Declining — costs scaling faster than revenue benefit', barPercent: 80, barStyle: 'soft' },
   ],
 
+  approachHeadline: "Next.js headless frontend on AWS ECS, replacing CloudFront with purpose-built infrastructure for scale.",
   approachIntro:
     "We built the headless architecture to make Riya's cart feel instant, eliminate Rohit's $6,000 monthly bill, and give Tanvi an architecture she could trust through any sale volume.",
   approachCards: [
@@ -135,6 +139,7 @@ const foxtaleHeadless: CaseStudy = {
     title: 'Foxtale',
   },
 
+  resultsHeadline: "$6K/month CloudFront cost eliminated, 93% cart speed improvement, 800K+ peak sessions with zero downtime.",
   resultCards: [
     {
       number: '100%',

@@ -3,7 +3,8 @@ import { CaseStudy } from '@/types/case-study'
 const beautyGarage: CaseStudy = {
   slug: 'beauty-garage',
   isPublished: true,
-  client: 'Beauty Garage',
+  client: 'Professional Beauty Retailer',
+  isAnonymized: true,
   industry: 'Professional Haircare',
   region: 'India',
   pillar: 'Customer Experience',
@@ -15,11 +16,11 @@ const beautyGarage: CaseStudy = {
   accentLight: '#dbbebe',
 
   eyebrow: 'Customer Experience · UI & Performance · Website Revamp · 2025',
-  headline: "Best-in-Class: Complete Website Revamp and Performance Optimization for <em>Beauty Garage</em>",
+  headline: "Best-in-Class: Complete Website Revamp and Performance Optimization",
   subheadline:
     'A best-in-class experience for a brand that sells best-in-class beauty.',
   heroMeta: [
-    { label: 'Client', value: 'Beauty Garage' },
+    { label: 'Client', value: 'Professional Beauty Retailer' },
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
@@ -70,7 +71,7 @@ const beautyGarage: CaseStudy = {
     },
   ],
 
-  challengeHeadline: "Beauty Garage's brand authority wasn't reflected in a storefront that looked like a template.",
+  challengeHeadline: "This professional beauty retailer's brand authority wasn't reflected in a storefront that looked like a template.",
   challengeParagraphs: [
     "Beauty Garage's website had accumulated the debt of rapid growth — design inconsistencies, performance overhead, and a product presentation that treated each item as independent rather than as part of an interconnected professional haircare system. Nisha's single-product purchase pattern wasn't unusual: the website had no mechanism to surface how the shampoo, conditioner, mask, and treatment worked together as a complete professional ritual.",
     "Divya's brand standard challenge was specific: pixel-perfect design implementation meant no deviation from the brand guidelines in typography, spacing, imagery treatment, or color hierarchy. Generic Shopify themes had been adapted rather than designed — and the approximation was visible in the premium haircare context where brand presentation signaled product quality. Rohit needed the performance improvement, the design lift, and the AOV mechanism simultaneously.",

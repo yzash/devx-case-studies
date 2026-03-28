@@ -3,7 +3,8 @@ import { CaseStudy } from '@/types/case-study'
 const coachSouthAfrica: CaseStudy = {
   slug: 'coach-south-africa',
   isPublished: true,
-  client: 'Coach South Africa',
+  client: 'Global Luxury Fashion Brand',
+  isAnonymized: true,
   industry: 'Luxury Fashion',
   region: 'South Africa',
   pillar: 'Customer Experience',
@@ -15,15 +16,15 @@ const coachSouthAfrica: CaseStudy = {
   accentLight: '#c9a96e',
 
   eyebrow: 'eCommerce Launch · Full-Stack Development · 2026',
-  headline: 'Bringing <em>Coach</em> to South Africa — a luxury debut that put shoppers first',
+  headline: 'A Luxury Fashion Debut in South Africa — Built to Last',
   subheadline:
     'Global brand standards. Regional soul. A storefront built not just for conversion — but for confidence, delight, and trust at every touchpoint.',
   heroMeta: [
-    { label: 'Client', value: 'Coach South Africa' },
+    { label: 'Client', value: 'Global Luxury Fashion Brand' },
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
-  brandHeadline: "Coach arrives in South Africa.<br />The digital debut built to last.",
+  brandHeadline: "A luxury fashion debut in South Africa.<br />The digital launch built to last.",
   brandIntro: [
     'Coach is a globally recognised luxury fashion house with a legacy of exceptional craftsmanship and elevated retail experiences. Entering South Africa meant more than switching on a website — it meant earning trust in a market that expects precision, performance, and a sense of belonging.',
     "The brief was clear: build a digital flagship that feels as considered as the products inside it. Every interaction had to reflect the brand's global standard — while feeling at home in South Africa.",
@@ -71,7 +72,7 @@ const coachSouthAfrica: CaseStudy = {
     },
   ],
 
-  challengeHeadline: "Coach's South Africa launch needed a Fynd-based commerce infrastructure built entirely from scratch.",
+  challengeHeadline: "A global luxury brand's South Africa launch needed a Fynd-based commerce infrastructure built entirely from scratch.",
   challengeParagraphs: [
     "Coach's South Africa launch wasn't just a technical project — it was a brand moment. The digital storefront would be the first touchpoint for an entirely new market. A sluggish load time, a confusing checkout, or mismatched inventory wasn't just a bug. It was a broken promise to every shopper who'd waited for Coach to arrive in their country.",
     "The complexity ran deep: region-specific logistics required a custom integration with Bobgo, ERP synchronisation had to be built from scratch, and media-rich product pages had to load fast on South African network conditions — all within a strict launch window.",

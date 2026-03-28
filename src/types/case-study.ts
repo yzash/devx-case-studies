@@ -62,6 +62,7 @@ export interface Testimonial {
 export interface CaseStudy {
   slug: string
   isPublished: boolean
+  isAnonymized?: boolean    // hide client name, sort to bottom of listing
 
   // Meta
   client: string
@@ -133,6 +134,7 @@ export interface CaseStudy {
 export interface CaseStudyMeta {
   slug: string
   isPublished: boolean
+  isAnonymized?: boolean
   client: string
   pillar: Pillar
   product?: string

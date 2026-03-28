@@ -3,7 +3,8 @@ import { CaseStudy } from '@/types/case-study'
 const raymond: CaseStudy = {
   slug: 'raymond',
   isPublished: true,
-  client: 'Raymond',
+  client: 'Indian Fashion House',
+  isAnonymized: true,
   industry: 'Premium Fashion / Multi-Brand Retail',
   region: 'India',
   pillar: 'Customer Experience',
@@ -15,15 +16,15 @@ const raymond: CaseStudy = {
   accentLight: '#2e2e50',
 
   eyebrow: 'Customer Experience · Analytics & Tracking · GA4 · 2025',
-  headline: "Complete Visibility: GA4 Event Tracking and Conversion Optimization for <em>MyRaymond</em>",
+  headline: "Complete Visibility: GA4 Event Tracking and Conversion Optimization Across a Multi-Brand Portfolio",
   subheadline:
     "You can't improve what you can't see. Now they can see everything.",
   heroMeta: [
-    { label: 'Client', value: 'Raymond' },
+    { label: 'Client', value: 'Indian Fashion House' },
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
-  brandHeadline: "Four brands, one analytics foundation.<br />Raymond finally sees every customer step.",
+  brandHeadline: "Four brands, one analytics foundation.<br />Complete visibility, finally.",
   brandIntro: [
     "MyRaymond is the official e-commerce platform for Raymond Group, featuring premium brands including Raymond, Park Avenue, ColorPlus, Parx, and Sleepz. With a multi-brand catalog spanning formal wear, casual wear, and lifestyle products, the platform needed comprehensive GA4 event tracking to enable data-driven decision making, optimize conversion funnels, and improve marketing ROI.",
     "We implemented comprehensive GA4 event tracking across all critical touchpoints — including enhanced e-commerce events, conversion funnel tracking, cross-brand navigation patterns, and advanced user behavior analytics — giving Raymond's marketing, product, and leadership teams complete visibility into their customer journey for the first time.",
@@ -31,7 +32,7 @@ const raymond: CaseStudy = {
   brandTags: ["Premium Fashion", "GA4", "Analytics", "Multi-Brand", "Event Tracking", "Conversion Optimization", "India"],
   brandStats: [
     { name: 'Platform', value: 'Shopify + GA4 (Google Analytics 4)' },
-    { name: 'Brands Tracked', value: 'Raymond · Park Avenue · ColorPlus · Parx · Sleepz' },
+    { name: 'Brands Tracked', value: '5 sub-brands across apparel and lifestyle' },
     { name: 'Region', value: 'India' },
     { name: 'Focus', value: 'User Journey Visibility, Funnel Optimization & Marketing Attribution' },
     { name: 'Year', value: '2025' },
@@ -70,7 +71,7 @@ const raymond: CaseStudy = {
     },
   ],
 
-  challengeHeadline: "MyRaymond's four brands were operating without step-level funnel data or reliable marketing attribution.",
+  challengeHeadline: "This fashion house's four brands were operating without step-level funnel data or reliable marketing attribution.",
   challengeParagraphs: [
     "MyRaymond's multi-brand architecture created a complex analytics challenge. Standard page view tracking couldn't reveal how customers moved between Raymond and Park Avenue collections, what drove cross-brand discovery, or which brand interactions preceded purchase. Priyanka's funnel optimization work was constrained by aggregate data that pointed to a problem without revealing its location — the checkout drop-off was visible in the overall conversion rate, but not in any specific funnel step.",
     "Kabir's attribution problem was compounded by the premium fashion context: customers buying Raymond formalwear often research across multiple sessions and multiple devices before purchasing. Last-click attribution systematically misattributed conversions to the final touchpoint and systematically undervalued the awareness and consideration touchpoints that actually drove the purchase decision. Ashish needed brand-level behavioral intelligence that multi-brand GA4 implementation could provide — but hadn't yet.",
@@ -133,7 +134,7 @@ const raymond: CaseStudy = {
     },
   ],
 
-  resultsHeadline: "Complete customer journey visibility, data-driven optimization enabled, and accurate attribution across all four Raymond brands.",
+  resultsHeadline: "Complete customer journey visibility, data-driven optimization enabled, and accurate attribution across all four brands.",
   resultCards: [
     {
       number: '✓',

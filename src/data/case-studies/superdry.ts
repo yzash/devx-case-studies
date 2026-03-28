@@ -3,7 +3,8 @@ import { CaseStudy } from '@/types/case-study'
 const superdry: CaseStudy = {
   slug: 'superdry',
   isPublished: true,
-  client: 'Superdry India',
+  client: 'International Lifestyle Brand',
+  isAnonymized: true,
   industry: 'Lifestyle Fashion',
   region: 'India',
   pillar: 'Customer Experience',
@@ -15,15 +16,15 @@ const superdry: CaseStudy = {
   accentLight: '#e06b5e',
 
   eyebrow: 'Storefront Development · UX Optimisation · 2025',
-  headline: 'Superdry India: <em>Faster, Smoother, Smarter</em> — a storefront built for how people actually browse',
+  headline: '<em>Faster, Smoother, Smarter</em> — a storefront rebuilt for how people actually browse',
   subheadline:
     'Speed was the brief. Experience was the outcome. Redesigning the Superdry India storefront to perform as boldly as the brand it represents.',
   heroMeta: [
-    { label: 'Client', value: 'Superdry India' },
+    { label: 'Client', value: 'International Lifestyle Brand' },
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
-  brandHeadline: "Superdry India on Fynd —<br />a storefront as sharp as the brand it represents.",
+  brandHeadline: "An international lifestyle brand on Fynd —<br />a storefront as sharp as the brand it represents.",
   brandIntro: [
     "Superdry is an internationally recognised lifestyle brand known for its bold aesthetic and quality craftsmanship. In India, the brand commands a loyal following — but its digital storefront wasn't keeping pace with the energy its customers brought to it.",
     "The India storefront needed to be rebuilt to match the brand's ambition: fast, polished, consistent across every device, and smooth enough that nothing gets in the way of a great browse.",
@@ -70,7 +71,7 @@ const superdry: CaseStudy = {
     },
   ],
 
-  challengeHeadline: "Superdry India's Fynd storefront needed to perform at a premium retail standard from day one of launch.",
+  challengeHeadline: "This international lifestyle brand's Fynd storefront needed to perform at a premium retail standard from day one of launch.",
   challengeParagraphs: [
     "The Superdry India storefront had the brand equity — but the frontend experience wasn't living up to it. Slower page loads, uneven UX across templates, and navigation friction were eroding the confidence of shoppers who expected more from a brand they trusted.",
     "The challenge was to rebuild the experience without rebuilding everything at once. Improvements needed to be phased carefully to maintain live stability, while delivering meaningful gains in speed, responsiveness, and visual consistency at every step.",

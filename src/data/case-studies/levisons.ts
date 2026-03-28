@@ -3,7 +3,8 @@ import { CaseStudy } from '@/types/case-study'
 const levisons: CaseStudy = {
   slug: 'levisons',
   isPublished: true,
-  client: "Levison's",
+  client: 'Multi-Brand Fashion Retailer',
+  isAnonymized: true,
   industry: 'Multi-Brand Fashion Retail',
   region: 'South Africa',
   pillar: 'Customer Experience',
@@ -15,7 +16,7 @@ const levisons: CaseStudy = {
   accentLight: '#5cb8cc',
 
   eyebrow: 'Platform Migration · eCommerce Transformation · 2026',
-  headline: "From Shopify Constraints to Fynd Flexibility: The <em>Levison's</em> Migration Story",
+  headline: "From Shopify Constraints to Fynd Flexibility: A Multi-Brand Fashion Migration Story",
   subheadline:
     "Moving platforms without losing momentum — a migration built around the people who had to live with the old one.",
   heroMeta: [
@@ -70,7 +71,7 @@ const levisons: CaseStudy = {
     },
   ],
 
-  challengeHeadline: "Levison's Shopify-to-Fynd migration needed SEO rankings preserved through a complete URL structure change.",
+  challengeHeadline: "This multi-brand retailer's Shopify-to-Fynd migration needed SEO rankings preserved through a complete URL structure change.",
   challengeParagraphs: [
     "Levison's had outgrown Shopify — not in terms of scale alone, but in terms of capability. The platform's structural constraints meant that improving one thing often meant compromising another. URL structures were inconsistent, sitemaps weren't optimised, and frontend performance lagged behind what modern shoppers expect.",
     "The migration challenge wasn't just technical. Every change carried the risk of disrupting live operations, losing SEO equity earned over years, and unsettling a customer base that expected continuity. The brief demanded a move that was thorough enough to fix everything — and careful enough to break nothing.",

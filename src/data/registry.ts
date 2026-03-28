@@ -21,7 +21,6 @@ import cetaphilCartx from './case-studies/cetaphil-cartx'
 import cometAi from './case-studies/comet-ai'
 import bharatgo from './case-studies/bharatgo'
 import declutter from './case-studies/declutter'
-import repindia from './case-studies/repindia'
 import kameroAi from './case-studies/kamero-ai'
 import tscVoiceAgent from './case-studies/tsc-voice-agent'
 import fortytwolabs from './case-studies/fortytwolabs'
@@ -43,7 +42,6 @@ import foxtaleAnalytics from './case-studies/foxtale-analytics'
 import foxtaleMobile from './case-studies/foxtale-mobile'
 import foxtaleAr from './case-studies/foxtale-ar'
 import cometOtpLogin from './case-studies/comet-otp-login'
-import sugarCosmetics from './case-studies/sugar-cosmetics'
 import cometWebsiteOptimisation from './case-studies/comet-website-optimisation'
 import cometCheckoutExtensibility from './case-studies/comet-checkout-extensibility'
 import cometVideoStreaming from './case-studies/comet-video-streaming'
@@ -115,7 +113,6 @@ export const PUBLISHED_CASE_STUDIES: CaseStudy[] = [
   cometAi,
   bharatgo,
   declutter,
-  repindia,
   kameroAi,
   tscVoiceAgent,
   fortytwolabs,
@@ -137,7 +134,6 @@ export const PUBLISHED_CASE_STUDIES: CaseStudy[] = [
   foxtaleMobile,
   foxtaleAr,
   cometOtpLogin,
-  sugarCosmetics,
   cometWebsiteOptimisation,
   cometCheckoutExtensibility,
   cometVideoStreaming,
@@ -156,54 +152,58 @@ export const ALL_CASE_STUDIES: CaseStudyMeta[] = [
   {
     ...stub(
       'coach-south-africa',
-      'Coach',
+      'Global Luxury Fashion Brand',
       'Customer Experience',
       'eCommerce Launch / Full-Stack Development',
-      "Bringing <em>Coach</em> to South Africa — a luxury debut that put shoppers first",
+      'A Luxury Fashion Debut in South Africa — Built to Last',
       'Global brand standards. Regional soul. A storefront built for confidence, delight, and trust.',
       '#8a6530',
       'Anshu Singh',
     ),
     isPublished: true,
+    isAnonymized: true,
   },
   {
     ...stub(
       'levisons',
-      'Levisons',
+      'Multi-Brand Fashion Retailer',
       'Customer Experience',
       'Platform Migration',
-      'From Shopify Constraints to Fynd Flexibility: The Levison\'s Migration Story',
+      'From Shopify Constraints to Fynd Flexibility: A Multi-Brand Fashion Migration Story',
       'Moving platforms without losing momentum — a migration story built around the team that had to live with it.',
       '#2a6b7c',
       'Anshu Singh',
     ),
     isPublished: true,
+    isAnonymized: true,
   },
   {
     ...stub(
       'superdry',
-      'Superdry',
+      'International Lifestyle Brand',
       'Customer Experience',
       'Storefront Transformation',
-      'Superdry India Storefront Transformation: Faster, Smoother, Smarter',
-      'Speed was the brief. Experience was the outcome. How Superdry India went from laggy to leading.',
+      'Faster, Smoother, Smarter — a storefront rebuilt for how people actually browse',
+      'Speed was the brief. Experience was the outcome.',
       '#c03a2b',
       'Anshu Singh',
     ),
     isPublished: true,
+    isAnonymized: true,
   },
   {
     ...stub(
       'hugo-boss',
-      'Hugo Boss',
+      'Premium Fashion Brand',
       'Customer Experience',
       'End-to-End Commerce',
-      "From Catalog to Checkout: Building Hugo Boss UAE's End-to-End Commerce Engine",
+      'From Catalog to Checkout: Building an End-to-End Commerce Engine for a Premium Fashion Brand',
       'A complete commerce build for a market that demands precision at every touchpoint.',
       '#1a1a2e',
       'Anshu Singh',
     ),
     isPublished: true,
+    isAnonymized: true,
   },
   {
     ...stub(
@@ -374,19 +374,6 @@ export const ALL_CASE_STUDIES: CaseStudyMeta[] = [
   },
   {
     ...stub(
-      'sugar-cosmetics',
-      'Sugar Cosmetics',
-      'Customer Experience',
-      'Digital Consistency',
-      'Elevating Digital Consistency for a Superior User Experience',
-      'A bold brand needed its digital presence to match the confidence it sold in stores.',
-      '#c9184a',
-      'Raj',
-    ),
-    isPublished: true,
-  },
-  {
-    ...stub(
       'comet-otp-login',
       'Comet',
       'Customer Experience',
@@ -490,28 +477,30 @@ export const ALL_CASE_STUDIES: CaseStudyMeta[] = [
   {
     ...stub(
       'raymond',
-      'Raymond',
+      'Indian Fashion House',
       'Customer Experience',
       'Analytics & Tracking',
-      'GA4 Event Implementation for Advanced User Tracking and Conversion Optimization',
+      'Complete Visibility: GA4 Event Tracking and Conversion Optimization Across a Multi-Brand Portfolio',
       "You can't improve what you can't see. Now they can see everything.",
       '#1a1a2e',
       'Yash Patel',
     ),
     isPublished: true,
+    isAnonymized: true,
   },
   {
     ...stub(
       'beauty-garage',
-      'Beauty Garage',
+      'Professional Beauty Retailer',
       'Customer Experience',
       'UI & Performance',
-      'Best-in-Class UI Enhancements and Performance Optimization',
+      'Best-in-Class: Complete Website Revamp and Performance Optimization',
       'A best-in-class experience for a brand that sells best-in-class beauty.',
       '#d4a5a5',
       'Yash Patel',
     ),
     isPublished: true,
+    isAnonymized: true,
   },
   {
     ...stub(
@@ -611,7 +600,7 @@ export const ALL_CASE_STUDIES: CaseStudyMeta[] = [
   {
     ...stub(
       'avimee-herbal-cx',
-      'Avimee Herbal',
+      'Ayurvedic Hair Care Brand',
       'Customer Experience',
       'Scalp Diagnostics',
       'Root Cause Revolution: Dynamic Scalp Diagnostics Driving 67% AOV Growth',
@@ -620,6 +609,7 @@ export const ALL_CASE_STUDIES: CaseStudyMeta[] = [
       'Prerna Jain',
     ),
     isPublished: true,
+    isAnonymized: true,
   },
   {
     ...stub(
@@ -796,19 +786,6 @@ export const ALL_CASE_STUDIES: CaseStudyMeta[] = [
   },
   {
     ...stub(
-      'repindia',
-      'RepIndia',
-      'AI - Ops',
-      'Social Media Automation',
-      'Driving Campaign Excellence: AI-Powered Social Media Automation for 360° Digital Strategy at Scale',
-      '360° digital strategy. One AI backbone. Infinite scale.',
-      '#4a2d7a',
-      'Astha',
-    ),
-    isPublished: true,
-  },
-  {
-    ...stub(
       'kamero-ai',
       'KameroAI',
       'AI - Ops',
@@ -851,15 +828,16 @@ export const ALL_CASE_STUDIES: CaseStudyMeta[] = [
   {
     ...stub(
       'avimee-herbal-marketing',
-      'Avimee Herbal',
+      'Ayurvedic Hair Care Brand',
       'Marketing Automation',
       'Integrated Marketing Stack',
-      "Connected Commerce: Building Avimee's Integrated Marketing & Analytics Stack",
+      'Connected Commerce: Building an Integrated Marketing and Analytics Stack',
       'When your marketing data and your commerce data finally speak the same language.',
       '#1a5c3a',
       'Prerna Jain',
     ),
     isPublished: true,
+    isAnonymized: true,
   },
   {
     ...stub(

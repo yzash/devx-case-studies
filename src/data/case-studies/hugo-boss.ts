@@ -3,7 +3,8 @@ import { CaseStudy } from '@/types/case-study'
 const hugoBoss: CaseStudy = {
   slug: 'hugo-boss',
   isPublished: true,
-  client: 'Hugo Boss',
+  client: 'Premium Fashion Brand',
+  isAnonymized: true,
   industry: 'Premium Fashion Retail',
   region: 'UAE / Middle East',
   pillar: 'Customer Experience',
@@ -15,15 +16,15 @@ const hugoBoss: CaseStudy = {
   accentLight: '#2d2d5e',
 
   eyebrow: 'Full-Stack Development · Enterprise Integrations · 2025',
-  headline: "From Catalog to Checkout: Building <em>Hugo Boss UAE</em>'s End-to-End Commerce Engine",
+  headline: "From Catalog to Checkout: Building an End-to-End Commerce Engine for a Premium Fashion Brand",
   subheadline:
     'A complete commerce build for a market that demands precision at every touchpoint — from PIM to payment.',
   heroMeta: [
-    { label: 'Client', value: 'Hugo Boss UAE' },
+    { label: 'Client', value: 'Premium Fashion Brand' },
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
-  brandHeadline: "Hugo Boss UAE: premium fashion,<br />one integrated commerce engine.",
+  brandHeadline: "Premium fashion at enterprise scale.<br />One integrated commerce engine.",
   brandIntro: [
     "Hugo Boss is a globally renowned premium fashion house with exacting standards for every customer touchpoint. Entering and scaling the UAE market required a commerce ecosystem that could match those standards — not just a storefront, but a fully integrated operational architecture capable of real-time synchronisation across catalog, inventory, logistics, and checkout.",
     "The engagement delivered a fully integrated commerce solution across Storefront, OMS, Catalog, and Inventory on the Fynd platform. Built on Boltic Serverless with Workflow Builder, the architecture orchestrated complex integrations across Salsify PIM, SAP ERP, Tradeling WMS, cross-border logistics, and a custom dual-payment checkout — establishing a foundation built for the precision the brand demands.",
@@ -70,7 +71,7 @@ const hugoBoss: CaseStudy = {
     },
   ],
 
-  challengeHeadline: "Hugo Boss UAE needed a full commerce stack connecting Salsify PIM, SAP ERP, and Tradeling WMS — simultaneously.",
+  challengeHeadline: "This premium fashion brand needed a full commerce stack connecting Salsify PIM, SAP ERP, and Tradeling WMS — simultaneously.",
   challengeParagraphs: [
     "Orchestrating a commerce engine for a premium global brand in the UAE means solving problems that standard platform implementations don't encounter. Catalog data flows from a global Salsify PIM via SFTP. Inventory and warehouse operations run through Tradeling WMS. Financial data integrates with SAP. Each system has its own data model, its own timing requirements, and its own tolerance for error — which is zero.",
     "Cross-border logistics introduced additional complexity: Delivery Note EDI (ASN) and Receive Advice flows had to be implemented to satisfy regional fulfilment requirements. The checkout needed to support regional payment methods through JusPay while maintaining international payment reliability through Checkout.com. Every integration had to hold under the performance expectations a premium fashion brand sets for its customers.",

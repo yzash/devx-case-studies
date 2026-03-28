@@ -3,7 +3,8 @@ import { CaseStudy } from '@/types/case-study'
 const avimeeHerbalCx: CaseStudy = {
   slug: 'avimee-herbal-cx',
   isPublished: true,
-  client: 'Avimee Herbal',
+  client: 'Ayurvedic Hair Care Brand',
+  isAnonymized: true,
   industry: 'Ayurvedic Haircare / D2C',
   region: 'India',
   pillar: 'Customer Experience',
@@ -15,11 +16,11 @@ const avimeeHerbalCx: CaseStudy = {
   accentLight: '#74a84f',
 
   eyebrow: 'Customer Experience · Product Innovation · Diagnostics · 2026',
-  headline: "Root Cause Revolution: Dynamic Scalp Diagnostics Driving 67% AOV Growth for <em>Avimee Herbal</em>",
+  headline: "Root Cause Revolution: Dynamic Scalp Diagnostics Driving 67% AOV Growth",
   subheadline:
     "When personalisation goes deeper than 'you might also like' — and into the science of your scalp.",
   heroMeta: [
-    { label: 'Client', value: 'Avimee Herbal' },
+    { label: 'Client', value: 'Ayurvedic Hair Care Brand' },
     { label: 'Impact Pillar', value: 'Customer Experience' },
   ],
 
@@ -71,7 +72,7 @@ const avimeeHerbalCx: CaseStudy = {
     },
   ],
 
-  challengeHeadline: "Avimee Herbal's personalization philosophy had no technical home on their shopping experience.",
+  challengeHeadline: "This ayurvedic brand's personalization philosophy had no technical home on their shopping experience.",
   challengeParagraphs: [
     "Avimee Herbal's product philosophy was built on identifying root causes — but their shopping experience was generic. Shalini's journey from scalp concern to product was identical to any other customer's, even though her root causes were different. The result was single-product purchases, low basket sizes, and the classic problem of customers returning products that were clinically sound but mismatched to their specific condition.",
     "Pooja faced a second challenge: the initial diagnostic tool was static. Adding new questions, adjusting scoring logic, or incorporating new clinical root causes required developer involvement for every change. In a category where clinical knowledge evolves and the brand's understanding of their customers deepens continuously, a static tool was a permanent bottleneck. Rajiv needed a platform that the brand team owned — not one that required engineering sprints to evolve.",

@@ -37,13 +37,18 @@ function interleaveByPillar(all: CaseStudyMeta[]): CaseStudyMeta[] {
   return result
 }
 
+function anonLast(items: CaseStudyMeta[]): CaseStudyMeta[] {
+  return [...items.filter(cs => !cs.isAnonymized), ...items.filter(cs => cs.isAnonymized)]
+}
+
 export default function HomePage() {
   const [activePillar, setActivePillar] = useState<Pillar | 'All'>('All')
 
-  const displayItems =
+  const displayItems = anonLast(
     activePillar === 'All'
       ? interleaveByPillar(ALL_CASE_STUDIES)
       : ALL_CASE_STUDIES.filter((cs) => cs.pillar === activePillar)
+  )
 
   return (
     <>
@@ -265,6 +270,7 @@ function CaseStudyCard({ cs }: { cs: CaseStudyMeta }) {
           <span className={styles.cardPillar}>{cs.pillar}</span>
           {cs.product && <span className={styles.cardProduct}>{cs.product}</span>}
           {!cs.isPublished && <span className={styles.comingSoon}>Coming Soon</span>}
+          {cs.isAnonymized && <span className={styles.confidential}>Confidential</span>}
         </div>
         <div className={styles.cardClient}>{cs.client}</div>
         <h3

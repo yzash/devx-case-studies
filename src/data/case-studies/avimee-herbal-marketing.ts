@@ -3,7 +3,8 @@ import { CaseStudy } from '@/types/case-study'
 const avimeeHerbalMarketing: CaseStudy = {
   slug: 'avimee-herbal-marketing',
   isPublished: true,
-  client: 'Avimee Herbal',
+  client: 'Ayurvedic Hair Care Brand',
+  isAnonymized: true,
   industry: 'Ayurvedic Haircare / D2C',
   region: 'India',
   pillar: 'Marketing Automation',
@@ -15,11 +16,11 @@ const avimeeHerbalMarketing: CaseStudy = {
   accentLight: '#268050',
 
   eyebrow: 'Marketing Automation · Analytics Integration · 2026',
-  headline: "Connected Commerce: Building <em>Avimee Herbal</em>'s Integrated Marketing & Analytics Stack",
+  headline: "Connected Commerce: Building an Integrated Marketing and Analytics Stack",
   subheadline:
     'When your marketing data and your commerce data finally speak the same language.',
   heroMeta: [
-    { label: 'Client', value: 'Avimee Herbal' },
+    { label: 'Client', value: 'Ayurvedic Hair Care Brand' },
     { label: 'Impact Pillar', value: 'Marketing Automation' },
   ],
 
@@ -70,7 +71,7 @@ const avimeeHerbalMarketing: CaseStudy = {
     },
   ],
 
-  challengeHeadline: "Avimee Herbal was sending the same message to customers with completely different hair conditions.",
+  challengeHeadline: "This ayurvedic brand was sending the same message to customers with completely different hair conditions.",
   challengeParagraphs: [
     "Avimee Herbal's Scalp Test was generating rich behavioral data — every question answered, every root cause identified, every product recommendation viewed — but without analytics infrastructure, that data was invisible. Nidhi had no way to see where users dropped off, which root cause combinations led to purchase, or how campaign attribution was working across channels. The diagnostic platform was sophisticated; the marketing intelligence to operate it was absent.",
     "Karthik's growth team faced a scalability wall. Re-engaging users based on diagnostic results required manual segmentation and campaign creation — a process that could only run occasionally and couldn't adapt to the nuances of each user's specific root cause profile. Ananya's journey — completing the test, not purchasing, and then returning after relevant content — was the ideal outcome. But it happened by chance, not by design. The marketing stack needed to make it happen systematically.",
